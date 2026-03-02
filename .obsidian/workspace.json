@@ -13,36 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Untitled.md",
+                "file": "_posts/2026-02-26-how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "2026-02-26-how-to easily-setup-a-good-beginner-programming-environment-in-2026"
             }
           },
           {
-            "id": "34d4d5a5e853002a",
+            "id": "1e96d10aa090f763",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "assets/images/github-repo-dashboard.png"
+                "file": "assets/images/folder-structure-in-file-explorer.png"
               },
               "icon": "lucide-image",
-              "title": "github-repo-dashboard"
-            }
-          },
-          {
-            "id": "19fed50bf99d168b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/images/ethical-hacking_masterbundles-3-734.webp"
-              },
-              "icon": "lucide-image",
-              "title": "ethical-hacking_masterbundles-3-734"
+              "title": "folder-structure-in-file-explorer"
             }
           }
         ]
@@ -209,24 +197,25 @@
   },
   "active": "3d62c5d7b562a0a6",
   "lastOpenFiles": [
+    "assets/images/folder-structure-in-file-explorer.png",
+    "_posts/2026-02-26-how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/terminal-example.png",
+    "about.md",
+    "assets/images/terminal-showing-python-version.png",
+    "assets/images/python-file-running-on-vscode.png",
+    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+    "assets/images/programming-setup.jpeg",
+    "assets/images/programming-setup.jpg",
     "_config.yml",
     "README.md",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
-    "_posts/Untitled.md",
     "assets/images/vscode-interface-screenshot.png",
     "assets/images/programming-notes-screenshot.png",
-    "assets/images/programming-setup.jpg",
     "assets/images/github-repo-dashboard.png",
     "assets/images/github.md",
     "assets/images/Unconfirmed 804038.crdownload",
-    "assets/images/python file running on vscode.png",
     "assets/images/python-terminal.png",
     "assets/images/Unconfirmed 127975.crdownload",
-    "assets/images/ethical-hacking_masterbundles-3-734.webp",
-    "assets/images/programming-setup.jpeg",
-    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
-    "assets/images/electronic.png",
-    "assets/images/cyber-security-background-6gjvwb3kflkj0y58.png",
     "Univaciti notes/Java notes/lab files.zip",
     "Univaciti notes/Java notes/Unconfirmed 896318.crdownload",
     "Univaciti notes/Java notes/Labs.zip",
@@ -234,7 +223,6 @@
     "Univaciti notes/Java notes/Unconfirmed 291236.crdownload",
     "Univaciti notes/Java notes/Unconfirmed 641459.crdownload",
     "Univaciti notes/Java notes/Manuals.zip",
-    "Univaciti notes/Java notes/Unconfirmed 91296.crdownload",
     "Univaciti notes/Java notes/23-02-2026.md",
     "Video Editing Guide/Video Ideas.md",
     "Univaciti notes/Presentation classes/23-02-2026.md",
@@ -255,7 +243,6 @@
     "GOALS/Summary - AUG to OCT.md",
     "STA 201.md",
     "Excalidraw/Drawing 2025-08-26 17.41.32.excalidraw.md",
-    "2025-07-30.md",
     "Untitled.canvas"
   ]
 }

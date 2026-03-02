@@ -76,12 +76,9 @@
   "assets/images/ethical-hacking_masterbundles-3-734.webp": "LiImage",
   "assets/images/Exploring-top-pair-programming-tools-nocdn.webp": "LiImage",
   "assets/images/firewall.webp": "LiImage",
-  "assets/images/folder structure in file explorer.png": "LiImage",
   "assets/images/linux terminal.png": "LiImage",
   "assets/images/network-security-background.webp": "LiImage",
   "assets/images/nmap.webp": "LiImage",
-  "assets/images/python file running on vscode.png": "LiImage",
-  "assets/images/terminal showing python version.png": "LiImage",
   "assets/images/wireshark.webp": "LiImage",
   "about.md": "LiFolder",
   "index.md": "LiFolder",
@@ -95,5 +92,8 @@
   "assets/images/terminal-example.png": "LiImage",
   "assets/images/browser-devtools.jpg": "LiImage",
   "assets/images/python-terminal.png": "LiImage",
-  "_posts/2026-02-17-essential-free-programming-tools-in-2026.md": "RiArticleFill"
+  "_posts/2026-02-17-essential-free-programming-tools-in-2026.md": "RiArticleFill",
+  "assets/images/python-file-running-on-vscode.png": "LiImage",
+  "assets/images/terminal-showing-python-version.png": "LiImage",
+  "assets/images/folder-structure-in-file-explorer.png": "LiImage"
 }

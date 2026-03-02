@@ -1,12 +1,4 @@
 {
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
   "editor:toggle-highlight": [
     {
       "modifiers": [
@@ -47,6 +39,22 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
     }
   ]
 }
