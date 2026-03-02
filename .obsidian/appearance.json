@@ -1,0 +1,8 @@
+{
+  "cssTheme": "GitHub Theme",
+  "accentColor": "#002570",
+  "enabledCssSnippets": [
+    "custom-width"
+  ],
+  "theme": "obsidian"
+}
