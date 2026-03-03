@@ -1,8 +1,24 @@
+
+#main configuration
 title: DynamicBytes
 description: Practical programming and cybersecurity content for beginners.
 baseurl: ""
 url: "https://dynamicbytes.blog"
 theme: minima
 
+#navigation menu
+header_pages:
+  - about.md
+
+#layout for posts
 markdown: kramdown
 permalink: /:title/
+
+#plugins lists
+plugins:
+  - jekyll-sitemap #used for sitemap xml files for google search indexing
+
+# SEO metadata
+author: small-python
+twitter_username: @laaanreewaju
+github_username: small-python

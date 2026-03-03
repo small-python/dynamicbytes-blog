@@ -1,10 +1,16 @@
 ---
 layout: post
-title: "Essential Free Programming Tools in 2026 (Linux & Windows)"
+title: Essential Free Programming Tools in 2026 (Linux & Windows)
 date: 2026-02-17
-categories: [Software & Tools]
-tags: [programming, git, python, developer-tools]
-description: "Essential free programming tools every beginner should install in 2026. Includes VS Code, Git, terminal tools, browsers, Python, and note-taking apps for Linux and Windows."
+author: small-python
+categories:
+  - Software & Tools
+tags:
+  - programming
+  - git
+  - python
+  - developer-tools
+description: Essential free programming tools every beginner should install in 2026. Includes VS Code, Git, terminal tools, browsers, Python, and note-taking apps for Linux and Windows.
 ---
 
 # Essential Free Programming Tools in 2026 (Linux & Windows)
@@ -67,6 +73,7 @@ If coding were a video game, **Git** would be the save system.
 | GitHub | Hosts your Git projects online |
 
 👉 Install Git: [https://git-scm.com/  ](https://git-scm.com)
+
 👉 Create a GitHub account: [https://github.com/](https://github.com/)
 
 ![GitHub repository example](/assets/images/github-repo-dashboard.png)
@@ -126,6 +133,7 @@ Your browser isn’t just for browsing — it’s a development tool.
 | Mozilla Firefox| Moderate  | Excellent        | Strong  | Large      |
 
 👉 Google Chrome: [https://www.google.com/chrome/ ](https://www.google.com/chrome/ ) 
+
 👉 Mozilla Firefox: [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/)
 
 ![Browser dev tools screenshot](/assets/images/browser-devtools.jpg)
@@ -165,6 +173,7 @@ If you don’t document what you learn, you’ll forget it.
 | Obsidian | Local    | Optional | Long-term knowledge | Medium | ✅ |
 
 👉 Notion: [https://www.notion.so/](https://www.notion.so/)
+
 👉 Obsidian: [https://obsidian.md/](https://obsidian.md/)
 
 ![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)

@@ -2,11 +2,9 @@
 layout: post
 title: How to Easily Set Up a Good Beginner Programming Environment in 2026 (Step-by-Step Guide)
 date: 2026-02-26
-author: thatonecheapuser
+author: small-python
 categories:
-  - programming
-  - beginners
-  - setup
+  - Tutorials
 tags:
   - python
   - git
@@ -69,6 +67,7 @@ Editor + Git + Language + Terminal + Structure = Clean Dev Environment
 Your editor is your workspace.
 
 For most beginners, the best starting point is **Visual Studio Code**.
+
 👉🏾 Install VS Code from: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 > If you want a breakdown of why it’s recommended and how it compares to other tools, check out:  
