@@ -40,7 +40,7 @@ For beginners, **Visual Studio Code (VS Code)** remains the best all-around choi
 - Install extensions for formatting, linting, and automation  
 - Use Git directly inside the editor  
 
-👉 Official download: https://code.visualstudio.com/
+👉 Official download: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ![VS Code interface screenshot](/assets/images/vscode-interface-screenshot.png)
 
@@ -66,8 +66,8 @@ If coding were a video game, **Git** would be the save system.
 | Git    | Tracks changes locally on your computer |
 | GitHub | Hosts your Git projects online |
 
-👉 Install Git: https://git-scm.com/  
-👉 Create a GitHub account: https://github.com/
+👉 Install Git: [https://git-scm.com/  ](https://git-scm.com)
+👉 Create a GitHub account: [https://github.com/](https://github.com/)
 
 ![GitHub repository example](/assets/images/github-repo-dashboard.png)
 
@@ -75,7 +75,7 @@ If coding were a video game, **Git** would be the save system.
 ---
 
 > Once your development environment is ready, explore our guide on  
-> [Best Free Cybersecurity Tools for Beginners (2026)](/best-free-cybersecurity-tools-for-beginners/)  
+> [Best Free Cybersecurity Tools for Beginners (2026)](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)  
 > to understand how security testing works.
 
 ---
@@ -100,7 +100,7 @@ It looks intimidating at first, but it’s one of the most powerful tools you’
 | Windows Terminal        | Windows  | Low       | Tabs, themes, Unicode        | ✅ |
 | Git Bash                | Windows  | Low       | Unix-like commands           | ✅ |
 
-👉 Windows Terminal: https://aka.ms/terminal
+👉 Windows Terminal: [https://aka.ms/terminal](https://aka.ms/terminal)
 
 ![Terminal example](/assets/images/terminal-example.png)
 
@@ -125,8 +125,8 @@ Your browser isn’t just for browsing — it’s a development tool.
 | Google Chrome  | High      | Excellent        | Average | Huge       |
 | Mozilla Firefox| Moderate  | Excellent        | Strong  | Large      |
 
-👉 Google Chrome: https://www.google.com/chrome/  
-👉 Mozilla Firefox: https://www.mozilla.org/firefox/
+👉 Google Chrome: [https://www.google.com/chrome/ ](https://www.google.com/chrome/ ) 
+👉 Mozilla Firefox: [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/)
 
 ![Browser dev tools screenshot](/assets/images/browser-devtools.jpg)
 
@@ -145,7 +145,7 @@ For beginners in 2026, **Python** is still the best starting point.
 - **Huge ecosystem** – Web, automation, data, AI, cybersecurity.
 - **Clear error messages** – Easier to debug than many languages.
 
-👉 Download Python: https://www.python.org/downloads/
+👉 Download Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ![Python running in terminal](/assets/images/python-terminal.png)
 
@@ -164,10 +164,10 @@ If you don’t document what you learn, you’ll forget it.
 | Notion   | Cloud    | Yes  | Structured notes | Low    | ✅ |
 | Obsidian | Local    | Optional | Long-term knowledge | Medium | ✅ |
 
-👉 Notion: https://www.notion.so/  
-👉 Obsidian: https://obsidian.md/
+👉 Notion: [https://www.notion.so/](https://www.notion.so/)
+👉 Obsidian: [https://obsidian.md/](https://obsidian.md/)
 
-![programming notes screenshots from obsidian](assets/images/programming-notes-screenshot.png)
+![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)
 
 ---
 
@@ -180,8 +180,8 @@ These tools are powerful but not mandatory at the start.
 | Postman | API testing        | After backend basics |
 | Docker  | App containerization | Intermediate level |
 
-👉 Postman: https://www.postman.com/  
-👉 Docker: https://www.docker.com/
+👉 Postman: [https://www.postman.com/](https://www.postman.com/)  
+👉 Docker: [https://www.docker.com/](https://www.docker.com/)
 
 ---
 
@@ -207,4 +207,4 @@ It’s learning each tool properly.
 
 ## Related Reading
 
-- [Best Free Cybersecurity Tools for Beginners (2026)](/best-free-cybersecurity-tools-for-beginners/)
+- [Best Free Cybersecurity Tools for Beginners (2026)](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)

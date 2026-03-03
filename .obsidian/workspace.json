@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+                "file": "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
+              "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
             }
           },
           {
-            "id": "30b1ab8f62023946",
+            "id": "22487a3902728a04",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/images/Coding-programming-icon.jpeg"
+                "file": "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Coding-programming-icon"
+              "icon": "lucide-file",
+              "title": "2026-02-17-essential-free-programming-tools-in-2026"
             }
           }
         ]
@@ -197,20 +199,22 @@
   },
   "active": "1e96d10aa090f763",
   "lastOpenFiles": [
-    "assets/images/Coding-programming-icon.jpeg",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+    "best-free-cybersecurity-tools-for-beginners 1.md",
+    "assets/images/python-file-running-on-vscode.png",
+    "best-free-cybersecurity-tools-for-beginners.md",
+    "assets/images/Coding-programming-icon.jpeg",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "index.md",
     "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/essential-free-programming-tools-in-2026.md",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_posts/best-free-cybersecurity-tools-for-beginners.md",
     "CNAME",
     "assets/images/folder-structure-in-file-explorer.png",
     "assets/images/terminal-example.png",
     "about.md",
     "assets/images/terminal-showing-python-version.png",
-    "assets/images/python-file-running-on-vscode.png",
     "assets/images/programming-setup.jpeg",
     "assets/images/programming-setup.jpg",
     "_config.yml",
@@ -220,7 +224,6 @@
     "assets/images/github-repo-dashboard.png",
     "assets/images/github.md",
     "assets/images/Unconfirmed 804038.crdownload",
-    "assets/images/python-terminal.png",
     "assets/images/Unconfirmed 127975.crdownload",
     "Univaciti notes/Java notes/lab files.zip",
     "Univaciti notes/Java notes/Unconfirmed 896318.crdownload",
@@ -243,7 +246,6 @@
     "CCNA Guide/CCNA_Kanban_Template.md",
     "Coding Courses/Python/Python_Learning_Calendar.md",
     "Coding Courses/Python/FreeCodeCamp Notes.md",
-    "Coding Courses/Python/Udemy Notes.md",
     "Untitled.canvas"
   ]
 }

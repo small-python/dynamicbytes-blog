@@ -19,7 +19,7 @@ _Last Updated: 2026_
 
 # How to Easily Set Up a Good Beginner Programming Environment in 2026
 
-![How to easily setup a good beginner programming environment in 2026](assets/images/Coding-programming-icon.jpeg)
+![How to easily setup a good beginner programming environment in 2026](/assets/images/Coding-programming-icon.jpeg)
 
 
 ---
@@ -69,6 +69,7 @@ Editor + Git + Language + Terminal + Structure = Clean Dev Environment
 Your editor is your workspace.
 
 For most beginners, the best starting point is **Visual Studio Code**.
+👉🏾 Install VS Code from: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 > If you want a breakdown of why it’s recommended and how it compares to other tools, check out:  
 > [Essential Free Programming Tools in 2026](https://dynamicbytes.blog/essential-free-programming-tools-in-2026/)
@@ -84,7 +85,7 @@ Your editor becomes:
 
 Choosing a stable, widely supported editor ensures you won’t outgrow it.
 
-![VS Code open with a simple Python file](assets/images/python-file-running-on-vscode.png)
+![VS Code open with a simple Python file](/assets/images/python-file-running-on-vscode.png)
 
 ---
 
@@ -102,8 +103,8 @@ GitHub stores your projects online and builds your portfolio.
 
 ### Basic Setup
 
-1. Install Git from: https://git-scm.com  
-2. Create a GitHub account: https://github.com  
+1. Install Git from: [https://git-scm.com](https://git-scm.com) 
+2. Create a GitHub account: [https://github.com](https://github.com)
 3. Configure Git:
 
 ```bash
@@ -197,7 +198,7 @@ sudo apt install python3
 
 You’re learning how environments behave.
 
-![Terminal showing python version](assets/images/terminal-showing-python-version.png)
+![Terminal showing python version](/assets/images/terminal-showing-python-version.png)
 
 ---
 
@@ -229,7 +230,7 @@ cd ..
 
 ---
 
- 2. **List Files:** command to list the files & sub directories in a directory.
+2. **List Files:** command to list the files & sub directories in a directory.
 
 **Linux/macOS:**
 
@@ -275,7 +276,7 @@ clear
 cls
 ```
 
-![Terminal navigation example](assets/images/terminal-example.png)
+![Terminal navigation example](/assets/images/terminal-example.png)
 
 ---
 
@@ -341,7 +342,7 @@ project-name/
 ```
 Separation of concerns. Reusable components. Professional organization.
 
-![Organized project structure](assets/images/folder-structure-in-file-explorer.png)
+![Organized project structure](/assets/images/folder-structure-in-file-explorer.png)
 
 ---
 ## Step 6: Add Basic Security Awareness

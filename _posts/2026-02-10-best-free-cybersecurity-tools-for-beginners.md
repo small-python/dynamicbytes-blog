@@ -23,7 +23,7 @@ Nothing fancy. Just tools that help you understand how things really work.
 
 ---
 
-If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](/essential-free-programming-tools-in-2026/).
+If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dyanmicbytes.blog/essential-free-programming-tools-in-2026).
 
 ---
 
@@ -62,7 +62,7 @@ It looks overwhelming at first. But once you understand the basics, it becomes i
 
 ![Wireshark Interface](/assets/images/wireshark.webp)
 
-👉 Download from the official site: https://www.wireshark.org/download.html
+👉 Download from the official site: [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 
 ---
 
@@ -84,7 +84,7 @@ This tool shows up everywhere in cybersecurity.
 
 ![Nmap Terminal Scan](/assets/images/nmap.webp)
 
-👉 Official download: https://nmap.org/download.html
+👉 Official download: [https://nmap.org/download.html](https://nmap.org/download.html)
 
 ---
 
@@ -106,7 +106,7 @@ Linux users often assume antivirus isn’t needed. That’s risky thinking.
 
 ![ClamAV Scan](/assets/images/clamav.webp)
 
-👉 Official site: https://www.clamav.net/downloads
+👉 Official site: [https://www.clamav.net/downloads](https://www.clamav.net/downloads)
 
 ---
 
@@ -126,7 +126,7 @@ UFW (Uncomplicated Firewall) simplifies firewall rule management on Linux.
 
 ![Firewall Illustration](/assets/images/firewall.webp)
 
-👉 Official documentation: https://help.ubuntu.com/community/UFW
+👉 Official documentation: [https://help.ubuntu.com/community/UFW](https://help.ubuntu.com/community/UFW)
 
 ---
 
@@ -145,7 +145,7 @@ Metasploitable is an intentionally vulnerable VM for safe security training.
 
 **Difficulty:** Beginner → Intermediate  
 
-👉 GitHub repo: https://github.com/rapid7/metasploitable3
+👉 GitHub repo: [https://github.com/rapid7/metasploitable3](https://github.com/rapid7/metasploitable3)
 
 ---
 
@@ -165,4 +165,4 @@ That’s how you grow.
 
 ## Related Reading
 
-- [Essential Free Programming Tools in 2026 (Linux & Windows)](/essential-free-programming-tools-in-2026/)
+- [Essential Free Programming Tools in 2026 (Linux & Windows)](https://dynamicbytes.blog/essential-free-programming-tools-in-2026)

@@ -78,7 +78,7 @@
   "assets/images/network-security-background.webp": "LiImage",
   "assets/images/nmap.webp": "LiImage",
   "assets/images/wireshark.webp": "LiImage",
-  "about.md": "LiFolder",
+  "about.md": "RiArticleFill",
   "index.md": "LiHome",
   "assets/images": "CoFolder",
   "assets": "LiFolder",
