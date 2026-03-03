@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHome",
       "LiImage",
       "CoFolder",
       "LiFolder",
-      "RiArticleFill",
-      "LiKanban"
+      "RiArticleFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -80,7 +80,7 @@
   "assets/images/nmap.webp": "LiImage",
   "assets/images/wireshark.webp": "LiImage",
   "about.md": "LiFolder",
-  "index.md": "LiFolder",
+  "index.md": "LiHome",
   "assets/images": "CoFolder",
   "assets": "LiFolder",
   "_posts": "LiFolder",
@@ -95,5 +95,6 @@
   "assets/images/terminal-showing-python-version.png": "LiImage",
   "assets/images/folder-structure-in-file-explorer.png": "LiImage",
   "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md": "RiArticleFill",
-  "_posts/2026-02-17-essential-free-programming-tools-in-2026.md": "RiArticleFill"
+  "_posts/2026-02-17-essential-free-programming-tools-in-2026.md": "RiArticleFill",
+  "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md": "RiArticleFill"
 }

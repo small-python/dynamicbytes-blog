@@ -11,12 +11,14 @@
             "id": "1e96d10aa090f763",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/images/folder-structure-in-file-explorer.png"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "folder-structure-in-file-explorer"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -181,12 +183,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "155909cd0507f9b2",
+  "active": "1e96d10aa090f763",
   "lastOpenFiles": [
+    "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
-    "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/best-free-cybersecurity-tools-for-beginners.md",
     "CNAME",
