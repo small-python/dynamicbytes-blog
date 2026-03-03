@@ -3,3 +3,6 @@ description: Practical programming and cybersecurity content for beginners.
 baseurl: ""
 url: "https://dynamicbytes.blog"
 theme: minima
+
+markdown: kramdown
+permalink: /:title/
