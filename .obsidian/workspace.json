@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
+            }
+          },
+          {
+            "id": "30b1ab8f62023946",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/Coding-programming-icon.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "Coding-programming-icon"
             }
           }
         ]
@@ -185,11 +197,13 @@
   },
   "active": "1e96d10aa090f763",
   "lastOpenFiles": [
-    "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/Coding-programming-icon.jpeg",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+    "index.md",
+    "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
-    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/best-free-cybersecurity-tools-for-beginners.md",
     "CNAME",
     "assets/images/folder-structure-in-file-explorer.png",
@@ -230,8 +244,6 @@
     "Coding Courses/Python/Python_Learning_Calendar.md",
     "Coding Courses/Python/FreeCodeCamp Notes.md",
     "Coding Courses/Python/Udemy Notes.md",
-    "Coding Courses/Python/Schedule for 2 months.md",
-    "GOALS/Summary - AUG to OCT.md",
     "Untitled.canvas"
   ]
 }

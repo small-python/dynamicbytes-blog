@@ -19,7 +19,7 @@ _Last Updated: 2026_
 
 # How to Easily Set Up a Good Beginner Programming Environment in 2026
 
-![How to easily setup a good beginner programming environment in 2026](assets/images/programming-setup.jpeg)
+![How to easily setup a good beginner programming environment in 2026](assets/images/Coding-programming-icon.jpeg)
 
 
 ---
@@ -84,7 +84,7 @@ Your editor becomes:
 
 Choosing a stable, widely supported editor ensures you won’t outgrow it.
 
-![VS Code open with a simple Python file|381](assets/images/python-file-running-on-vscode.png)
+![VS Code open with a simple Python file](assets/images/python-file-running-on-vscode.png)
 
 ---
 
@@ -197,7 +197,7 @@ sudo apt install python3
 
 You’re learning how environments behave.
 
-![Terminal showing python version|314](assets/images/terminal-showing-python-version.png)
+![Terminal showing python version](assets/images/terminal-showing-python-version.png)
 
 ---
 
@@ -341,7 +341,7 @@ project-name/
 ```
 Separation of concerns. Reusable components. Professional organization.
 
-![Organized project structure|275](assets/images/folder-structure-in-file-explorer.png)
+![Organized project structure](assets/images/folder-structure-in-file-explorer.png)
 
 ---
 ## Step 6: Add Basic Security Awareness
@@ -396,8 +396,8 @@ Examples:
 - Port scanners
 - Dependency vulnerability scanners
 
-  
-> If you want to know more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)
+>If you want to learn more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/) 
+
 ---
 
 ## Common Beginner Setup Mistakes
