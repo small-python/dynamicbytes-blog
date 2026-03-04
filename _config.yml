@@ -20,7 +20,18 @@ plugins:
 
 # SEO metadata
 author: small-python
-twitter_username: laaanreewaju
-github_username: small-python
-telegram-username: Lanree001
-discord-username: small-python
+links:
+  - https://github.com/small-python #github account link
+  - https://x.com/laaanreewaju #x account link
+  - https://t.me/Lanree001 #Telegram account link
+  - https://discord.com/users/1149862172260847627 #Discord account link
+
+
+#Socials account
+social:
+  name: small-python
+  links: 
+  - https://github.com/small-python #github account link
+  - https://x.com/laaanreewaju #x account link
+  - https://t.me/Lanree001 #Telegram account link
+  - https://discord.com/users/1149862172260847627 #Discord account link
