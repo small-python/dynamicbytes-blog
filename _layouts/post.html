@@ -42,7 +42,9 @@ layout: base
       Comments have been disabled for this post.
     </div>
     {% else -%}
-      {%- include comments.html -%}
+	{% comment %}
+     {%- include comments.html -%}
+	{% endcomment %}
     {% endif -%}
   {% endif -%}
 
