@@ -1,10 +1,11 @@
-
 #main configuration
 title: DynamicBytes
 description: Practical programming and cybersecurity content for beginners.
 baseurl: ""
 url: "https://dynamicbytes.blog"
 theme: minima
+lang: en
+timezone: Africa/Lagos
 
 #navigation menu
 header_pages:
@@ -16,22 +17,20 @@ permalink: /:title/
 
 #plugins lists
 plugins:
-  - jekyll-sitemap #used for sitemap xml files for google search indexing
+  - jekyll-feed #used for feed updates
+  - jekyll-seo-tag #used for tags for Search Engine Optimization
+  - jekyll-sitemap #used for sitemal XMLs
 
 # SEO metadata
 author: small-python
-links:
-  - https://github.com/small-python #github account link
-  - https://x.com/laaanreewaju #x account link
-  - https://t.me/Lanree001 #Telegram account link
-  - https://discord.com/users/1149862172260847627 #Discord account link
 
+# Social usernames (used by Minima)
+github_username: small-python
+twitter_username: laaanreewaju
 
-#Socials account
-social:
-  name: small-python
-  links: 
-  - https://github.com/small-python #github account link
-  - https://x.com/laaanreewaju #x account link
-  - https://t.me/Lanree001 #Telegram account link
-  - https://discord.com/users/1149862172260847627 #Discord account link
+# Custom footer links (for Telegram & Discord)
+footer_links:
+  - name: Telegram
+    url: https://t.me/Lanree001 
+  - name: Discord
+    url: https://discord.com/users/1149862172260847627

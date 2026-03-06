@@ -1,0 +1,47 @@
+{
+  "commands": [
+    {
+      "id": "open-home",
+      "name": "Open home",
+      "path": "00/Home.md",
+      "type": "open"
+    },
+    {
+      "id": "create-today",
+      "name": "Create today",
+      "path": "Daily/{{date}}-{{weekday}}",
+      "type": "create",
+      "templatePath": "",
+      "snippet": "",
+      "commandIds": ""
+    },
+    {
+      "id": "start-day",
+      "type": "insert",
+      "name": "Start day",
+      "path": "",
+      "templatePath": "",
+      "snippet": "Hello! It's {{date}} at {{time}}. Have a lovely day!",
+      "commandIds": ""
+    },
+    {
+      "id": "sequence-today",
+      "type": "sequence",
+      "name": "Sequence today",
+      "path": "",
+      "templatePath": "",
+      "snippet": "",
+      "commandIds": "Create today, Start day"
+    },
+    {
+      "id": "new-tab-link",
+      "type": "insert",
+      "name": "New Tab Link",
+      "path": "",
+      "templatePath": "",
+      "snippet": "<a href = \"\" target = \"_blank\" rel = \"noopener noreferrer\"></a>",
+      "commandIds": ""
+    }
+  ],
+  "leaf": false
+}

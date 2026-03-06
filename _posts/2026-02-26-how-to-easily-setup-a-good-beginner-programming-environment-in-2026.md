@@ -68,7 +68,7 @@ Your editor is your workspace.
 
 For most beginners, the best starting point is **Visual Studio Code**.
 
-👉🏾 Install VS Code from: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+👉🏾 <a href = "https://code.visualstudio.com" target = "_blank" rel = "noopener noreferrer">Download and Install VS Code.</a>
 
 > If you want a breakdown of why it’s recommended and how it compares to other tools, check out:  
 > [Essential Free Programming Tools in 2026](https://dynamicbytes.blog/essential-free-programming-tools-in-2026/)
@@ -102,8 +102,8 @@ GitHub stores your projects online and builds your portfolio.
 
 ### Basic Setup
 
-1. Install Git from: [https://git-scm.com](https://git-scm.com) 
-2. Create a GitHub account: [https://github.com](https://github.com)
+1. <a href = "https://git-scm.com" target = "_blank" rel = "noopener noreferrer">Download and Install Git</a>
+2. Create a GitHub account from the <a href = "https://github.com" target = "_blank" rel = "noopener noreferrer">Official Website</a>
 3. Configure Git:
 
 ```bash
@@ -158,7 +158,8 @@ Python is widely used in:
 
 #### Windows
 
-- Download from: [https://python.org/downloads](https://python.org/downloads)
+- Download from: Download Python from the official website 
+<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">here</a>.
 - Follow the installer
 - ✅ Check **“Add to PATH”**
 - Verify installation:

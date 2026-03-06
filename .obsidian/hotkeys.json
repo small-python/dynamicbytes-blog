@@ -56,5 +56,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "custom-commands:custom-cmd-new-tab-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
   ]
 }
