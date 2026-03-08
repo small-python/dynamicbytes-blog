@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
+              "title": "index"
             }
           }
         ],
@@ -200,6 +200,7 @@
   },
   "active": "2a4269b599fd9bbe",
   "lastOpenFiles": [
+    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "index.md",
@@ -207,7 +208,6 @@
     "assets/CSS/style.css.md",
     "assets/images/posts/Untitled",
     "assets/CSS",
-    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "assets/images/terminal-icon.png",
     "assets/images/posts/cybersecurity-background.png",
     "assets/images/posts/Coding-programming-icon.jpeg",
