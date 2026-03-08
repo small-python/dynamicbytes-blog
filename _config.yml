@@ -6,7 +6,7 @@ url: "https://dynamicbytes.blog"
 theme: minima
 lang: en
 timezone: Africa/Lagos
-logo: /assets/images/terminal-icon1.png
+
 
 #navigation menu
 header_pages:
@@ -24,6 +24,7 @@ plugins:
 
 # SEO metadata
 author: small-python
+logo: /assets/images/terminal-icon1.png
 
 # Social usernames (used by Minima)
 github_username: small-python
