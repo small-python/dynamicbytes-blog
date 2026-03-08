@@ -11,6 +11,7 @@ tags:
   - vscode
   - terminal
 description: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026 using VS Code, Git, Python, terminal basics, project structure, and security best practices.
+images: /assets/images/posts/Coding-programming-icon.jpeg
 ---
 
 _Last Updated: 2026_
