@@ -103,6 +103,5 @@
   "assets/images/terminal-icon1.png": "LiImage",
   "assets/images/vscode-interface-screenshot.png": "LiImage",
   "assets/CSS": "LiFolder",
-  "assets/images/posts": "LiFolder",
-  "assets/CSS/style.css.md": "SiCss3"
+  "assets/images/posts": "LiFolder"
 }
