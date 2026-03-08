@@ -6,7 +6,7 @@ url: "https://dynamicbytes.blog"
 theme: minima
 lang: en
 timezone: Africa/Lagos
-favicon: /assets/images/terminal-icon1.png
+logo: /assets/images/terminal-icon1.png
 
 #navigation menu
 header_pages:
