@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "about"
             }
           }
         ],
@@ -200,10 +200,15 @@
   },
   "active": "2a4269b599fd9bbe",
   "lastOpenFiles": [
+    "categories.md",
+    "assets/CSS/style.scss",
+    "_includes/footer.html",
+    "about.md",
+    "Untitled.base",
+    "index.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
-    "index.md",
     "assets/CSS/style.css",
     "assets/CSS/style.css.md",
     "assets/images/posts/Untitled",
@@ -222,10 +227,6 @@
     "assets/favicon.ico",
     "assets/terminal-icon1.png",
     "terminal-icon1.png",
-    "favicon.ico",
-    "_includes/custom-head.html",
-    "_includes",
-    "about.md",
     "best-free-cybersecurity-tools-for-beginners 1.md",
     "best-free-cybersecurity-tools-for-beginners.md",
     "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
@@ -245,7 +246,6 @@
     "Video Editing Guide/Drawing 2025-11-22 06.03.36.excalidraw.md",
     "Video Editing Guide/Untitled.canvas",
     "CCNA Guide/CCNA_4_Month_Study_Plan.md",
-    "CCNA Guide/CCNA_Kanban_Template.md",
     "Untitled.canvas"
   ]
 }
