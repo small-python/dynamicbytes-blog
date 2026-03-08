@@ -181,6 +181,7 @@
   },
   "active": "4517fad13e9cfdbc",
   "lastOpenFiles": [
+    "_includes/custom-head.html",
     "assets/images/terminal-icon1.png",
     "assets/images/favicon.png",
     "_includes/head.html",
@@ -211,7 +212,6 @@
     "assets/images/folder-structure-in-file-explorer.png",
     "assets/images/terminal-example.png",
     "assets/images/terminal-showing-python-version.png",
-    "assets/images/programming-setup.jpeg",
     "README.md",
     "assets/images/github.md",
     "Univaciti notes/Java notes/23-02-2026.md",

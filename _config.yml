@@ -8,6 +8,10 @@ lang: en
 timezone: Africa/Lagos
 logo: /assets/images/terminal-icon1.png
 
+#custom minima config
+minima:
+  custom_head: true
+
 #navigation menu
 header_pages:
   - about.md
