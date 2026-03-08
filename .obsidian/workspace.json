@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
             }
           }
         ],
@@ -198,18 +198,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "155909cd0507f9b2",
+  "active": "2a4269b599fd9bbe",
   "lastOpenFiles": [
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "index.md",
     "assets/CSS/style.css",
     "assets/CSS/style.css.md",
-    "index.md",
     "assets/images/posts/Untitled",
     "assets/CSS",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "assets/images/terminal-icon.png",
     "assets/images/posts/cybersecurity-background.png",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
-    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "assets/images/posts/Coding-programming-icon.jpeg",
     "assets/images/posts/programming-setup.jpeg",
     "assets/images/posts/cyber-security-background-6gjvwb3kflkj0y58.png",
@@ -225,7 +225,6 @@
     "favicon.ico",
     "_includes/custom-head.html",
     "_includes",
-    "assets/images/Unconfirmed 817447.crdownload",
     "about.md",
     "best-free-cybersecurity-tools-for-beginners 1.md",
     "best-free-cybersecurity-tools-for-beginners.md",
