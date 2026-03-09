@@ -18,8 +18,6 @@ _Last Updated: 2026_
 
 # How to Easily Set Up a Good Beginner Programming Environment in 2026
 
-![How to easily setup a good beginner programming environment in 2026](/assets/images/Coding-programming-icon.jpeg)
-
 
 ---
 

@@ -23,8 +23,6 @@ A good setup helps you learn faster, break fewer things, and actually enjoy codi
 
 In this guide, I’ll walk you through **essential free programming tools in 2026**, explain **why each one matters**, and help you choose the **best option for Linux or Windows**.
 
-![Coding setup illustration](/assets/images/programming-setup.jpg)
-
 
 ---
 

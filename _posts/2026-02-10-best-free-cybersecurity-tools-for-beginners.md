@@ -26,8 +26,6 @@ In this article, I’ll walk you through the **best free cybersecurity tools for
 
 Nothing fancy. Just tools that help you understand how things really work.
 
-![Network Security Background](/assets/images/network-security-background.webp)
-
 ---
 
 If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dyanmicbytes.blog/essential-free-programming-tools-in-2026).
