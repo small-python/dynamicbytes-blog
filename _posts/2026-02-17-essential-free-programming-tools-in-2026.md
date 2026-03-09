@@ -11,7 +11,7 @@ tags:
   - python
   - developer-tools
 excerpt: Essential free programming tools every beginner should install in 2026. Includes VS Code, Git, terminal tools, browsers, Python, and note-taking apps for Linux and Windows.
-images: /assets/images/posts/programming-setup.jpg
+image: /assets/images/posts/programming-setup.jpeg
 ---
 
 # Essential Free Programming Tools in 2026 (Linux & Windows)

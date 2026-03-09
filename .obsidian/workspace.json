@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "2026-02-17-essential-free-programming-tools-in-2026"
+            }
+          },
+          {
+            "id": "b0bdd7801f3b830e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/posts/Coding-programming-icon.jpeg"
+              },
+              "icon": "lucide-image",
+              "title": "Coding-programming-icon"
             }
           }
         ],
@@ -200,22 +212,22 @@
   },
   "active": "2a4269b599fd9bbe",
   "lastOpenFiles": [
-    "categories.md",
-    "assets/CSS/style.scss",
-    "_includes/footer.html",
-    "about.md",
-    "Untitled.base",
-    "index.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/posts/Coding-programming-icon.jpeg",
+    "about.md",
+    "categories.md",
+    "assets/CSS/style.scss",
+    "_includes/footer.html",
+    "Untitled.base",
+    "index.md",
     "assets/CSS/style.css",
     "assets/CSS/style.css.md",
     "assets/images/posts/Untitled",
     "assets/CSS",
     "assets/images/terminal-icon.png",
     "assets/images/posts/cybersecurity-background.png",
-    "assets/images/posts/Coding-programming-icon.jpeg",
     "assets/images/posts/programming-setup.jpeg",
     "assets/images/posts/cyber-security-background-6gjvwb3kflkj0y58.png",
     "assets/images/network-security-background.webp",

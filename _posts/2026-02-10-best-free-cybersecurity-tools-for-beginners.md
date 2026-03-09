@@ -11,7 +11,7 @@ tags:
   - tools
   - wireshark
 excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026 including Wireshark, Nmap, ClamAV, UFW, and Metasploitable.
-images: /assets/images/posts/cybersecurity-background.png
+image: /assets/images/posts/cybersecurity-background.png
 ---
 
 # Best Free Cybersecurity Tools for Beginners (2026)
