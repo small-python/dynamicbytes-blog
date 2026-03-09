@@ -1,27 +1,70 @@
-.post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-  gap: 30px;
-}
+----
+----
+@import "minima";
 
-.post-card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  background: #fff;
-}
 
-.post-thumb {
-  width: 100%;
-  border-radius: 6px;
-}
-
-.post-card h3 {
-  margin-top: 10px;
-}
 
 .post-thumbnail {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.post-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.post-card-content {
+  padding: 20px;
+}
+
+.post-card-category span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.post-card-title {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.post-card-title a {
+  text-decoration: none;
+  color: #111;
+}
+
+.post-card-excerpt {
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.post-card-date {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #888;
 }
