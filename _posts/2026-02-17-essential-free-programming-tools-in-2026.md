@@ -45,7 +45,7 @@ For beginners, **Visual Studio Code (VS Code)** remains the best all-around choi
 - Install extensions for formatting, linting, and automation  
 - Use Git directly inside the editor  
 
-👉 Official download: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+👉 Official download:<a href = "https://code.visualstudio.com/" target = "_blank" rel = "noopener noreferrer">https://code.visualstudio.com/</a>
 
 ![VS Code interface screenshot](/assets/images/vscode-interface-screenshot.png)
 
@@ -71,9 +71,9 @@ If coding were a video game, **Git** would be the save system.
 | Git    | Tracks changes locally on your computer |
 | GitHub | Hosts your Git projects online |
 
-👉 Install Git: [https://git-scm.com/  ](https://git-scm.com)
+👉 Install Git: <a href = "https://git-scm.com/" target = "_blank" rel = "noopener noreferrer">https://git-scm.com</a>
 
-👉 Create a GitHub account: [https://github.com/](https://github.com/)
+👉 Create a GitHub account: <a href = "https://github.com" target = "_blank" rel = "noopener noreferrer">https://github.com</a>
 
 ![GitHub repository example](/assets/images/github-repo-dashboard.png)
 
@@ -106,7 +106,7 @@ It looks intimidating at first, but it’s one of the most powerful tools you’
 | Windows Terminal        | Windows  | Low       | Tabs, themes, Unicode        | ✅ |
 | Git Bash                | Windows  | Low       | Unix-like commands           | ✅ |
 
-👉 Windows Terminal: [https://aka.ms/terminal](https://aka.ms/terminal)
+👉 Windows Terminal: <a href = "https://aka.ms/terminal" target = "_blank" rel = "noopener noreferrer">https://aka.ms/terminal</a>
 
 ![Terminal example](/assets/images/terminal-example.png)
 
@@ -131,9 +131,9 @@ Your browser isn’t just for browsing — it’s a development tool.
 | Google Chrome  | High      | Excellent        | Average | Huge       |
 | Mozilla Firefox| Moderate  | Excellent        | Strong  | Large      |
 
-👉 Google Chrome: [https://www.google.com/chrome/ ](https://www.google.com/chrome/ ) 
+👉 Google Chrome: <a href = "" target = "_blank" rel = "noopener noreferrer">https://google.com/chrome</a>
 
-👉 Mozilla Firefox: [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/)
+👉 Mozilla Firefox: <a href = "https://mozilla.org/firefox" target = "_blank" rel = "noopener noreferrer">https://mozilla.org/firefox</a>
 
 ![Browser dev tools screenshot](/assets/images/browser-devtools.jpg)
 
@@ -152,7 +152,7 @@ For beginners in 2026, **Python** is still the best starting point.
 - **Huge ecosystem** – Web, automation, data, AI, cybersecurity.
 - **Clear error messages** – Easier to debug than many languages.
 
-👉 Download Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+👉 Download Python:<a href = "https://python.org/downloads" target = "_blank" rel = "noopener noreferrer">https://python.org/downloads</a>
 
 ![Python running in terminal](/assets/images/python-terminal.png)
 
@@ -171,9 +171,9 @@ If you don’t document what you learn, you’ll forget it.
 | Notion   | Cloud    | Yes  | Structured notes | Low    | ✅ |
 | Obsidian | Local    | Optional | Long-term knowledge | Medium | ✅ |
 
-👉 Notion: [https://www.notion.so/](https://www.notion.so/)
+👉 Notion: <a href = "https://notion.so" target = "_blank" rel = "noopener noreferrer">https://notion.so</a>
 
-👉 Obsidian: [https://obsidian.md/](https://obsidian.md/)
+👉 Obsidian: <a href = "https://obsidian.md" target = "_blank" rel = "noopener noreferrer">https://obsidian.md</a>
 
 ![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)
 
@@ -188,8 +188,8 @@ These tools are powerful but not mandatory at the start.
 | Postman | API testing        | After backend basics |
 | Docker  | App containerization | Intermediate level |
 
-👉 Postman: [https://www.postman.com/](https://www.postman.com/)  
-👉 Docker: [https://www.docker.com/](https://www.docker.com/)
+👉 Postman: <a href = "https://postman.com" target = "_blank" rel = "noopener noreferrer">https://postman.com</a>
+👉 Docker: <a href = "https://docker.com" target = "_blank" rel = "noopener noreferrer">https://docker.com</a>
 
 ---
 

@@ -157,8 +157,7 @@ Python is widely used in:
 
 #### Windows
 
-- Download from: Download Python from the official website 
-<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">here</a>.
+- Download from: Download Python from the official website:<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://python.org/downloads</a>.
 - Follow the installer
 - ✅ Check **“Add to PATH”**
 - Verify installation:
@@ -396,7 +395,7 @@ Examples:
 - Port scanners
 - Dependency vulnerability scanners
 
->If you want to learn more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/) 
+>If you want to learn more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)
 
 ---
 
