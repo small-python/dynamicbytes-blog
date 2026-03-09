@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3749965673809fd3",
+        "id": "e189a14f8abfcd6b",
         "type": "tabs",
         "children": [
           {
@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3749965673809fd3",
+        "type": "tabs",
+        "children": [
           {
             "id": "7edca5d83a1914fe",
             "type": "leaf",
@@ -61,8 +67,7 @@
               "title": "top-software-development-tools"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,8 +229,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7edca5d83a1914fe",
+  "active": "4517fad13e9cfdbc",
   "lastOpenFiles": [
+    "assets/images/tech-icon1.png",
+    "assets/images/Unconfirmed 77179.crdownload",
+    "assets/images/tech-icon.png",
+    "assets/images/Unconfirmed 353010.crdownload",
+    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "Untitled.md",
@@ -236,7 +246,6 @@
     "assets/images/posts/programming-setup.jpeg",
     "assets/images/posts/Unconfirmed 719763.crdownload",
     "assets/images/posts/Coding-programming-icon.jpeg",
-    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
     "about.md",
     "categories.md",
     "assets/CSS/style.scss",
@@ -251,9 +260,6 @@
     "assets/images/posts/cyber-security-background-6gjvwb3kflkj0y58.png",
     "assets/images/network-security-background.webp",
     "assets/images/posts/network-security-background.webp",
-    "assets/images/posts",
-    "_includes/head.html",
-    "assets/images/terminal-icon1.png",
     "best-free-cybersecurity-tools-for-beginners 1.md",
     "best-free-cybersecurity-tools-for-beginners.md",
     "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
@@ -272,7 +278,6 @@
     "CCNA Guide/Protocols and Related Others.md",
     "Video Editing Guide/Drawing 2025-11-22 06.03.36.excalidraw.md",
     "Video Editing Guide/Untitled.canvas",
-    "CCNA Guide/CCNA_4_Month_Study_Plan.md",
     "Untitled.canvas"
   ]
 }

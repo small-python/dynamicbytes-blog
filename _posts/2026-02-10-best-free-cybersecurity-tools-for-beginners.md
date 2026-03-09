@@ -28,7 +28,7 @@ Nothing fancy. Just tools that help you understand how things really work.
 
 ---
 
-If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dynamicbytes.blog/essential-free-programming-tools-in-2026/).
+>If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dynamicbytes.blog/essential-free-programming-tools-in-2026/).
 
 ---
 
