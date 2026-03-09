@@ -95,10 +95,10 @@
   "_includes": "LiFolder",
   "assets/images/posts/Coding-programming-icon.jpeg": "LiImage",
   "assets/images/posts/cybersecurity-background.png": "LiImage",
-  "assets/images/posts/programming-setup.jpeg": "LiImage",
   "assets/images/terminal-icon.png": "LiImage",
   "assets/images/terminal-icon1.png": "LiImage",
   "assets/images/vscode-interface-screenshot.png": "LiImage",
   "assets/CSS": "LiFolder",
-  "assets/images/posts": "LiFolder"
+  "assets/images/posts": "LiFolder",
+  "assets/images/posts/top-software-development-tools.webp": "LiImage"
 }
