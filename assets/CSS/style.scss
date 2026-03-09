@@ -12,7 +12,7 @@
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
   margin-top: 40px;
 }
@@ -31,8 +31,9 @@
 
 .post-card-image {
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 200px;
   object-fit: cover;
+  display: block;
 }
 
 .post-card-content {
@@ -67,4 +68,8 @@
   margin-top: 15px;
   font-size: 13px;
   color: #888;
+}
+
+.wrapper {
+  max-width: 1200px;
 }
