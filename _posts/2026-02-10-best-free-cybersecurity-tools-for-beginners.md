@@ -10,7 +10,8 @@ tags:
   - networking
   - tools
   - wireshark
-description: A beginner-friendly guide to the best free cybersecurity tools in 2026 including Wireshark, Nmap, ClamAV, UFW, and Metasploitable.
+excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026 including Wireshark, Nmap, ClamAV, UFW, and Metasploitable.
+image: /assets/images/posts/cybersecurity-background.png
 ---
 
 # Best Free Cybersecurity Tools for Beginners (2026)
@@ -25,11 +26,9 @@ In this article, I’ll walk you through the **best free cybersecurity tools for
 
 Nothing fancy. Just tools that help you understand how things really work.
 
-![Network Security Background](/assets/images/network-security-background.webp)
-
 ---
 
-If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dyanmicbytes.blog/essential-free-programming-tools-in-2026).
+>If you’re still setting up your development environment, check out our guide on [Essential Free Programming Tools in 2026](https://dynamicbytes.blog/essential-free-programming-tools-in-2026/).
 
 ---
 
@@ -68,7 +67,7 @@ It looks overwhelming at first. But once you understand the basics, it becomes i
 
 ![Wireshark Interface](/assets/images/wireshark.webp)
 
-👉 Download from the official site: [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
+👉 Download from the official site:<a href = "https://www.wireshark.org/download.html" target = "_blank" rel = "noopener noreferrer">https://www.wireshark.org/download.html</a>
 
 ---
 
@@ -90,7 +89,7 @@ This tool shows up everywhere in cybersecurity.
 
 ![Nmap Terminal Scan](/assets/images/nmap.webp)
 
-👉 Official download: [https://nmap.org/download.html](https://nmap.org/download.html)
+👉 Official download: <a href = "https://nmap.org/download.html" target = "_blank" rel = "noopener noreferrer">https://nmap.org/download.html</a>
 
 ---
 
@@ -112,7 +111,7 @@ Linux users often assume antivirus isn’t needed. That’s risky thinking.
 
 ![ClamAV Scan](/assets/images/clamav.webp)
 
-👉 Official site: [https://www.clamav.net/downloads](https://www.clamav.net/downloads)
+👉 Official site: <a href = "https://www.clamav.net/downloads" target = "_blank" rel = "noopener noreferrer">https://www.clamav.net/downloads</a>
 
 ---
 
@@ -132,7 +131,7 @@ UFW (Uncomplicated Firewall) simplifies firewall rule management on Linux.
 
 ![Firewall Illustration](/assets/images/firewall.webp)
 
-👉 Official documentation: [https://help.ubuntu.com/community/UFW](https://help.ubuntu.com/community/UFW)
+👉 Official documentation: <a href = "https://help.ubuntu.com/community/UFW" target = "_blank" rel = "noopener noreferrer">https://help.ubuntu.com/community/UFW</a>
 
 ---
 
@@ -151,10 +150,9 @@ Metasploitable is an intentionally vulnerable VM for safe security training.
 
 **Difficulty:** Beginner → Intermediate  
 
-👉 GitHub repo: [https://github.com/rapid7/metasploitable3](https://github.com/rapid7/metasploitable3)
+👉 GitHub repo: <a href = "https://github.com/rapid7/metasploitable3" target = "_blank" rel = "noopener noreferrer">https://github.com/rapid7/metasploitable3</a>
 
 ---
-
 ## Final Thoughts
 
 Cybersecurity isn’t about collecting tools.

@@ -10,14 +10,13 @@ tags:
   - git
   - vscode
   - terminal
-description: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026 using VS Code, Git, Python, terminal basics, project structure, and security best practices.
+excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026 using VS Code, Git, Python, terminal basics, project structure, and security best practices.
+image: /assets/images/posts/Coding-programming-icon.jpeg
 ---
 
 _Last Updated: 2026_
 
 # How to Easily Set Up a Good Beginner Programming Environment in 2026
-
-![How to easily setup a good beginner programming environment in 2026](/assets/images/Coding-programming-icon.jpeg)
 
 
 ---
@@ -158,8 +157,7 @@ Python is widely used in:
 
 #### Windows
 
-- Download from: Download Python from the official website 
-<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">here</a>.
+- Download from: Download Python from the official website:<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://python.org/downloads</a>.
 - Follow the installer
 - ✅ Check **“Add to PATH”**
 - Verify installation:
@@ -397,7 +395,7 @@ Examples:
 - Port scanners
 - Dependency vulnerability scanners
 
->If you want to learn more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/) 
+>If you want to learn more on the best free cybersecurity tools for beginners to use, click [here](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)
 
 ---
 
