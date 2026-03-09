@@ -3,24 +3,41 @@ layout: default
 title: Home
 ---
 
-<h2>Latest Posts</h2>
 
 <div class="post-grid">
+
 {% for post in site.posts %}
-  <div class="post-card">
+
+  <article class="post-card">
 
     {% if post.image %}
-    <img src="{{ post.image }}" class="post-thumb">
+      <img src="{{ post.image }}" class="post-card-image">
     {% endif %}
 
-	<small>{{ post.date | date: "%B %d, %Y" }}</small>
-	
-    <h3>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h3>
+    <div class="post-card-content">
 
-    <p>{{ post.excerpt }}</p>
+      <div class="post-card-category">
+        {% for category in post.categories %}
+          <span>{{ category }}</span>
+        {% endfor %}
+      </div>
 
-  </div>
+      <h2 class="post-card-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+
+      <p class="post-card-excerpt">
+        {{ post.excerpt }}
+      </p>
+
+      <p class="post-card-date">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+
+    </div>
+
+  </article>
+
 {% endfor %}
+
 </div>

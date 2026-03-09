@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-17-essential-free-programming-tools-in-2026"
+              "title": "index"
             }
           },
           {
@@ -212,10 +212,10 @@
   },
   "active": "2a4269b599fd9bbe",
   "lastOpenFiles": [
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "_layouts/post.html",
     "assets/images/posts/top-software-development-tools.webp",
     "assets/images/programming-notes-screenshot.png",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "assets/images/posts/programming-setup.jpeg",
     "assets/images/posts/Unconfirmed 719763.crdownload",
     "assets/images/posts/Coding-programming-icon.jpeg",
@@ -239,7 +239,6 @@
     "assets/images/posts",
     "_includes/head.html",
     "assets/images/terminal-icon1.png",
-    "assets/images/favicon.ico",
     "best-free-cybersecurity-tools-for-beginners 1.md",
     "best-free-cybersecurity-tools-for-beginners.md",
     "_posts/how-to easily-setup-a-good-beginner-programming-environment-in-2026.md",
