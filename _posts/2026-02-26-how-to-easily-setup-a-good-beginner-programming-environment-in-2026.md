@@ -102,7 +102,7 @@ GitHub stores your projects online and builds your portfolio.
 ### Basic Setup
 
 1. <a href = "https://git-scm.com" target = "_blank" rel = "noopener noreferrer">Download and Install Git</a>
-2. Create a GitHub account from the <a href = "https://github.com" target = "_blank" rel = "noopener noreferrer">Official Website</a>
+2. Create a GitHub account from the <a href = "https://github.com" target = "_blank" rel = "noopener noreferrer">Website</a>
 3. Configure Git:
 
 ```bash

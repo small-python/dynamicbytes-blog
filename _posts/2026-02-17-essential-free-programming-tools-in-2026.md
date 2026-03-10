@@ -152,7 +152,7 @@ For beginners in 2026, **Python** is still the best starting point.
 - **Huge ecosystem** – Web, automation, data, AI, cybersecurity.
 - **Clear error messages** – Easier to debug than many languages.
 
-👉 Download Python:<a href = "https://python.org/downloads" target = "_blank" rel = "noopener noreferrer">https://python.org/downloads</a>
+👉 Download Python: <a href = "https://python.org/downloads" target = "_blank" rel = "noopener noreferrer">https://python.org/downloads</a>
 
 ![Python running in terminal](/assets/images/python-terminal.png)
 
