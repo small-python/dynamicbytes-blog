@@ -12,6 +12,7 @@ favicon: /assets/images/terminal-icon1.png
 #custom minima config
 minima:
   custom_head: true
+  skin: dark #dark theme for the blog
 
 #navigation menu
 header_pages:
