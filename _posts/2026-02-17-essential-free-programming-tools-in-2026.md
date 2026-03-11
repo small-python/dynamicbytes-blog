@@ -13,8 +13,7 @@ tags:
 excerpt: Essential free programming tools every beginner should install in 2026.
 image: /assets/images/posts/top-software-development-tools.webp
 ---
-
-# Essential Free Programming Tools in 2026 (Linux & Windows)
+---
 
 If you're learning programming, your tools matter more than you think.
 
