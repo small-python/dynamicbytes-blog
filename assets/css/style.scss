@@ -466,6 +466,37 @@ pre:not(.highlight) code {
 
 .toc ul li a:hover { color: var(--accent); }
 
+/* ── Code Copy Button ── */
+.code-block-wrapper {
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  z-index: 10;
+}
+
+.copy-btn:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.copy-btn.copied {
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+}
+
 /* ── Responsive — Tablet ── */
 @media (min-width: 601px) and (max-width: 900px) {
   .post-grid { grid-template-columns: repeat(2, 1fr); }
