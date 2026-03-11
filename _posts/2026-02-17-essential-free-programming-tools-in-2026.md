@@ -170,8 +170,8 @@ If you don’t document what you learn, you’ll forget it.
 | Obsidian | Local    | Optional | Long-term knowledge | Medium | ✅ |
 
 👉 Notion: <a href = "https://notion.so" target = "_blank" rel = "noopener noreferrer">https://notion.so</a>
-👉 Obsidian: <a href = "https://obsidian.md" target = "_blank" rel = "noopener noreferrer">https://obsidian.md</a>
 
+👉 Obsidian: <a href = "https://obsidian.md" target = "_blank" rel = "noopener noreferrer">https://obsidian.md</a>
 ![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)
 
 ---
