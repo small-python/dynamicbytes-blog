@@ -95,6 +95,11 @@ img {
   color: var(--accent-green);
 }
 
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav .page-link {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85rem;
@@ -574,6 +579,8 @@ pre:not(.highlight) code {
 .search-wrapper {
   position: relative;
   margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .search-input {
