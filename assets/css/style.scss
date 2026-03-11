@@ -85,7 +85,7 @@ a {
 /* ── Homepage post grid ── */
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr));
   gap: 1.25rem;
   padding: 2rem 0;
 }
@@ -307,4 +307,12 @@ a {
   .site-header .wrapper { flex-direction: column; height: auto; padding: 1rem 0; }
   .site-nav { margin-top: 0.5rem; }
   .post-header .post-title { font-size: 1.4rem; }
+}
+
+@media (max-width: 600px) {
+  .post-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .post-grid { grid-template-columns: repeat(2, 1fr); }
 }
