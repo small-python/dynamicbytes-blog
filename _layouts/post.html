@@ -133,4 +133,20 @@ layout: default
     });
   });
 </script>
+
+<!-- Return to Top -->
+<button class="return-to-top" id="return-to-top" aria-label="Return to top" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+  ↑
+</button>
+
+<script>
+  const topBtn = document.getElementById('return-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      topBtn.classList.add('visible');
+    } else {
+      topBtn.classList.remove('visible');
+    }
+  });
+</script>
 </article>
