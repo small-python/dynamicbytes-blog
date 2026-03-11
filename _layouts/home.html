@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if site.posts.size > 0 -%}
+  <div class="post-grid">
+    {%- for post in site.posts -%}
+    <div class="post-card">
+      {%- if post.categories[0] -%}
+        <div class="post-category">{{ post.categories[0] }}</div>
+      {%- endif -%}
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+      <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+    </div>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+</div>
