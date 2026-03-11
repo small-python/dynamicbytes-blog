@@ -10,7 +10,7 @@ tags:
   - git
   - python
   - developer-tools
-excerpt: Essential free programming tools every beginner should install in 2026. Includes VS Code, Git, terminal tools, browsers, Python, and note-taking apps for Linux and Windows.
+excerpt: Essential free programming tools every beginner should install in 2026.
 image: /assets/images/posts/top-software-development-tools.webp
 ---
 
@@ -45,7 +45,7 @@ For beginners, **Visual Studio Code (VS Code)** remains the best all-around choi
 - Install extensions for formatting, linting, and automation  
 - Use Git directly inside the editor  
 
-👉 Official download:<a href = "https://code.visualstudio.com/" target = "_blank" rel = "noopener noreferrer">https://code.visualstudio.com/</a>
+👉 Official download: <a href = "https://code.visualstudio.com/" target = "_blank" rel = "noopener noreferrer">https://code.visualstudio.com/</a>
 
 ![VS Code interface screenshot](/assets/images/vscode-interface-screenshot.png)
 
@@ -80,8 +80,7 @@ If coding were a video game, **Git** would be the save system.
 
 ---
 
-> Once your development environment is ready, explore our guide on  
-> [Best Free Cybersecurity Tools for Beginners (2026)](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)  
+> Once your development environment is ready, explore our guide on [Best Free Cybersecurity Tools for Beginners (2026)](https://dynamicbytes.blog/best-free-cybersecurity-tools-for-beginners/)
 > to understand how security testing works.
 
 ---
@@ -172,7 +171,6 @@ If you don’t document what you learn, you’ll forget it.
 | Obsidian | Local    | Optional | Long-term knowledge | Medium | ✅ |
 
 👉 Notion: <a href = "https://notion.so" target = "_blank" rel = "noopener noreferrer">https://notion.so</a>
-
 👉 Obsidian: <a href = "https://obsidian.md" target = "_blank" rel = "noopener noreferrer">https://obsidian.md</a>
 
 ![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)
@@ -189,6 +187,7 @@ These tools are powerful but not mandatory at the start.
 | Docker  | App containerization | Intermediate level |
 
 👉 Postman: <a href = "https://postman.com" target = "_blank" rel = "noopener noreferrer">https://postman.com</a>
+
 👉 Docker: <a href = "https://docker.com" target = "_blank" rel = "noopener noreferrer">https://docker.com</a>
 
 ---

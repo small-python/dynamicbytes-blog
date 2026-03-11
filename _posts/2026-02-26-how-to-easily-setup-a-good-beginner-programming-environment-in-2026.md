@@ -10,7 +10,7 @@ tags:
   - git
   - vscode
   - terminal
-excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026 using VS Code, Git, Python, terminal basics, project structure, and security best practices.
+excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026.
 image: /assets/images/posts/Coding-programming-icon.jpeg
 ---
 
@@ -123,6 +123,8 @@ git config --global user.email "youremail@example.com"
 - You experiment safely
 - You track history
 - You build real-world habits
+---
+
 ## Step 3: Install Python (Beginner-Friendly Language for 2026)
 
 You need a language runtime. Python remains one of the best beginner choices.
@@ -146,10 +148,10 @@ You need a language runtime. Python remains one of the best beginner choices.
 
 3. **Beginner-Friendly but Industry-Respected**
 
-Python is widely used in:
-- Web apps
-- **SaaS**(Software as a Service) platforms
-- Back-end systems
+	Python is widely used in:
+	- Web apps
+	- **SaaS**(Software as a Service) platforms
+	- Back-end systems
 
 ---
 
@@ -157,7 +159,7 @@ Python is widely used in:
 
 #### Windows
 
-- Download from: Download Python from the official website:<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://python.org/downloads</a>.
+- Download from: Download Python from the official website: <a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">https://python.org/downloads</a>.
 - Follow the installer
 - ✅ Check **“Add to PATH”**
 - Verify installation:

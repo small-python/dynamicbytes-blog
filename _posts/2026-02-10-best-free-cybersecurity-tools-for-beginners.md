@@ -10,7 +10,7 @@ tags:
   - networking
   - tools
   - wireshark
-excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026 including Wireshark, Nmap, ClamAV, UFW, and Metasploitable.
+excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026.
 image: /assets/images/posts/cybersecurity-background.png
 ---
 
@@ -67,7 +67,7 @@ It looks overwhelming at first. But once you understand the basics, it becomes i
 
 ![Wireshark Interface](/assets/images/wireshark.webp)
 
-👉 Download from the official site:<a href = "https://www.wireshark.org/download.html" target = "_blank" rel = "noopener noreferrer">https://www.wireshark.org/download.html</a>
+👉 Download from the official site: <a href = "https://www.wireshark.org/download.html" target = "_blank" rel = "noopener noreferrer">https://www.wireshark.org/download.html</a>
 
 ---
 
