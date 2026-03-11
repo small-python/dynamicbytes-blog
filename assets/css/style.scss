@@ -3,23 +3,39 @@
 
 @import "minima";
 
-/* ── Override Minima's fixed-width defaults ── */
+/* ── Nuclear override — stop Minima breaking mobile ── */
 html {
-  max-width: 100%;
-  overflow-x: hidden;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 body {
+  max-width: 100% !important;
   min-width: 0 !important;
-  max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  width: 100% !important;
 }
 
-.wrapper {
+.wrapper,
+.page-content,
+.post-content,
+.home,
+main,
+article,
+section,
+header,
+footer {
+  max-width: 100% !important;
   min-width: 0 !important;
-  max-width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
+.post-content * {
+  max-width: 100% !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  box-sizing: border-box !important;
 }
 
 /* ============================================
