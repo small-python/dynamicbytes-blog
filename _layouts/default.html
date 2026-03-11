@@ -19,6 +19,12 @@
           {% assign node = site.pages | where: 'path', page | first %}
           <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endfor %}
+
+        <!-- Search -->
+        <div class="search-wrapper">
+          <input type="text" id="search-input" class="search-input" placeholder="Search..." autocomplete="off">
+          <div class="search-results" id="search-results"></div>
+        </div>
       </nav>
     </div>
   </header>
@@ -58,5 +64,65 @@
     </div>
   </footer>
 
+  <!-- Lunr.js Search -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script>
+  let searchIndex, searchData;
+
+  fetch('{{ "/search.json" | relative_url }}')
+    .then(res => res.json())
+    .then(data => {
+      searchData = data;
+      searchIndex = lunr(function() {
+        this.field('title', { boost: 10 });
+        this.field('excerpt');
+        this.field('categories', { boost: 5 });
+        this.ref('url');
+        data.forEach(post => this.add(post));
+      });
+    });
+
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('search-results');
+
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
+
+    if (query.length < 2) {
+      results.classList.remove('active');
+      results.innerHTML = '';
+      return;
+    }
+
+    try {
+      const hits = searchIndex.search(query + '*');
+      results.classList.add('active');
+
+      if (hits.length === 0) {
+        results.innerHTML = '<p class="search-no-results">No results found.</p>';
+        return;
+      }
+
+      results.innerHTML = hits.slice(0, 6).map(hit => {
+        const post = searchData.find(p => p.url === hit.ref);
+        return `
+          <a class="search-result-item" href="${post.url}">
+            <div class="search-result-title">${post.title}</div>
+            <div class="search-result-excerpt">${post.excerpt}</div>
+          </a>`;
+      }).join('');
+
+    } catch(e) {
+      results.innerHTML = '<p class="search-no-results">No results found.</p>';
+    }
+  });
+
+  // Close results when clicking outside
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.search-wrapper')) {
+      results.classList.remove('active');
+    }
+  });
+</script>
 </body>
 </html>
