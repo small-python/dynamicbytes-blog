@@ -398,6 +398,18 @@ pre:not(.highlight) code {
   gap: 1rem;
 }
 
+/* ── Reading Time ── */
+.post-meta-divider {
+  margin: 0 0.4rem;
+  color: var(--border);
+}
+
+.reading-time {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--accent-green);
+}
+
 /* ── Responsive — Tablet ── */
 @media (min-width: 601px) and (max-width: 900px) {
   .post-grid { grid-template-columns: repeat(2, 1fr); }
