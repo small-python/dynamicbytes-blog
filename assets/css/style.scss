@@ -3,6 +3,25 @@
 
 @import "minima";
 
+/* ── Override Minima's fixed-width defaults ── */
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  min-width: 0 !important;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* ============================================
    DYNAMICBYTES — Dark Techy Theme
    ============================================ */
