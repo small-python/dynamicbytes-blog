@@ -4,7 +4,7 @@ title: Essential Free Programming Tools in 2026 (Linux & Windows)
 date: 2026-02-17
 author: small-python
 categories:
-  - Software & Tools
+  - Cybersecurity
 tags:
   - programming
   - git
