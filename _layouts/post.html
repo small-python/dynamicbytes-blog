@@ -14,9 +14,9 @@ layout: default
       <span class="post-meta-divider">·</span>
       <span class="reading-time">
         {% assign words = content | number_of_words %}
-        {% assign minutes = words | divided_by: 200 %}
-        {% if minutes < 1 %}~ 1 min. read
-        {% else %}~ {{ minutes }} min. read
+        {% assign min = words | divided_by: 200 %}
+        {% if min < 1 %}~ 1 min. read
+        {% else %}~ {{ min }} min. read
         {% endif %}
       </span>
     </div>
