@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="categories-page">
+  <h1 class="page-title">Categories</h1>
+
+  <!-- Category Filter Buttons -->
+  <div class="category-buttons">
+    <button class="cat-btn active" onclick="filterPosts('all', this)">All</button>
+    {% assign all_categories = site.posts | map: 'categories' | flatten | uniq | sort %}
+    {% for category in all_categories %}
+      <button class="cat-btn" onclick="filterPosts('{{ category | slugify }}', this)">
+        {{ category }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <!-- Posts Grid -->
+  <div class="post-grid" id="categories-grid">
+    {% for post in site.posts %}
+      {% assign cat_slug = post.categories[0] | slugify %}
+      <div class="post-card" data-category="{{ cat_slug }}">
+        {%- if post.categories[0] -%}
+          <div class="post-category">{{ post.categories[0] }}</div>
+        {%- endif -%}
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  function filterPosts(category, btn) {
+    // Update active button
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Show/hide cards
+    document.querySelectorAll('.post-card').forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script>

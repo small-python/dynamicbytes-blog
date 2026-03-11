@@ -17,6 +17,7 @@ minima:
 #navigation menu
 header_pages:
   - about.md
+  - categories.md
 
 #layout for posts
 markdown: kramdown
