@@ -15,8 +15,8 @@ layout: default
       <span class="reading-time">
         {% assign words = content | number_of_words %}
         {% assign minutes = words | divided_by: 200 %}
-        {% if minutes < 1 %}~ 1 minute read
-        {% else %}~ {{ minutes }} minute read
+        {% if minutes < 1 %}~ 1 min. read
+        {% else %}~ {{ minutes }} min. read
         {% endif %}
       </span>
     </div>
