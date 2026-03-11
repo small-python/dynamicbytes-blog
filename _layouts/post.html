@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+<!--For the progress bar style-->
+<style>
+  #progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: var(--accent);
+    z-index: 9999;
+    transition: width 0.1s linear;
+  }
+</style>
+
+<div id="progress-bar"></div>
 
 <article class="post">
   <header class="post-header">
@@ -25,4 +40,15 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+<!-- For the progress bar action-->
+<script>
+  const bar = document.getElementById('progress-bar');
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = (scrollTop / docHeight) * 100;
+    bar.style.width = progress + '%';
+  });
+</script>
 </article>
