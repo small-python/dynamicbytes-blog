@@ -347,19 +347,78 @@ pre:not(.highlight) {
 
 /* ── Responsive ── */
 @media (max-width: 600px) {
-  .post-grid { grid-template-columns: 1fr; }
-  .post-header .post-title { font-size: 1.4rem; }
-  .site-header { padding: 0 1rem; }
-  .site-header .wrapper {
-    flex-direction: column;
+
+  /* Force everything to wrap and stay in bounds */
+  body {
+    overflow-x: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-content {
+    padding: 1.25rem 1rem;
+    overflow-x: hidden;
+  }
+
+  /* Headings — shrink font size and force wrapping */
+  h1, h2, h3, h4,
+  .post-title,
+  .post-header .post-title {
+    font-size: 1.1rem !important;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.4;
+  }
+
+  /* Paragraphs and list items */
+  p, li, td, th, blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Code blocks — scroll horizontally inside themselves only */
+  .highlight,
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
     height: auto;
-    padding: 1rem 0;
-    gap: 0.75rem;
+    display: block;
   }
-  .site-nav {
-    padding-bottom: 0.75rem;
-    .page-link { margin-left: 0; margin-right: 1rem; }
+
+  /* Header — title left, nav right */
+  .site-header {
+    padding: 0 1rem;
+
+    .wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 56px;
+    }
   }
+
+  .site-title { font-size: 1rem; }
+  .site-nav .page-link {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+  }
+
+  /* Post grid */
+  .post-grid { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
