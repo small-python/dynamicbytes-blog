@@ -711,6 +711,17 @@ pre:not(.highlight) code {
   .related-posts-grid { grid-template-columns: 1fr; }
 }
 
+/* ── Giscus Comments ── */
+.giscus-wrapper {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.giscus-wrapper .related-posts-title {
+  margin-bottom: 1.25rem;
+}
+
 /* ── Responsive — Tablet ── */
 @media (min-width: 601px) and (max-width: 900px) {
   .post-grid { grid-template-columns: repeat(2, 1fr); }
