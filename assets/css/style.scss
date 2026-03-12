@@ -628,7 +628,6 @@ pre:not(.highlight) code {
 }
 
 .search-result-item:last-child { border-bottom: none; }
-
 .search-result-item:hover { background: var(--surface-2); }
 
 .search-result-title {
@@ -650,14 +649,6 @@ pre:not(.highlight) code {
   font-size: 0.82rem;
   color: var(--text-muted);
   text-align: center;
-}
-
-/* Mobile search */
-@media (max-width: 600px) {
-  .search-wrapper { margin-left: 0; margin-top: 0.5rem; }
-  .search-input { width: 130px; }
-  .search-input:focus { width: 160px; }
-  .search-results { width: 260px; right: 0; }
 }
 
 /* ── Related Posts ── */
@@ -706,11 +697,6 @@ pre:not(.highlight) code {
   word-break: break-word;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .related-posts-grid { grid-template-columns: 1fr; }
-}
-
 /* ── Giscus Comments ── */
 .giscus-wrapper {
   margin-top: 3rem;
@@ -719,7 +705,14 @@ pre:not(.highlight) code {
 }
 
 .giscus-wrapper .related-posts-title {
+  margin-bottom: 0.5rem;
+}
+
+.giscus-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
   margin-bottom: 1.25rem;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* ── Responsive — Tablet ── */
@@ -765,4 +758,11 @@ pre:not(.highlight) code {
     align-items: flex-start;
     gap: 0.75rem;
   }
+
+  .search-wrapper { margin-left: 0; margin-top: 0.5rem; }
+  .search-input { width: 130px; }
+  .search-input:focus { width: 160px; }
+  .search-results { width: 260px; right: 0; }
+
+  .related-posts-grid { grid-template-columns: 1fr; }
 }
