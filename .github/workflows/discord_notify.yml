@@ -1,0 +1,34 @@
+name: Notify Discord on New Post
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Run notification script
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scripts/notify_discord.py
+
+      - name: Commit cache update
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add scripts/last_post.json
+          git diff --cached --quiet || git commit -m "Update last post cache"
+          git push
