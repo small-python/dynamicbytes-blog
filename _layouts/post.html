@@ -34,8 +34,6 @@ layout: default
         {% else %}~ {{ min }} min. read
         {% endif %}
       </span>
-      <span class="post-meta-divider">·</span>
-      <span class="post-views" id="post-views"></span>
     </div>
   </header>
 
@@ -248,21 +246,6 @@ layout: default
       }, 2000);
     });
   }
-</script>
-
-<script>
-  // Fetch and display view count from GoatCounter
-  const path = '{{ page.url }}';
-  const encodedPath = encodeURIComponent(path);
-  fetch('https://dynamicbytes.goatcounter.com/counter/' + encodedPath + '.json')
-    .then(res => res.json())
-    .then(data => {
-      const count = data.count || '0';
-      document.getElementById('post-views').textContent = '· ' + count + ' views';
-    })
-    .catch(() => {
-      document.getElementById('post-views').textContent = '';
-    });
 </script>
 
 <!-- Lazy Loading Images -->
