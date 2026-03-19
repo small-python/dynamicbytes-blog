@@ -731,6 +731,75 @@ pre:not(.highlight) code {
   word-break: break-word;
 }
 
+/* ── Share Buttons ── */
+.share-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.share-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.share-twitter {
+  background: var(--surface);
+  color: var(--text-muted);
+}
+.share-twitter:hover {
+  background: #1a1a2e;
+  border-color: #1d9bf0;
+  color: #1d9bf0;
+}
+
+.share-whatsapp {
+  background: var(--surface);
+  color: var(--text-muted);
+}
+.share-whatsapp:hover {
+  background: #1a2e1a;
+  border-color: #25d366;
+  color: #25d366;
+}
+
+.share-copy {
+  background: var(--surface);
+  color: var(--text-muted);
+}
+.share-copy:hover {
+  background: var(--surface-2);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.share-copy.copied {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+}
+
 /* ── Giscus Comments ── */
 .giscus-wrapper {
   margin-top: 3rem;
@@ -837,4 +906,11 @@ pre:not(.highlight) code {
   }
 
   .related-posts-grid { grid-template-columns: 1fr; }
+
+  .share-buttons { gap: 0.5rem; }
+
+  .share-btn {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.85rem;
+  }
 }
