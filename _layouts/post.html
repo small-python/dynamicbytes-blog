@@ -35,9 +35,7 @@ layout: default
         {% endif %}
       </span>
       <span class="post-meta-divider">·</span>
-      <span class="post-views">
-        <span class="goatcounter-count" data-path="{{ page.url }}"></span> views
-      </span>
+      <span class="post-views" id="post-views">· 0 views</span>
     </div>
   </header>
 
@@ -253,13 +251,17 @@ layout: default
 </script>
 
 <script>
-  // Fallback for GoatCounter view count
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      document.querySelectorAll('.goatcounter-count').forEach(el => {
-        if (el.innerText.trim() === '') el.innerText = '0';
-      });
-    }, 5000);
+  // Fetch view count from GoatCounter API
+  fetch('https://dynamicbytes.goatcounter.com/api/v0/stats/hits?path={{ page.url | uri_escape }}', {
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(res => res.json())
+  .then(data => {
+    const count = data.hits?.[0]?.count || 0;
+    document.getElementById('post-views').textContent = '· ' + count + ' views';
+  })
+  .catch(() => {
+    document.getElementById('post-views').textContent = '· 0 views';
   });
 </script>
 
