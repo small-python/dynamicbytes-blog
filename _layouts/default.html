@@ -10,25 +10,33 @@
 
 <body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <!-- Search first -->
-        <div class="search-wrapper">
-          <input type="text" id="search-input" class="search-input" placeholder="Search..." autocomplete="off">
-          <div class="search-results" id="search-results"></div>
-        </div>
+ <!-- Header -->
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-        <!-- Nav links after -->
-        {% for page in site.header_pages %}
-          {% assign node = site.pages | where: 'path', page | first %}
-          <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title }}</a>
-        {% endfor %}
-      </nav>
-    </div>
-  </header>
+    <!-- Hamburger button (mobile only) -->
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Nav -->
+    <nav class="site-nav" id="site-nav">
+      <!-- Search -->
+      <div class="search-wrapper">
+        <input type="text" id="search-input" class="search-input" placeholder="Search..." autocomplete="off">
+        <div class="search-results" id="search-results"></div>
+      </div>
+
+      {% for page in site.header_pages %}
+        {% assign node = site.pages | where: 'path', page | first %}
+        <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
 
   <!-- Main Content -->
   <main class="page-content">
@@ -123,6 +131,25 @@
     if (!e.target.closest('.search-wrapper')) {
       results.classList.remove('active');
     }
+  });
+</script>
+
+<!-- Navigation Toggle -->
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+  const siteNav = document.getElementById('site-nav');
+
+  navToggle.addEventListener('click', () => {
+    siteNav.classList.toggle('open');
+    navToggle.classList.toggle('open');
+  });
+
+  // Close menu when a link is clicked
+  siteNav.querySelectorAll('.page-link').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('open');
+      navToggle.classList.remove('open');
+    });
   });
 </script>
 </body>

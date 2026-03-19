@@ -78,6 +78,7 @@ img {
   height: 60px;
   max-width: 900px;
   margin: 0 auto;
+  position: relative;
 }
 
 .site-title {
@@ -109,6 +110,39 @@ img {
   white-space: nowrap;
 }
 .site-nav .page-link:hover { color: var(--text); }
+
+/* ── Hamburger Button (hidden on desktop) ── */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  z-index: 200;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animate hamburger to X when open */
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
 
 /* ── Page wrapper ── */
 .page-content {
@@ -723,6 +757,54 @@ pre:not(.highlight) code {
 /* ── Responsive — Mobile ── */
 @media (max-width: 600px) {
 
+  /* Show hamburger, hide nav by default */
+  .nav-toggle {
+    display: flex;
+  }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    left: -2rem;
+    right: -2rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+    gap: 0.75rem;
+    z-index: 99;
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+
+  .search-wrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-input:focus {
+    width: 100%;
+  }
+
+  .search-results {
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+
   .site-header { padding: 0 1rem; }
 
   .site-header .wrapper {
@@ -733,11 +815,6 @@ pre:not(.highlight) code {
   }
 
   .site-title { font-size: 1rem; }
-
-  .site-nav .page-link {
-    font-size: 0.8rem;
-    margin-left: 1rem;
-  }
 
   .page-content {
     padding: 1.25rem 1rem;
@@ -758,11 +835,6 @@ pre:not(.highlight) code {
     align-items: flex-start;
     gap: 0.75rem;
   }
-
-  .search-wrapper { margin-left: 0; margin-top: 0.5rem; }
-  .search-input { width: 130px; }
-  .search-input:focus { width: 160px; }
-  .search-results { width: 260px; right: 0; }
 
   .related-posts-grid { grid-template-columns: 1fr; }
 }
