@@ -35,7 +35,7 @@ layout: default
         {% endif %}
       </span>
       <span class="post-meta-divider">·</span>
-      <span class="post-views" id="post-views">· 0 views</span>
+      <span class="post-views" id="post-views"></span>
     </div>
   </header>
 
@@ -251,18 +251,18 @@ layout: default
 </script>
 
 <script>
-  // Fetch view count from GoatCounter API
-  fetch('https://dynamicbytes.goatcounter.com/api/v0/stats/hits?path={{ page.url | uri_escape }}', {
-    headers: { 'Content-Type': 'application/json' }
-  })
-  .then(res => res.json())
-  .then(data => {
-    const count = data.hits?.[0]?.count || 0;
-    document.getElementById('post-views').textContent = '· ' + count + ' views';
-  })
-  .catch(() => {
-    document.getElementById('post-views').textContent = '· 0 views';
-  });
+  // Fetch and display view count from GoatCounter
+  const path = '{{ page.url }}';
+  const encodedPath = encodeURIComponent(path);
+  fetch('https://dynamicbytes.goatcounter.com/counter/' + encodedPath + '.json')
+    .then(res => res.json())
+    .then(data => {
+      const count = data.count || '0';
+      document.getElementById('post-views').textContent = '· ' + count + ' views';
+    })
+    .catch(() => {
+      document.getElementById('post-views').textContent = '';
+    });
 </script>
 
 <!-- Lazy Loading Images -->
