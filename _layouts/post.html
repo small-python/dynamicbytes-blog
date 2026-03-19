@@ -263,4 +263,11 @@ layout: default
   });
 </script>
 
+<!-- Lazy Loading Images -->
+<script>
+  document.querySelectorAll('.post-content img').forEach(img => {
+    img.setAttribute('loading', 'lazy');
+  });
+</script>
+
 </article>
