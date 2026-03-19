@@ -31,7 +31,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add scripts/last_post.json
           git diff --cached --quiet || git commit -m "Update last post cache"
           git push
