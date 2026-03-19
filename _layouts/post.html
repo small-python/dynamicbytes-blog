@@ -252,4 +252,15 @@ layout: default
   }
 </script>
 
+<script>
+  // Fallback for GoatCounter view count
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelectorAll('.goatcounter-count').forEach(el => {
+        if (el.innerText.trim() === '') el.innerText = '0';
+      });
+    }, 2000);
+  });
+</script>
+
 </article>
