@@ -915,6 +915,100 @@ pre:not(.highlight) code {
   .error-actions { flex-direction: column; align-items: center; }
 }
 
+/* ── Newsletter ── */
+.newsletter-wrapper {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.newsletter-inner {
+  max-width: 100%;
+}
+
+.newsletter-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.newsletter-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 480px;
+}
+
+.newsletter-input {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+.newsletter-input:focus {
+  border-color: var(--accent);
+}
+
+.newsletter-input::placeholder {
+  color: var(--text-muted);
+}
+
+.newsletter-btn {
+  background: var(--accent);
+  color: #0d1117;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: fit-content;
+}
+
+.newsletter-btn:hover {
+  background: #79b8ff;
+}
+
+.newsletter-success {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--accent-green);
+  margin-top: 0.75rem;
+}
+
+.newsletter-error {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: #ff6b6b;
+  margin-top: 0.75rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .newsletter-wrapper { padding: 1.5rem 1rem; }
+  .newsletter-btn { width: 100%; }
+}
+
 /* ── Responsive — Tablet ── */
 @media (min-width: 601px) and (max-width: 900px) {
   .post-grid { grid-template-columns: repeat(2, 1fr); }

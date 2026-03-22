@@ -110,6 +110,39 @@ layout: default
     </button>
 
   </div>
+
+<!-- Newsletter -->
+<div class="newsletter-wrapper">
+  <div class="newsletter-inner">
+    <div class="newsletter-text">
+      <h3 class="newsletter-title">Stay in the loop</h3>
+      <p class="newsletter-desc">Get notified when new posts drop — no spam, just content.</p>
+    </div>
+    <form id="sib-form" method="POST"
+      action="https://8b1472b0.sibforms.com/serve/MUIFAK_pwteUKKukvOaU6p25sX1xxydrOntbVr3F0RKKsrq4mz9ObaptLuNeLQJCDDyNvylAwgaHQ6oCBMNShQPt3DeXKOWNJkEoKRSjhLJ2RGVmZTAsaFD1jD6eUiOR3jSLnoYF93PLeroqdgSlNhC8axXkbNPRpMMyItRkW670d70CbZ9sjRg_D9AxtX-8XWfTcc4qPZPaUt9plQ=="
+      data-type="subscription">
+      <div class="newsletter-form">
+        <input class="newsletter-input" type="email" id="EMAIL" name="EMAIL"
+          placeholder="your@email.com" data-required="true" required autocomplete="off">
+        <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha"
+          data-sitekey="6LeD1JMsAAAAAKv2k34bOq_R1fwirNRq0k1F_wT1"
+          data-callback="handleCaptchaResponse"
+          style="margin: 0.75rem 0;">
+        </div>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </div>
+      <div id="success-message" class="newsletter-success" style="display:none;">
+        ✅ Check your email to confirm your subscription!
+      </div>
+      <div id="error-message" class="newsletter-error" style="display:none;">
+        ❌ Something went wrong. Please try again.
+      </div>
+      <input type="text" name="email_address_check" value="" class="input--hidden">
+      <input type="hidden" name="locale" value="en">
+    </form>
+  </div>
+</div>
+
 </div>
 
   <!-- Comments -->
