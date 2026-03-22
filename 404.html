@@ -1,0 +1,20 @@
+---
+layout: default
+title: "404 — Page Not Found"
+permalink: /404.html
+---
+
+<div class="error-page">
+  <div class="error-code">404</div>
+  <div class="error-terminal">
+    <span class="error-prompt">dynamicbytes@blog:~$</span>
+    <span class="error-command"> cat missing-page.txt</span>
+    <p class="error-output">cat: missing-page.txt: No such file or directory</p>
+  </div>
+  <h1 class="error-title">Page Not Found</h1>
+  <p class="error-message">The page you're looking for doesn't exist or has been moved.</p>
+  <div class="error-actions">
+    <a href="{{ '/' | relative_url }}" class="error-btn error-btn-primary">← Back to Home</a>
+    <a href="{{ '/categories/' | relative_url }}" class="error-btn error-btn-secondary">Browse Categories</a>
+  </div>
+</div>
