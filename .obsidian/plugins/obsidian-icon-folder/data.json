@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiKanbanSquare",
       "SiCss3",
       "LiHome",
       "LiImage",
-      "CoFolder",
-      "LiFolder"
+      "CoFolder"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -94,5 +94,6 @@
   "_includes": "LiFolder",
   "assets/images/terminal-icon.png": "LiImage",
   "assets/images/terminal-icon1.png": "LiImage",
-  "assets/images/vscode-interface-screenshot.png": "LiImage"
+  "assets/images/vscode-interface-screenshot.png": "LiImage",
+  "Posts_Boards.md": "LiKanbanSquare"
 }

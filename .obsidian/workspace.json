@@ -13,26 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "d1b199bd6c81892e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
+            }
+          },
+          {
+            "id": "41bee5cf0afe00e3",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Posts_Boards.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Posts_Boards"
             }
           }
         ],
@@ -198,17 +204,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d1b199bd6c81892e",
+  "active": "41bee5cf0afe00e3",
   "lastOpenFiles": [
+    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+    "Posts_Boards.md",
+    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+    "_posts-drafts/Untitled.md",
+    "_posts-drafts",
     "index.md",
     "_posts/Untitled.md",
-    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "assets/images/group-icon.png",
     "assets/images/Unconfirmed 213968.crdownload",
     "_layouts/Unconfirmed 948518.crdownload",
     "assets/css/Unconfirmed 909883.crdownload",
-    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "search.json",
     "_layouts/categories.html",
     "categories.md",
@@ -218,7 +227,6 @@
     "_layouts/post.html",
     "assets/css/Unconfirmed 901591.crdownload",
     "_layouts/default.html",
-    "_layouts/home.html",
     "assets/images/tech-icon1.png",
     "assets/images/tech-icon.png",
     "assets/images/posts/top-software-development-tools.webp",
@@ -244,8 +252,6 @@
     "CCNA Guide/ccna_kanban_template.md",
     "Coding Courses/Python/Python_Learning_Kanban.md",
     "Video Editing Guide/kdenlive_walkthrough.md",
-    "CCNA Guide/Notes.md",
-    "CCNA Guide/Protocols and Related Others.md",
     "Video Editing Guide/Untitled.canvas",
     "Untitled.canvas"
   ]
