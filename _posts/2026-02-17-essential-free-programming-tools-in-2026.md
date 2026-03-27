@@ -11,7 +11,7 @@ tags:
   - python
   - developer-tools
 excerpt: Essential free programming tools every beginner should install in 2026.
-image: /assets/images/posts/top-software-development-tools.webp
+image: /assets/images/posts/essential-programming-tools/top-software-development-tools.webp
 ---
 ---
 
@@ -46,7 +46,7 @@ For beginners, **Visual Studio Code (VS Code)** remains the best all-around choi
 
 👉 Official download: <a href = "https://code.visualstudio.com/" target = "_blank" rel = "noopener noreferrer">https://code.visualstudio.com/</a>
 
-![VS Code interface screenshot](/assets/images/vscode-interface-screenshot.png)
+![VS Code interface screenshot](/assets/images/posts/essential-programming-tools/vscode-interface-screenshot.png)
 
 
 ---
@@ -74,7 +74,7 @@ If coding were a video game, **Git** would be the save system.
 
 👉 Create a GitHub account: <a href = "https://github.com" target = "_blank" rel = "noopener noreferrer">https://github.com</a>
 
-![GitHub repository example](/assets/images/github-repo-dashboard.png)
+![GitHub repository example](/assets/images/posts/essential-programming-tools/github-repo-dashboard.png)
 
 
 ---
@@ -106,7 +106,8 @@ It looks intimidating at first, but it’s one of the most powerful tools you’
 
 👉 Windows Terminal: <a href = "https://aka.ms/terminal" target = "_blank" rel = "noopener noreferrer">https://aka.ms/terminal</a>
 
-![Terminal example](/assets/images/terminal-example.png)
+![Terminal example](/assets/images/posts/essential-programming-tools/terminal-example.png)
+
 
 
 ---
@@ -133,7 +134,8 @@ Your browser isn’t just for browsing — it’s a development tool.
 
 👉 Mozilla Firefox: <a href = "https://mozilla.org/firefox" target = "_blank" rel = "noopener noreferrer">https://mozilla.org/firefox</a>
 
-![Browser dev tools screenshot](/assets/images/browser-devtools.jpg)
+![Browser dev tools screenshot](/assets/images/posts/essential-programming-tools/browser-devtools.jpg)
+
 
 
 ---
@@ -152,7 +154,7 @@ For beginners in 2026, **Python** is still the best starting point.
 
 👉 Download Python: <a href = "https://python.org/downloads" target = "_blank" rel = "noopener noreferrer">https://python.org/downloads</a>
 
-![Python running in terminal](/assets/images/python-terminal.png)
+![Python running in terminal](/assets/images/posts/essential-programming-tools/python-terminal.png)
 
 
 ---
@@ -172,7 +174,8 @@ If you don’t document what you learn, you’ll forget it.
 👉 Notion: <a href = "https://notion.so" target = "_blank" rel = "noopener noreferrer">https://notion.so</a>
 
 👉 Obsidian: <a href = "https://obsidian.md" target = "_blank" rel = "noopener noreferrer">https://obsidian.md</a>
-![programming notes screenshots from obsidian](/assets/images/programming-notes-screenshot.png)
+![programming notes screenshots from obsidian](/assets/images/posts/essential-programming-tools/programming-notes-screenshot.png)
+
 
 ---
 

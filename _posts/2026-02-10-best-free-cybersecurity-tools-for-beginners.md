@@ -11,7 +11,7 @@ tags:
   - tools
   - wireshark
 excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026.
-image: /assets/images/posts/cybersecurity-background.png
+image: /assets/images/posts/cybersecurity-tools-for-beginners/cybersecurity-background.png
 ---
 ---
 
@@ -64,7 +64,7 @@ It looks overwhelming at first. But once you understand the basics, it becomes i
 **Platforms:** Linux, Windows, macOS  
 **Difficulty:** Beginner → Intermediate  
 
-![Wireshark Interface](/assets/images/wireshark.webp)
+![Wireshark Interface](/assets/images/posts/cybersecurity-tools-for-beginners/wireshark.webp)
 
 👉 Download from the official site: <a href = "https://www.wireshark.org/download.html" target = "_blank" rel = "noopener noreferrer">https://www.wireshark.org/download.html</a>
 
@@ -86,7 +86,7 @@ This tool shows up everywhere in cybersecurity.
 **Platforms:** Linux, Windows, macOS  
 **Difficulty:** Beginner-friendly CLI  
 
-![Nmap Terminal Scan](/assets/images/nmap.webp)
+![Nmap Terminal Scan](/assets/images/posts/cybersecurity-tools-for-beginners/nmap.webp)
 
 👉 Official download: <a href = "https://nmap.org/download.html" target = "_blank" rel = "noopener noreferrer">https://nmap.org/download.html</a>
 
@@ -108,7 +108,7 @@ Linux users often assume antivirus isn’t needed. That’s risky thinking.
 **Platforms:** Linux, Windows  
 **Difficulty:** Beginner  
 
-![ClamAV Scan](/assets/images/clamav.webp)
+![ClamAV Scan](/assets/images/posts/cybersecurity-tools-for-beginners/clamav.webp)
 
 👉 Official site: <a href = "https://www.clamav.net/downloads" target = "_blank" rel = "noopener noreferrer">https://www.clamav.net/downloads</a>
 
@@ -128,7 +128,7 @@ UFW (Uncomplicated Firewall) simplifies firewall rule management on Linux.
 **Platform:** Linux  
 **Difficulty:** Beginner  
 
-![Firewall Illustration](/assets/images/firewall.webp)
+![Firewall Illustration](/assets/images/posts/cybersecurity-tools-for-beginners/firewall.webp)
 
 👉 Official documentation: <a href = "https://help.ubuntu.com/community/UFW" target = "_blank" rel = "noopener noreferrer">https://help.ubuntu.com/community/UFW</a>
 

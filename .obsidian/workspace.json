@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2691da47d7caf068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
-            }
-          },
-          {
             "id": "41bee5cf0afe00e3",
             "type": "leaf",
             "state": {
@@ -40,9 +26,37 @@
               "icon": "lucide-trello",
               "title": "Posts_Boards"
             }
+          },
+          {
+            "id": "6d0dc0aa06e9e2fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post-drafts/2026-03-30-how-to-create-your-own-website-in-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-30-how-to-create-your-own-website-in-2026"
+            }
+          },
+          {
+            "id": "190ef75ae17ad9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,38 +218,39 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "41bee5cf0afe00e3",
+  "active": "190ef75ae17ad9b9",
   "lastOpenFiles": [
-    "post-drafts/Untitled.md",
-    "post-drafts",
-    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/icons/terminal-icon1.png",
+    "assets/images/icons/terminal-icon.png",
+    "assets/images/icons/tech-icon1.png",
+    "assets/images/icons/tech-icon.png",
+    "assets/images/icons/square-terminal.png",
+    "assets/images/icons/group-icon.png",
+    "assets/images/icons/favicon.ico",
+    "assets/images/icons/electronic.png",
+    "assets/images/icons",
     "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
-    "Posts_Boards.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+    "assets/images/posts/cybersecurity-tools-for-beginners/wireshark.webp",
+    "assets/images/posts/cybersecurity-tools-for-beginners/nmap.webp",
+    "assets/images/posts/cybersecurity-tools-for-beginners/linux terminal.png",
+    "assets/images/posts/cybersecurity-tools-for-beginners/firewall.webp",
+    "assets/images/posts/cybersecurity-tools-for-beginners",
+    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/posts/essential-programming-tools",
+    "assets/images/posts/how-to-setup-programming-env",
+    "post-drafts/2026-03-30-how-to-create-your-own-website-in-2026.md",
+    "Posts_Boards.md",
+    "categories.md",
+    "post-drafts",
     "_posts-drafts/Untitled.md",
     "_posts-drafts",
     "index.md",
     "_posts/Untitled.md",
-    "assets/images/group-icon.png",
     "assets/images/Unconfirmed 213968.crdownload",
     "_layouts/Unconfirmed 948518.crdownload",
     "assets/css/Unconfirmed 909883.crdownload",
-    "search.json",
-    "_layouts/categories.html",
-    "categories.md",
     "_layouts/categories.md",
-    "assets/images/square-terminal.png",
-    "assets/images/Unconfirmed 923395.crdownload",
-    "_layouts/post.html",
-    "assets/css/Unconfirmed 901591.crdownload",
-    "assets/images/tech-icon1.png",
-    "assets/images/tech-icon.png",
-    "assets/images/posts/top-software-development-tools.webp",
-    "assets/images/posts/cybersecurity-background.png",
-    "assets/images/posts/Coding-programming-icon.jpeg",
-    "assets/images/programming-setup.jpg",
-    "assets/images/programming-setup.jpeg",
-    "assets/images/network-security-background.webp",
     "Untitled.md",
     "about.md",
     "assets/CSS/style.css.md",
@@ -251,7 +266,6 @@
     "Univaciti notes/Presentation classes/23-02-2026.md",
     "Video Editing Guide/Videos_kanban_template.md",
     "CCNA Guide/ccna_kanban_template.md",
-    "Coding Courses/Python/Python_Learning_Kanban.md",
     "Video Editing Guide/Untitled.canvas",
     "Untitled.canvas"
   ]

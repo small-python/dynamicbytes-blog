@@ -11,7 +11,7 @@ tags:
   - vscode
   - terminal
 excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026.
-image: /assets/images/posts/Coding-programming-icon.jpeg
+image: /assets/images/posts/how-to-setup-programming-env/Coding-programming-icon.jpeg
 ---
 
 _Last Updated: 2026_
@@ -80,7 +80,8 @@ Your editor becomes:
 
 Choosing a stable, widely supported editor ensures you won’t outgrow it.
 
-![VS Code open with a simple Python file](/assets/images/python-file-running-on-vscode.png)
+![VS Code open with a simple Python file](/assets/images/posts/how-to-setup-programming-env/python-file-running-on-vscode.png)
+
 
 ---
 
@@ -195,7 +196,8 @@ sudo apt install python3
 
 You’re learning how environments behave.
 
-![Terminal showing python version](/assets/images/terminal-showing-python-version.png)
+![Terminal showing python version](/assets/images/posts/how-to-setup-programming-env/terminal-showing-python-version.png)
+
 
 ---
 
@@ -273,7 +275,8 @@ clear
 cls
 ```
 
-![Terminal navigation example](/assets/images/terminal-example.png)
+![Terminal navigation example](/assets/images/posts/how-to-setup-programming-env/terminal-example.png)
+
 
 ---
 
@@ -339,7 +342,7 @@ project-name/
 ```
 Separation of concerns. Reusable components. Professional organization.
 
-![Organized project structure](/assets/images/folder-structure-in-file-explorer.png)
+![Organized project structure](/assets/images/posts/how-to-setup-programming-env/folder-structure-in-file-explorer.png)
 
 ---
 ## Step 6: Add Basic Security Awareness
