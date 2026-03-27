@@ -13,7 +13,7 @@ tags:
 excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026.
 image: /assets/images/posts/Coding-programming-icon.jpeg
 ---
-
+%% Impact-Site-Verification: c5eca3f1-ee3f-4dfd-b874-53d4bed59132 %%
 _Last Updated: 2026_
 
 ---

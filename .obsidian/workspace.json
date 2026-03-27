@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
+                "file": "_posts/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
+              "title": "Untitled"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,8 +198,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2691da47d7caf068",
+  "active": "d1b199bd6c81892e",
   "lastOpenFiles": [
+    "index.md",
+    "_posts/Untitled.md",
+    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "assets/images/group-icon.png",
     "assets/images/Unconfirmed 213968.crdownload",
     "_layouts/Unconfirmed 948518.crdownload",
@@ -213,10 +217,8 @@
     "assets/images/Unconfirmed 923395.crdownload",
     "_layouts/post.html",
     "assets/css/Unconfirmed 901591.crdownload",
-    "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_layouts/default.html",
     "_layouts/home.html",
-    "index.md",
     "assets/images/tech-icon1.png",
     "assets/images/tech-icon.png",
     "assets/images/posts/top-software-development-tools.webp",
@@ -225,7 +227,6 @@
     "assets/images/programming-setup.jpg",
     "assets/images/programming-setup.jpeg",
     "assets/images/network-security-background.webp",
-    "assets/images/cyber-security-background-6gjvwb3kflkj0y58.png",
     "Untitled.md",
     "about.md",
     "assets/CSS/style.css.md",
