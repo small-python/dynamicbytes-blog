@@ -64,5 +64,22 @@
       ],
       "key": "N"
     }
+  ],
+  "obsidian-text-format:capitalize-sentence": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F3"
+    }
+  ],
+  "obsidian-text-format:capitalize-word": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F3"
+    }
   ]
 }

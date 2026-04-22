@@ -11,34 +11,10 @@
             "id": "41bee5cf0afe00e3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Posts_Boards.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Posts_Boards"
-            }
-          },
-          {
-            "id": "6d0dc0aa06e9e2fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "post-drafts/2026-03-30-how-to-create-your-own-website-in-2026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-03-30-how-to-create-your-own-website-in-2026"
+              "title": "New tab"
             }
           },
           {
@@ -47,16 +23,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+                "file": "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026"
+              "title": "2026-02-10-best-free-cybersecurity-tools-for-beginners"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,36 +196,37 @@
   },
   "active": "190ef75ae17ad9b9",
   "lastOpenFiles": [
-    "assets/images/icons/terminal-icon1.png",
-    "assets/images/icons/terminal-icon.png",
-    "assets/images/icons/tech-icon1.png",
-    "assets/images/icons/tech-icon.png",
-    "assets/images/icons/square-terminal.png",
-    "assets/images/icons/group-icon.png",
-    "assets/images/icons/favicon.ico",
-    "assets/images/icons/electronic.png",
-    "assets/images/icons",
-    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
+    "assets/images/posts/how-to-create-website/wireframe-sketch.jpeg",
+    "assets/images/posts/how-to-create-website/Unconfirmed 601113.crdownload",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
-    "assets/images/posts/cybersecurity-tools-for-beginners/wireshark.webp",
-    "assets/images/posts/cybersecurity-tools-for-beginners/nmap.webp",
-    "assets/images/posts/cybersecurity-tools-for-beginners/linux terminal.png",
-    "assets/images/posts/cybersecurity-tools-for-beginners/firewall.webp",
-    "assets/images/posts/cybersecurity-tools-for-beginners",
-    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
-    "assets/images/posts/essential-programming-tools",
-    "assets/images/posts/how-to-setup-programming-env",
-    "post-drafts/2026-03-30-how-to-create-your-own-website-in-2026.md",
     "Posts_Boards.md",
+    "post-drafts/OS_switch.md",
+    "post-drafts/2026-03-30-how-to-create-your-own-website-in-2026.md",
+    "assets/images/posts/how-to-create-website/wordpress.jpg",
+    "assets/images/posts/how-to-create-website/wordpres.jpg",
+    "assets/images/posts/how-to-create-website/Unconfirmed 503493.crdownload",
+    "assets/images/posts/how-to-create-website/code.jpg",
+    "assets/images/posts/how-to-create-website/Unconfirmed 757436.crdownload",
+    "assets/images/posts/how-to-create-website/paths.webp",
+    "assets/images/posts/how-to-create-website/Unconfirmed 812787.crdownload",
+    "assets/images/posts/how-to-create-website/web2.png",
+    "assets/images/posts/how-to-create-website/Unconfirmed 876571.crdownload",
+    "assets/images/posts/how-to-create-website/how-websites-work.avif",
+    "assets/images/posts/how-to-create-website/Unconfirmed 49558.crdownload",
+    "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
+    "assets/images/posts/how-to-create-website/web3.webp",
+    "assets/images/posts/how-to-create-website/Unconfirmed 707301.crdownload",
+    "assets/images/posts/how-to-create-website/web1.webp",
+    "assets/images/posts/how-to-create-website/Unconfirmed 172581.crdownload",
+    "assets/images/posts/how-to-create-website/web.jpeg",
+    "assets/images/posts/how-to-create-website/Unconfirmed 186769.crdownload",
+    "assets/images/posts/how-to-create-website",
+    "assets/images/icons/terminal-icon1.png",
+    "_posts/2026-02-17-essential-free-programming-tools-in-2026.md",
     "categories.md",
-    "post-drafts",
     "_posts-drafts/Untitled.md",
-    "_posts-drafts",
     "index.md",
     "_posts/Untitled.md",
-    "assets/images/Unconfirmed 213968.crdownload",
-    "_layouts/Unconfirmed 948518.crdownload",
-    "assets/css/Unconfirmed 909883.crdownload",
     "_layouts/categories.md",
     "Untitled.md",
     "about.md",
@@ -265,7 +242,6 @@
     "Video Editing Guide/Video Ideas.md",
     "Univaciti notes/Presentation classes/23-02-2026.md",
     "Video Editing Guide/Videos_kanban_template.md",
-    "CCNA Guide/ccna_kanban_template.md",
     "Video Editing Guide/Untitled.canvas",
     "Untitled.canvas"
   ]
