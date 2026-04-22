@@ -165,6 +165,7 @@ You write the actual code for your site. Every element, every style, every behav
 - Steep learning curve if you're brand new
 - Takes longer to get something live initially
 - You handle your own server maintenance.
+
 ---
 ### Path B: WordPress (No-Code Route)
 
@@ -186,6 +187,7 @@ You use WordPress as your CMS - pick a theme, install plugins, and build your si
 - Plugin bloat can slow your site down significantly
 - Monthly costs are higher than a self-hosted coded site
 - You're dependent on WordPress's ecosystem.
+
 ---
 ### ⚖️  Comparison Table
 
@@ -204,9 +206,9 @@ You use WordPress as your CMS - pick a theme, install plugins, and build your si
 Neither path is objectively better - it depends entirely on what you're building and how much you want to learn along the way. Both paths end at the same destination: a live website on the internet with your name on it.
 
 ---
-## Walk-through
+## WALK-THROUGH
 
-We'll walk through both paths step by step — what to do, where to do it, and why each step matters.
+We'll walk through both paths step by step - what to do, where to do it, and why each step matters.
 
 ---
 ## Path A: Code It Yourself
@@ -707,4 +709,3 @@ If this guide helped you, consider sharing it with someone who's been saying "I 
 Have questions? Drop them in the comments below or come find us on Telegram and Discord via the links in the footer - we're always happy to help.
 
 ---
-Was this guide helpful? Share it with someone who needs it. ↓
