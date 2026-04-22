@@ -19,6 +19,7 @@ excerpt: A fully detailed step-by-step guide to building and hosting your own we
 image: /assets/images/posts/how-to-create-website/web3.jpeg
 
 ---
+---
 
 > This post is to guide on how to build and set up a website from the very beginning (writing the full code of the website or using a website builder) to the very end (hosting it using a hosting provider or a Virtual Private Server - VPS)
 ---
@@ -123,7 +124,9 @@ CMS platforms come in different flavors depending on how much control you want a
 
 ---
 
+
 > 💡 **Quick note on WordPress.com vs WordPress.org:** They sound the same but they're not. WordPress.com is a hosted, managed platform - you sign up and go. WordPress.org is the free, open-source software you download and install on your own hosting server. Most serious websites use WordPress.org for the extra control it gives you. We'll cover both in this guide.
+
 ---
 
 ### 🧱 HTML, CSS, and JavaScript
