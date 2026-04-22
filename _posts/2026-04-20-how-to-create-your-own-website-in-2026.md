@@ -22,6 +22,7 @@ image: /assets/images/posts/how-to-create-website/web3.jpeg
 ---
 
 > This post is to guide on how to build and set up a website from the very beginning (writing the full code of the website or using a website builder) to the very end (hosting it using a hosting provider or a Virtual Private Server - VPS)
+
 ---
 
 So you want a **website**. Maybe you have a business idea, a portfolio to show off, a blog that the world _desperately_ needs to read, or perhaps you just want your own corner of the internet that isn't at the mercy of some algorithm. Whatever the reason - **you're in the right place.**
