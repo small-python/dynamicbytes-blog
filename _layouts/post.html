@@ -13,6 +13,16 @@ layout: default
     z-index: 9999;
     transition: width 0.1s linear;
   }
+
+  .post-hero-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--border, #2a2a2a);
+    display: block;
+    margin: 1.5rem 0 0 0;
+  }
 </style>
 
 <div id="progress-bar"></div>
@@ -35,6 +45,15 @@ layout: default
         {% endif %}
       </span>
     </div>
+
+    {% if page.image %}
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.title | escape }}"
+        class="post-hero-image"
+        loading="lazy"
+      >
+    {% endif %}
   </header>
 
   <div class="post-content">
