@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-04-20-how-to-create-your-own-website-in-2026.md",
+                "file": "_posts/2026-04-23-how-to-switch-os-from-windows-to-linux-in-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-20-how-to-create-your-own-website-in-2026"
+              "title": "2026-04-23-how-to-switch-os-from-windows-to-linux-in-2026"
             }
           }
         ],
@@ -194,12 +194,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9209b883fa0f0bfa",
+  "active": "155909cd0507f9b2",
   "lastOpenFiles": [
-    "_posts/2026-04-25-how-to-switch-os-from-windows-to-linux-in-2026.md",
+    "_posts/2026-04-20-how-to-create-your-own-website-in-2026.md",
+    "assets/images/posts/how-to-create-website/web3.jpeg",
+    "_posts/2026-04-23-how-to-switch-os-from-windows-to-linux-in-2026.md",
     "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md",
     "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md",
-    "_posts/2026-04-20-how-to-create-your-own-website-in-2026.md",
     "assets/images/posts/windows-to-linux/cover.png",
     "assets/images/posts/windows-to-linux/Unconfirmed 89793.crdownload",
     "assets/images/posts/windows-to-linux",
@@ -222,7 +223,6 @@
     "assets/images/posts/how-to-create-website/Unconfirmed 49558.crdownload",
     "assets/images/posts/how-to-create-website/web3.webp",
     "assets/images/posts/how-to-create-website/Unconfirmed 707301.crdownload",
-    "assets/images/posts/how-to-create-website/web1.webp",
     "assets/images/posts/how-to-create-website/Unconfirmed 172581.crdownload",
     "categories.md",
     "_posts-drafts/Untitled.md",
@@ -241,7 +241,6 @@
     "assets/images/github.md",
     "Univaciti notes/Java notes/23-02-2026.md",
     "Video Editing Guide/Video Ideas.md",
-    "Univaciti notes/Presentation classes/23-02-2026.md",
     "Video Editing Guide/Untitled.canvas",
     "Untitled.canvas"
   ]
