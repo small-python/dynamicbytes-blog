@@ -71,7 +71,7 @@ Before we pick a path, let's define the terms that will come up repeatedly. Thin
 ---
 ### 🌐 Domain Name
 
-A domain name is your website's address on the internet - the thing people type to reach you, something like `dynamicbytes.blog` or `yourname.com`. Without one, your site exists but nobody can find it easily (it would just be a raw IP address like `192.168.1.1`, and nobody's memorizing that).
+A domain name is your website's address on the internet which is the thing people type to reach you, something like `dynamicbytes.blog` or `yourname.com`. Without one, your site exists but nobody can find it easily (it would just be a raw IP address like `192.168.1.1`, and nobody's memorizing that).
 
 You don't _buy_ a domain forever - you _rent_ it, typically on a yearly basis, from a **domain registrar** like <a href = "https://www.namecheap.com" target = "_blank" rel = "noopener noreferrer">Namecheap</a> or others.
 
