@@ -81,5 +81,14 @@
       ],
       "key": "F3"
     }
+  ],
+  "custom-commands:custom-cmd-skip-button": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
   ]
 }

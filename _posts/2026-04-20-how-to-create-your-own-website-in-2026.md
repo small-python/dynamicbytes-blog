@@ -37,6 +37,8 @@ By the end of this guide, you'll have a working website. Let's get into it.
 
 ## What Even Is a Website?
 
+---
+
 At its most basic level, a website is just a collection of files sitting on a computer somewhere in the world - a computer that never turns off and is connected to the internet. When someone types your URL into their browser, their computer sends a request to that remote computer, which then sends back your files, and the browser renders them into the page you see on screen.
 
 That's it. No magic. Just files, computers, and the internet.
@@ -53,6 +55,9 @@ When someone visits your site, they're essentially asking: "Hey, can you send me
 
 ---
 ## Why You Should Own Your Website
+
+---
+
 Before we get into the how, let's quickly cover the _why_ - because if you're going to invest time into this, it's worth knowing what you're getting.
 
 - **You own it:** Unlike a social media profile that can be suspended, shadow-banned, or deleted by a platform's policy change on a Tuesday afternoon, your website belongs to you. The content, the audience, the data - all yours.
@@ -125,7 +130,6 @@ CMS platforms come in different flavors depending on how much control you want a
 
 ---
 
-
 > 💡 **Quick note on WordPress.com vs WordPress.org:** They sound the same but they're not. WordPress.com is a hosted, managed platform - you sign up and go. WordPress.org is the free, open-source software you download and install on your own hosting server. Most serious websites use WordPress.org for the extra control it gives you. We'll cover both in this guide.
 
 ---
@@ -146,6 +150,7 @@ Now that the vocabulary lesson is out of the way, here's the decision you need t
 
 ![Side-by-side illustration of the two paths: code and WordPress](/assets/images/posts/how-to-create-website/the-paths.png)
 
+---
 ### Path A: Code It Yourself (HTML/CSS/JS + VPS)
 
 You write the actual code for your site. Every element, every style, every behavior - you built it. You then deploy it to a VPS where you configure the server yourself.
