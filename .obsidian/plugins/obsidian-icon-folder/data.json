@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiArticleFill",
       "LiKanbanSquare",
       "SiCss3",
       "LiHome",
-      "LiImage",
-      "CoFolder"
+      "LiImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -76,5 +76,6 @@
   "_posts/2026-02-10-best-free-cybersecurity-tools-for-beginners.md": "RiArticleFill",
   "_posts/2026-02-17-essential-free-programming-tools-in-2026.md": "RiArticleFill",
   "_posts/2026-02-26-how-to-easily-setup-a-good-beginner-programming-environment-in-2026.md": "RiArticleFill",
-  "_includes": "LiFolder"
+  "_includes": "LiFolder",
+  "_posts/2026-04-20-how-to-create-your-own-website-in-2026.md": "RiArticleFill"
 }

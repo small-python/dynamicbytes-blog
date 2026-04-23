@@ -71,7 +71,7 @@ Before we pick a path, let's define the terms that will come up repeatedly. Thin
 ---
 ### 🌐 Domain Name
 
-A domain name is your website's address on the internet — the thing people type to reach you, like `dynamicbytes.blog` or `yourname.com`. Without one, your site exists but nobody can find it easily (it would just be a raw IP address like `192.168.1.1`, and nobody's memorizing that).
+A domain name is your website's address on the internet - the thing people type to reach you, something like `dynamicbytes.blog` or `yourname.com`. Without one, your site exists but nobody can find it easily (it would just be a raw IP address like `192.168.1.1`, and nobody's memorizing that).
 
 You don't _buy_ a domain forever - you _rent_ it, typically on a yearly basis, from a **domain registrar** like <a href = "https://www.namecheap.com" target = "_blank" rel = "noopener noreferrer">Namecheap</a> or others.
 
@@ -210,8 +210,11 @@ Neither path is objectively better - it depends entirely on what you're building
 
 We'll walk through both paths step by step - what to do, where to do it, and why each step matters.
 
+Now choose your path:
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap;"> <a href="#code-it-yourself" style="display: inline-block; background-color: #1e293b; color: #38bdf8; border: 2px solid #38bdf8; padding: 0.65rem 1.3rem; border-radius: 6px; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 0.88rem;">Take me to Path A →</a> <a href="#wordpress" style="display: inline-block; background-color: #38bdf8; color: #0f172a; border: 2px solid #38bdf8; padding: 0.65rem 1.3rem; border-radius: 6px; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 0.88rem; font-weight: bold;">Take me to Path B →</a> </div>
+
 ---
-## Path A: Code It Yourself
+<h2 id="code-it-yourself">Path A: Code It Yourself</h2>
 
 Let's walk through the full process of building and deploying a hand-coded website from scratch.
 
@@ -228,7 +231,7 @@ Before writing a single line of code, spend 20 minutes answering these questions
 - Do you need a contact form? A gallery? A blog?
 
 Sketch out a rough wireframe - even on paper. Think of it as the blueprint before you start building. You wouldn't construct a house and figure out where the rooms go as you go along.
-![Example website wireframe sketch](/assets/images/posts/how-to-create-a-website/wireframe-sketch.jpeg)
+![Example website wireframe sketch](/assets/images/posts/how-to-create-website/wireframe-sketch.jpeg)
 *A rough wireframe - it doesn't need to be perfect, just needs to exist.*
 
 ---
@@ -558,7 +561,7 @@ CONGRATULATIONS! After following the steps above properly and setting everything
 
 ---
 
-## Path B: WordPress (No-Code Route)
+<h2 id="wordpress">Path B: WordPress (No-Code Route)</h2>
 
 If Path A is building your own house from materials, Path B is buying a prefabricated house and customizing the interior. You're not writing code - you're using a visual interface to create and manage your site, and WordPress takes care of the structure underneath.
 
@@ -708,4 +711,3 @@ If this guide helped you, consider sharing it with someone who's been saying "I 
 
 Have questions? Drop them in the comments below or come find us on Telegram and Discord via the links in the footer - we're always happy to help.
 
----
