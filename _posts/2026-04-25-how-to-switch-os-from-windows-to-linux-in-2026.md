@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Switch OS from Windows to Linux in 2026: A Developer's Guide"
-date: 2026-04-23
+date: 2026-04-25
 categories:
   - Linux
   - Tutorials
@@ -103,10 +103,10 @@ Here's a look at the most notable ones:
 | **Linux Mint** | `apt`           | High       | ⭐⭐⭐⭐⭐       | Windows switchers, very familiar UI       |
 | **Fedora**     | `dnf`           | Medium     | ⭐⭐⭐⭐        | Developers who want cutting-edge packages |
 | **Pop!_OS**    | `apt`           | High       | ⭐⭐⭐⭐        | Developers, excellent hardware support    |
-| **Debian**     | `apt`           | Very High  | ⭐⭐⭐         | Stability-first users, servers            |
-| **Arch Linux** | `pacman`        | Varies     | ⭐⭐          | Advanced users who want full control      |
 | **Kali Linux** | `apt`           | Medium     | ⭐⭐⭐         | Cybersecurity professionals               |
+| **Debian**     | `apt`           | Very High  | ⭐⭐⭐         | Stability-first users, servers            |
 | **openSUSE**   | `zypper`        | High       | ⭐⭐⭐         | Enterprise/professional use               |
+| **Arch Linux** | `pacman`        | Varies     | ⭐⭐          | Advanced users who want full control      |
 
 This isn't an exhaustive list. There are hundreds of distros, but it gives you a picture of the landscape.
 
@@ -136,6 +136,58 @@ For the rest of this guide, we'll be using **Ubuntu 24.04 LTS** (Noble Numbat) -
 ![Ubuntu 24.04 LTS GNOME desktop environment on first boot](/assets/images/posts/windows-to-linux/ubuntu-desktop.png)
 
 >**One more piece of advice: don't distro-hop.** It's tempting to try Fedora one week, Arch the next, and Pop!_OS after that. Resist it. Pick Ubuntu, learn it properly, and switch later if you have a genuine reason to. Distro-hopping is how beginners spend months setting up systems instead of actually learning to use them.
+
+---
+
+## Should You Switch? An Honest Checklist
+
+You've read through what Linux is, why it's worth it, and what the friction points actually look like. Now. Honestly. Are you ready?
+
+Tick every statement that's true for you:
+
+<div style="background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0;"> <p style="color: #94a3b8; margin-top: 0; margin-bottom: 1.1rem; font-size: 0.88rem; font-family: 'Inter', sans-serif;">Check every item that applies to you - your result appears automatically at the bottom.</p> <div id="switch-checklist">
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I'm comfortable Googling error messages and reading documentation when things break.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I don't depend on any Windows-only software that has no Linux alternative — or I'm willing to find one.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I'm okay investing a weekend (or a few evenings) setting up my environment from scratch.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I've used a terminal at least a few times before and I didn't completely hate it.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I want more control over my operating system — I'd rather configure things myself than have them decided for me.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I'm willing to learn new ways of doing familiar things, even if it's frustrating at first.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>Performance and developer tooling matter more to me than a familiar-looking UI.</span>
+</label>
+
+<label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
+  <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
+  <span>I've backed up (or I'm about to back up) all my important files before making any changes.</span>
+</label>
+
+</div> <div id="checklist-result" style="margin-top: 1.25rem; padding: 1rem 1.1rem; border-radius: 6px; display: none; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.5;"></div> </div> <script> (function () { var checkboxes = document.querySelectorAll('.switch-check'); var result = document.getElementById('checklist-result'); var total = checkboxes.length; function updateResult() { var checked = document.querySelectorAll('.switch-check:checked').length; result.style.display = 'block'; if (checked === total) { result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#052e16; border:1px solid #16a34a; color:#86efac; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;'; result.innerHTML = '&#x2705; <strong>' + checked + '/' + total + '</strong> &mdash; Okay okay, you actually came prepared. Respect. Go wipe that drive before you overthink it.'; } else if (checked >= 6) { result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#0c2340; border:1px solid #38bdf8; color:#7dd3fc; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;'; result.innerHTML = '&#x1F44D; <strong>' + checked + '/' + total + '</strong> &mdash; Not bad. A few gaps but nothing the first week won\'t sort out. You\'ve got this &mdash; probably.'; } else if (checked >= 4) { result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#1c1a07; border:1px solid #ca8a04; color:#fde047; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;'; result.innerHTML = '&#x26A0;&#xFE0F; <strong>' + checked + '/' + total + '</strong> &mdash; Look, we\'re not judging... but dual boot might be your best friend right now. Start there, work your way up.'; } else { result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#1f0707; border:1px solid #dc2626; color:#fca5a5; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;'; result.innerHTML = '&#x1F6D1; <strong>' + checked + '/' + total + '</strong> &mdash; Hey, the guide isn\'t going anywhere. Finish reading, come back to this, and give it another shot. No rush.'; } } for (var i = 0; i < checkboxes.length; i++) { checkboxes[i].addEventListener('change', updateResult); } })(); </script>
 
 ---
 
@@ -302,7 +354,8 @@ On startup, you'll now see the **GRUB bootloader** - a menu that lets you choose
 
 ![GRUB bootloader menu showing Ubuntu and Windows Boot Manager options on startup](/assets/images/posts/windows-to-linux/grub-bootloader.png)
 
-Welcome to Ubuntu. Head to the [First Things First](#first-things-first----setting-up-your-dev-environment) section below to start setting up.
+Welcome to Ubuntu. Head to the **First things First** section below to start setting up.
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap;"> <a href="#first-things-first" style="display: inline-block; background-color: #1e293b; color: #38bdf8; border: 2px solid #38bdf8; padding: 0.65rem 1.3rem; border-radius: 6px; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 0.88rem;">Fast Travel to the Section ➡️</a> </div>
 
 ---
 
@@ -540,7 +593,7 @@ On Windows, you download a `.exe` and click through an installer wizard. On Linu
 ```bash
 sudo apt install [package-name]     # Install a package
 sudo apt remove [package-name]      # Remove a package
-sudo apt purge [package-name]       # Purge a package and its data  
+sudo apt purge [package-name]       # Purge a package and its data along with it
 sudo apt update                     # Refresh available package lists
 sudo apt upgrade                    # Update all installed packages
 sudo apt autoremove                 # Clean up unused dependencies
@@ -555,94 +608,6 @@ sudo snap install [package-name]               # Install a Snap
 flatpak install flathub [package-name]         # Install a Flatpak (install flatpak first)
 ```
 
----
-
-## Should You Switch? An Honest Checklist
-
-You've read through what Linux is, how to install it, and what's different. Now. Honestly. Are you ready?
-
-Tick every statement that's true for you:
-
-<div style="background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0;">
-  <p style="color: #94a3b8; margin-top: 0; margin-bottom: 1.1rem; font-size: 0.88rem; font-family: 'Inter', sans-serif;">Check every item that applies to you - your result appears automatically at the bottom.</p>
-
-  <div id="switch-checklist">
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I'm comfortable Googling error messages and reading documentation when things break.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I don't depend on any Windows-only software that has no Linux alternative — or I'm willing to find one.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I'm okay investing a weekend (or a few evenings) setting up my environment from scratch.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I've used a terminal at least a few times before and I didn't completely hate it.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I want more control over my operating system — I'd rather configure things myself than have them decided for me.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I'm willing to learn new ways of doing familiar things, even if it's frustrating at first.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>Performance and developer tooling matter more to me than a familiar-looking UI.</span>
-    </label>
-
-    <label style="display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 0.9rem; cursor: pointer; color: #e2e8f0; font-size: 0.95rem; line-height: 1.5;">
-      <input type="checkbox" class="switch-check" style="margin-top: 3px; accent-color: #38bdf8; width: 16px; height: 16px; flex-shrink: 0;">
-      <span>I've backed up (or I'm about to back up) all my important files before making any changes.</span>
-    </label>
-
-  </div>
-
-  <div id="checklist-result" style="margin-top: 1.25rem; padding: 1rem 1.1rem; border-radius: 6px; display: none; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.5;"></div>
-</div>
-
-<script>
-(function () {
-  var checkboxes = document.querySelectorAll('.switch-check');
-  var result = document.getElementById('checklist-result');
-  var total = checkboxes.length;
-
-  function updateResult() {
-    var checked = document.querySelectorAll('.switch-check:checked').length;
-    result.style.display = 'block';
-
-    if (checked === total) {
-      result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#052e16; border:1px solid #16a34a; color:#86efac; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;';
-      result.innerHTML = '&#x2705; <strong>' + checked + '/' + total + '</strong> &mdash; You\'re ready. Stop reading and start installing.';
-    } else if (checked >= 6) {
-      result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#0c2340; border:1px solid #38bdf8; color:#7dd3fc; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;';
-      result.innerHTML = '&#x1F44D; <strong>' + checked + '/' + total + '</strong> &mdash; You\'re mostly ready. Go for it &mdash; the gaps will close as you go.';
-    } else if (checked >= 4) {
-      result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#1c1a07; border:1px solid #ca8a04; color:#fde047; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;';
-      result.innerHTML = '&#x26A0;&#xFE0F; <strong>' + checked + '/' + total + '</strong> &mdash; Almost there. Address the unchecked items before you commit to a full wipe.';
-    } else {
-      result.style.cssText = 'display:block; margin-top:1.25rem; padding:1rem 1.1rem; border-radius:6px; background:#1f0707; border:1px solid #dc2626; color:#fca5a5; font-family:Inter,sans-serif; font-size:0.95rem; line-height:1.5;';
-      result.innerHTML = '&#x1F6D1; <strong>' + checked + '/' + total + '</strong> &mdash; Not quite ready yet. Work through a bit more of this guide, then come back to this.';
-    }
-  }
-
-  for (var i = 0; i < checkboxes.length; i++) {
-    checkboxes[i].addEventListener('change', updateResult);
-  }
-})();
-</script>
 
 ---
 
@@ -722,7 +687,7 @@ Take time to actually learn it. Start with these:
 - **Text processing:** `grep`, `awk`, `sed`, `cat`, `less`, `head`, `tail`
 - **Process management:** `ps`, `top`, `htop`, `kill`, `jobs`, `bg`, `fg`
 - **Networking:** `curl`, `wget`, `ping`, `ss`, `netstat`, `nmap`
-- **Piping and redirection:** `|`, `>`, `>>`, `<` — chaining commands together
+- **Piping and redirection:** `|`, `>`, `>>`, `<` - chaining commands together
 
 A resource worth working through: <a href = "https://linuxcommand.org/tlcl.php" target = "_blank" rel = "noopener noreferrer">The Linux Command Line</a> by William Shotts which is free to read online and one of the best Linux references for beginners.
 
@@ -745,9 +710,9 @@ Understanding what's happening under the hood makes you a significantly better d
 
 If you want to dramatically speed up your keyboard-driven workflow, try a **tiling window manager**. Instead of dragging and resizing windows manually, everything tiles automatically meaning no overlaps, no wasted screen real estate, no mouse required for layout.
 
-- **i3** — keyboard-driven, well-documented, the most popular starting point
-- **Sway** — like i3 but for Wayland (the display server that Ubuntu 24.04 uses by default)
-- **bspwm** — flexible and scriptable, popular among power users
+- **i3** - keyboard-driven, well-documented, the most popular starting point
+- **Sway** - like i3 but for Wayland (the display server that Ubuntu 24.04 uses by default)
+- **bspwm** - flexible and scriptable, popular among power users
 
 Fair warning: the initial setup takes time and there's a learning curve. But once it clicks, going back to dragging windows around feels like moving furniture by hand.
 
