@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Switch OS from Windows to Linux in 2026: A Developer's Guide"
-date: 2026-04-26T17:00:00
+date: 2026-04-25
 categories:
   - Linux
   - Tutorials
