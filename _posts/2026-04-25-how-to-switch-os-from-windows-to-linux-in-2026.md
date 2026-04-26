@@ -15,7 +15,7 @@ tags:
   - installation
   - open-source
 author: small-python
-excerpt: Switching from Windows to Linux is one of the best decisions a developer can make - but it's not a light switch. Here's everything you need to know before, during, and after the switch.
+excerpt: Switching from Windows to Linux is one of the best decisions a developer can make. Here's everything you need to know before, during, and after the switch.
 image: /assets/images/posts/windows-to-linux/cover.png
 ---
 ---
