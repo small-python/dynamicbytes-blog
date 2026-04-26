@@ -414,7 +414,7 @@ No bootloader menu. No Windows prompt. Your machine boots straight into Ubuntu.
 
 ---
 
-## First Things First - Setting Up Your Dev Environment
+<h2 id="first-things-first">First Things First - Setting Up Your Dev Environment</h2>
 
 Fresh desktop. Blinking cursor. Now what?
 
