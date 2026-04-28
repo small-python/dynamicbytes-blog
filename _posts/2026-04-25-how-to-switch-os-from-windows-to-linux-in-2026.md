@@ -18,7 +18,6 @@ author: small-python
 excerpt: Switching from Windows to Linux is one of the best decisions a developer can make. Here's everything you need to know before, during, and after the switch.
 image: /assets/images/posts/windows-to-linux/cover.png
 ---
----
 
 Somewhere between your third Windows Update forcing a restart mid-work and realising your RAM is half-occupied before you've even opened a browser, a thought crosses your mind: _there has to be a better way._
 
@@ -695,7 +694,7 @@ A resource worth working through: <a href = "https://linuxcommand.org/tlcl.php" 
 
 Once you're comfortable with the terminal, start automating things. Shell scripting lets you chain commands, automate repetitive tasks, and build tools specific to your own workflow.
 
-Start small with a script that backs up your dotfiles, one that sets up VS Code extensions on a fresh install, one that pulls all your GitHub repos at once. The habit of automating tedious tasks is a genuine developer superpower, and Linux is where it becomes natural.
+Start small with a script that backs up your dotfiles, one that sets up VS Code extensions on a fresh install, one that pulls all your GitHub repos at once. The habit of automating tedious tasks is a genuine developer superpower, and Linux is where it becomes natural. Ready to start? We have a full beginner's guide to get you going: [Bash Scripting for Beginners in 2026: Automate Your Linux Workflow](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/)
 
 ### 3. Learn How the System Works
 
