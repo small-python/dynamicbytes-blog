@@ -289,7 +289,7 @@ img {
   overflow-wrap: break-word;
 }
 
-/* Inline code */
+/* Inline code — FIX: no breaking */
 .post-content code {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85em;
@@ -298,7 +298,9 @@ img {
   padding: 2px 6px;
   border-radius: 4px;
   color: var(--accent-orange);
-  word-break: break-all;
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 /* Code blocks */
@@ -328,6 +330,7 @@ img {
   font-family: 'JetBrains Mono', monospace;
   word-break: normal;
   overflow-wrap: normal;
+  white-space: pre;
 }
 
 pre:not(.highlight) {
@@ -346,6 +349,9 @@ pre:not(.highlight) code {
   color: #00ff41;
   font-size: 0.88rem;
   font-family: 'JetBrains Mono', monospace;
+  white-space: pre;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .post-content blockquote {
@@ -372,6 +378,7 @@ pre:not(.highlight) code {
   margin: 2rem 0;
 }
 
+/* Tables — FIX: no word breaking */
 .post-content table {
   width: 100%;
   border-collapse: collapse;
@@ -388,12 +395,17 @@ pre:not(.highlight) code {
   border: 1px solid var(--border);
   text-align: left;
   white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 .post-content table td {
   padding: 0.6rem 1rem;
   border: 1px solid var(--border);
   color: var(--text-muted);
+  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 .post-content table tr:hover td { background: var(--surface); }
@@ -685,7 +697,7 @@ pre:not(.highlight) code {
   text-align: center;
 }
 
-/* ── Related Posts ── */
+/* ── Related Posts — FIX: consistent fonts ── */
 .related-posts {
   margin-top: 3rem;
   padding-top: 2rem;
@@ -722,6 +734,15 @@ pre:not(.highlight) code {
   transform: translateY(-2px);
 }
 
+.related-post-card .post-category {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-green);
+  margin-bottom: 0.4rem;
+}
+
 .related-post-title {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.88rem;
@@ -729,6 +750,15 @@ pre:not(.highlight) code {
   line-height: 1.4;
   margin: 0.3rem 0 0.5rem;
   word-break: break-word;
+}
+
+.related-post-card .post-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
 }
 
 /* ── Share Buttons ── */
@@ -909,12 +939,6 @@ pre:not(.highlight) code {
   color: var(--accent);
 }
 
-@media (max-width: 600px) {
-  .error-code { font-size: 5rem; }
-  .error-title { font-size: 1.4rem; }
-  .error-actions { flex-direction: column; align-items: center; }
-}
-
 /* ── Newsletter ── */
 .newsletter-wrapper {
   margin-top: 3rem;
@@ -1001,12 +1025,6 @@ pre:not(.highlight) code {
   font-size: 0.85rem;
   color: #ff6b6b;
   margin-top: 0.75rem;
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-  .newsletter-wrapper { padding: 1.5rem 1rem; }
-  .newsletter-btn { width: 100%; }
 }
 
 /* ── Responsive — Tablet ── */
@@ -1104,4 +1122,11 @@ pre:not(.highlight) code {
     font-size: 0.75rem;
     padding: 0.4rem 0.85rem;
   }
+
+  .newsletter-wrapper { padding: 1.5rem 1rem; }
+  .newsletter-btn { width: 100%; }
+
+  .error-code { font-size: 5rem; }
+  .error-title { font-size: 1.4rem; }
+  .error-actions { flex-direction: column; align-items: center; }
 }
