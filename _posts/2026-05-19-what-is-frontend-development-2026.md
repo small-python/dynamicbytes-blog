@@ -531,6 +531,8 @@ If you're not fully set up on Linux yet, the [Windows to Linux guide](https://dy
 
 
 
-
+---
 
 _For questions, project feedback, or just showing off something you built - the community links are in the footer._
+
+---
