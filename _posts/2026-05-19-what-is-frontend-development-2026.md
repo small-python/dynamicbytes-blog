@@ -529,4 +529,8 @@ The next step is to start - and to start small. Open a text editor, write your f
 
 If you're not fully set up on Linux yet, the [Windows to Linux guide](https://dynamicbytes.blog/switching-from-windows-to-linux/) covers everything from dual boot to a working developer environment. And if the terminal still feels unfamiliar, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-beginners-automate-linux-workflow/) is worth a look - front-end developers use the terminal far more than most beginners expect.
 
+
+
+
+
 _For questions, project feedback, or just showing off something you built - the community links are in the footer._
