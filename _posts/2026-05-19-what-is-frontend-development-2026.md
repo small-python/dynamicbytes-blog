@@ -16,7 +16,7 @@ tags:
   - Beginners
   - Roadmap
 author: small-python
-image: /assets/images/posts/frontend/hero.png
+image: /assets/images/posts/frontend/cover.png
 excerpt: "Front-end development is how the web gets built - every button, every layout, every interaction. Here's what it actually is, how HTML, CSS, and JavaScript fit together, and a complete roadmap to go from zero to job-ready in 2026."
 ---
 
