@@ -11,7 +11,7 @@ tags:
   - python
   - developer-tools
 excerpt: Essential free programming tools every beginner should install in 2026.
-image: /assets/images/posts/essential-programming-tools/top-software-development-tools.webp
+image: /assets/images/posts/essential-programming-tools/hero.png
 ---
 ---
 

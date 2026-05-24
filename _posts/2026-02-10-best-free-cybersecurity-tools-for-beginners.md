@@ -11,7 +11,7 @@ tags:
   - tools
   - wireshark
 excerpt: A beginner-friendly guide to the best free cybersecurity tools in 2026.
-image: /assets/images/posts/cybersecurity-tools-for-beginners/cybersecurity-background.png
+image: /assets/images/posts/cybersecurity-tools-for-beginners/hero.png
 ---
 ---
 

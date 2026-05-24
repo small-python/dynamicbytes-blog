@@ -16,7 +16,7 @@ tags:
   - frontend
 author: small-python
 excerpt: A fully detailed step-by-step guide to building and hosting your own website in 2026
-image: /assets/images/posts/how-to-create-website/web3.jpeg
+image: /assets/images/posts/how-to-create-website/hero.png
 
 ---
 ---

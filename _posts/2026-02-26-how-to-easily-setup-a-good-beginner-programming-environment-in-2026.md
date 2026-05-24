@@ -11,7 +11,7 @@ tags:
   - vscode
   - terminal
 excerpt: A complete step-by-step guide to setting up a clean, beginner-friendly programming environment in 2026.
-image: /assets/images/posts/how-to-setup-programming-env/Coding-programming-icon.jpeg
+image: /assets/images/posts/how-to-setup-programming-env/hero.png
 ---
 
 _Last Updated: 2026_
