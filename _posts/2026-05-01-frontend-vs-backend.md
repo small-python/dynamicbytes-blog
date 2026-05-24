@@ -85,6 +85,8 @@ On any given day, a front-end developer might:
 
 It's a role that sits at the intersection of design and engineering. You don't need to be a graphic designer, but you need to have an eye for detail, care about how things look and feel, and be comfortable thinking about the user's experience at all times.
 
+Ready to go deeper into front-end? The [front-end development guide](https://dynamicbytes.blog/what-is-frontend-development-2026/) covers everything from how HTML, CSS, and JavaScript work together to a full roadmap for getting job-ready.
+
 ---
 
 ## What Is Back-end Development?
@@ -146,6 +148,8 @@ On any given day, a back-end developer might:
 - Deploy code to a server and monitor it in production
 
 It's a role that rewards logical thinking, comfort with abstraction, and an interest in how systems are designed and connected. You don't need to care about what anything looks like - you need to care that everything *works*, scales, and stays secure.
+
+Ready to go deeper into back-end? The [back-end development guide](https://dynamicbytes.blog/how-to-get-into-backend-development-2026/) covers the full roadmap from Java fundamentals to building production-ready APIs.
 
 ---
 
@@ -400,6 +404,6 @@ If you've made it this far, you now know what front-end and back-end development
 
 Whatever side you're on, the next step is the same: start building things. Read about the tools, follow tutorials, and get something running. The answer to "which should I choose?" gets a little less vague and a lot clearer once you've actually written some code. Turns out the best way to know if you like something is to actually try it. Revolutionary, I know.
 
-If you're not fully set up on Linux yet, the [Windows to Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) covers the full setup. And if you haven't touched the terminal yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) is a solid next stop - both front-end and back-end developers live in the terminal more than you'd think.
+If you've landed on front-end, the [front-end development guide](https://dynamicbytes.blog/what-is-frontend-development-2026/) is your next stop — HTML, CSS, JavaScript, and a full roadmap to React. If you've landed on back-end, the [back-end development guide](https://dynamicbytes.blog/how-to-get-into-backend-development-2026/) covers everything from Java fundamentals to building real APIs. If you're not fully set up on Linux yet, the [Windows to Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) covers the full setup. And if you haven't touched the terminal yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) is a solid next stop - both front-end and back-end developers live in the terminal more than you'd think.
 
 _As always, if you've got questions or want to talk through the decision, the community is open — links in the footer._
