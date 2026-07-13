@@ -4,7 +4,7 @@ title: "What is Web/Front-end Development? And How to Get Into It in 2026"
 date: 2026-05-19 00:00:00 +0000
 categories:
   - Programming
-  - Tutorial
+  - Tutorials
 tags:
   - front-end
   - web-development
