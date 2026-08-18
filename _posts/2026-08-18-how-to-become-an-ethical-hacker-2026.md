@@ -19,9 +19,9 @@ image: /assets/images/posts/ethical-hacking/hero.png
 excerpt: "Ethical hacking is the art of breaking into systems legally - finding vulnerabilities before attackers do and getting paid for it. Here's what it actually takes to become one in 2026, from the legal framework to a complete roadmap and your first real hack."
 ---
 
-If you've read the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-2026/), you already know where ethical hacking sits in the broader field. This post is the left turn - the deep dive into one specific discipline for people who read the career paths section and knew immediately that offensive security was where they wanted to be.
+If you've read the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-in-2026/), you already know where ethical hacking sits in the broader field. This post is the left turn - the deep dive into one specific discipline for people who read the career paths section and knew immediately that offensive security was where they wanted to be.
 
-If you're arriving here fresh without reading the cybersecurity post first, that's completely fine. Everything you need is here. The one thing worth knowing: ethical hacking sits inside the broader discipline of cybersecurity, and if you want the full map of the field before going deep on this specific path, the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-2026/) is worth a read after this one.
+If you're arriving here fresh without reading the cybersecurity post first, that's completely fine. Everything you need is here. The one thing worth knowing: ethical hacking sits inside the broader discipline of cybersecurity, and if you want the full map of the field before going deep on this specific path, the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-in-2026/) is worth a read after this one.
 
 This post covers what ethical hacking actually is, the legal and ethical framework that separates a career from a criminal record, the methodology professionals follow, a complete roadmap, and a guided walkthrough of your first real hack on a practice machine.
 
@@ -182,7 +182,7 @@ The stages below are sequential. Ethical hacking draws on networking, Linux, pro
 
 ### Stage 1 - Foundations (6–10 weeks)
 
-Before any exploitation, the foundations need to be solid. If you've worked through the [cybersecurity post's](https://dynamicbytes.blog/how-to-get-into-cybersecurity-2026/) roadmap through Stage 3, you've already completed this stage.
+Before any exploitation, the foundations need to be solid. If you've worked through the [cybersecurity post's](https://dynamicbytes.blog/how-to-get-into-cybersecurity-in-2026/) roadmap through Stage 3, you've already completed this stage.
 
 **Networking:** TCP/IP, the OSI model, DNS, HTTP/S, ports and services, firewalls. You need to understand what's on the wire before you can attack it.
 
@@ -532,6 +532,6 @@ You've got the full picture: what ethical hacking actually is, the legal framewo
 
 The next step is to open TryHackMe, start the **Jr Penetration Tester** path, and work through the Vulnversity room using the methodology from this post rather than jumping straight to answers. The habit of working systematically - reconnaissance before scanning, scanning before exploitation, documentation throughout - is the most valuable thing you can build in the early stages.
 
-If you haven't yet covered the foundational cybersecurity concepts that underpin this roadmap, the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-2026/) covers networking fundamentals, Linux, and core security concepts in full. The [Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) and [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) are essential reading before Stage 1 of this roadmap if you're not already comfortable in the terminal.
+If you haven't yet covered the foundational cybersecurity concepts that underpin this roadmap, the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-in-2026/) covers networking fundamentals, Linux, and core security concepts in full. The [Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) and [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) are essential reading before Stage 1 of this roadmap if you're not already comfortable in the terminal.
 
 _For questions, write-up sharing, or just to talk through the path - the community links are in the footer._
