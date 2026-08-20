@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Is Network Engineering Still Worth It in 2026? (Full Career Breakdown & Roadmap)'
-date: 2026-08-21 12:20:00 +0000
+date: 2026-08-21 00:20:00 +0000
 categories:
   - Networking
   - Career
