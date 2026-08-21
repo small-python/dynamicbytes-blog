@@ -19,10 +19,10 @@ layout: default
   <!-- Posts Grid -->
   <div class="post-grid" id="categories-grid">
     {% for post in site.posts %}
-      {% assign cat_slug = post.categories[0] | slugify %}
-      <div class="post-card" data-category="{{ cat_slug }}">
-        {%- if post.categories[0] -%}
-          <div class="post-category">{{ post.categories[0] }}</div>
+      {% capture cat_slugs %}{% for cat in post.categories %}{{ cat | slugify }} {% endfor %}{% endcapture %}
+      <div class="post-card" data-category="{{ cat_slugs | strip }}">
+        {%- if post.categories.size > 0 -%}
+          <div class="post-category">{{ post.categories | join: " · " }}</div>
         {%- endif -%}
         <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
@@ -40,7 +40,8 @@ layout: default
 
     // Show/hide cards
     document.querySelectorAll('.post-card').forEach(card => {
-      if (category === 'all' || card.dataset.category === category) {
+      const cardCategories = card.dataset.category.split(' ');
+      if (category === 'all' || cardCategories.includes(category)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
