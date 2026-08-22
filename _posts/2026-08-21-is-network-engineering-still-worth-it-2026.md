@@ -20,7 +20,7 @@ excerpt: "Network engineering has been declared dead more times than any other I
 ---
 
 If you've read the [cybersecurity post](https://dynamicbytes.blog/how-to-get-into-cybersecurity-in-2026/) or the [ethical hacking post](https://dynamicbytes.blog/how-to-become-an-ethical-hacker-2026/), you've already run into networking fundamentals without necessarily thinking about them as their own discipline. Every roadmap on this blog starts with the OSI model, TCP/IP, DNS, and how packets actually move - because none of the rest works without it. This post is about the field that owns that layer professionally.
-
+&nbsp;
 "Is networking still worth it?" is a question that gets asked constantly, usually followed by some version of "isn't everything cloud now?" It's a fair question, and it deserves a straight answer instead of the usual hedge found everywhere else.
 
 This post covers what network engineering actually is in 2026, an honest look at what's changed and what hasn't, a clear verdict on whether it's worth pursuing, a complete roadmap, a lightweight home lab you can build with zero hardware, and the certifications that genuinely move the needle.
