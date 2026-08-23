@@ -66,6 +66,7 @@ Firewalls, VPNs, intrusion detection and prevention systems, network segmentatio
 Wi-Fi design, RF (radio frequency) planning, enterprise wireless deployment, and increasingly, private 5G for enterprise campuses. A smaller specialisation than the others, but a genuinely lucrative one for engineers who go deep on it - most companies underestimate how hard good wireless design actually is until they've lived with bad wireless design.
 
 **The recommendation: build routing and switching fundamentals first.** 
+
 Every other area on this list assumes you already understand how traffic actually moves. Skipping ahead to cloud networking without solid routing fundamentals is the single most common reason people stall out in this field, and it comes up again in the Common Mistakes section later in this post.
 
 ---
