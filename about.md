@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-<h1 class="page-title">About</h1>
 
 Hi, I'm Ahmad - the person writing (almost) everything you'll find on DynamicBytes, working out of Lagos, Nigeria.
 
