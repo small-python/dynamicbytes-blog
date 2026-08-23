@@ -29,6 +29,7 @@ html {
   --accent:       #58a6ff;
   --accent-green: #3fb950;
   --accent-orange: #f0883e;
+  --emphasis:     #b083f0;
   --radius:       8px;
 }
 
@@ -274,6 +275,12 @@ img {
   word-break: break-word;
   overflow-wrap: break-word;
   margin-bottom: 1.25rem;
+}
+
+.post-content strong,
+.post-content b {
+  color: var(--emphasis);
+  font-weight: 700;
 }
 
 .post-content a { color: var(--accent); }
