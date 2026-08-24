@@ -141,9 +141,9 @@ Entry-level roles are more accessible than in many other tech disciplines becaus
 
 | Level     | Nigeria (NGN/year) | Global Remote (USD/year) |
 | --------- | ------------------ | ------------------------ |
-| Junior    | ₦1.5M - ₦3.5M      | $45,000 - $75,000        |
-| Mid-level | ₦3.5M - ₦9M        | $75,000 - $130,000       |
-| Senior    | ₦9M - ₦22M+        | $130,000 - $220,000+     |
+| Junior    | ₦1.5M – ₦3.5M      | $45,000 – $75,000        |
+| Mid-level | ₦3.5M – ₦9M        | $75,000 – $130,000       |
+| Senior    | ₦9M – ₦22M+        | $130,000 – $220,000+     |
 
 > **Disclaimer:** 
 > These are directional figures - actual pay varies significantly by specialization, company size, industry, and location. Penetration testers and security engineers tend to sit at the higher end; GRC and junior SOC roles tend to sit at the lower end. Remote roles with international clients can pay significantly above local market rates.

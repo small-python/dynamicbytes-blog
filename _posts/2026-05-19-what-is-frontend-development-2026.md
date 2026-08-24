@@ -171,7 +171,7 @@ Remove any one of them and something breaks. HTML without CSS is functional but 
 
 Enough theory. Let's build something.
 
-By the end of this section you'll have a working profile card - styled, interactive, and entirely your own code. You don't need anything installed except a text editor and a browser. If you're on Linux and not set up with VS Code yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-beginners-automate-linux-workflow/) has you covered.
+By the end of this section you'll have a working profile card - styled, interactive, and entirely your own code. You don't need anything installed except a text editor and a browser. If you're on Linux and not set up with VS Code yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) has you covered.
 
 Create a folder called `profile-card` somewhere on your machine. Inside it, create three files:
 
@@ -348,7 +348,7 @@ Once you're solid with JavaScript, frameworks make building complex interfaces d
 
 These aren't a box you check - they're things you pick up progressively and get more comfortable with as you build more:
 
-- **Git & GitHub** - version control, non-negotiable. If you've been through the [Linux post](https://dynamicbytes.blog/switching-from-windows-to-linux/) or the [Bash post](https://dynamicbytes.blog/bash-scripting-beginners-automate-linux-workflow/), you've already started here.
+- **Git & GitHub** - version control, non-negotiable. If you've been through the [Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) or the [Bash post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/), you've already started here.
 - **npm** - the package manager for JavaScript. You'll use it constantly once you're working with React.
 - **Vite** - the modern build tool for front-end projects. Fast, simple, and what most new projects use today.
 - **Browser DevTools** - the developer tools built into Chrome and Firefox, Brave and any other browsers out there. Learn to inspect elements, debug JavaScript, and check what's happening with network requests. You'll use this every single day.
@@ -527,7 +527,7 @@ Curated - not exhaustive. One or two per stage, chosen because they're actually 
 
 The next step is to start - and to start small. Open a text editor, write your first HTML file, and build something. A personal page, a fake product landing page, a to-do list. The concept doesn't matter. Getting something running and seeing it in the browser is what matters.
 
-If you're not fully set up on Linux yet, the [Windows to Linux guide](https://dynamicbytes.blog/switching-from-windows-to-linux/) covers everything from dual boot to a working developer environment. And if the terminal still feels unfamiliar, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-beginners-automate-linux-workflow/) is worth a look - front-end developers use the terminal far more than most beginners expect.
+If you're not fully set up on Linux yet, the [Windows to Linux guide](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) covers everything from dual boot to a working developer environment. And if the terminal still feels unfamiliar, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) is worth a look - front-end developers use the terminal far more than most beginners expect.
 
 
 

@@ -85,9 +85,9 @@ Larger companies hire full-stack developers too, particularly at junior and mid 
 
 | Level | Nigeria (NGN/year) | Global Remote (USD/year) |
 |---|---|---|
-| Junior | ₦2.5M - ₦5M | $45,000 - $75,000 |
-| Mid-level | ₦5M - ₦10M | $75,000 - $130,000 |
-| Senior | ₦10M - ₦22M+ | $130,000 - $220,000+ |
+| Junior | ₦2.5M – ₦5M | $45,000 – $75,000 |
+| Mid-level | ₦5M – ₦10M | $75,000 – $130,000 |
+| Senior | ₦10M – ₦22M+ | $130,000 – $220,000+ |
 
 > **Disclaimer:** 
 > These are directional figures - actual pay varies by company size, industry, location, and your specific skill set. Full-stack developers at product companies and remote roles with international clients tend to sit at the higher end of these ranges.

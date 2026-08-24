@@ -24,7 +24,7 @@ If you've read the [back-end development post](https://dynamicbytes.blog/how-to-
 
 DynamicBytes covers the ground that actually matters for someone building a career in tech:
 
-- Complete, honest **career roadmaps** - cybersecurity, ethical hacking, front-end, back-end, full-stack, and more on the way
+- **Complete, honest career roadmaps** - cybersecurity, ethical hacking, front-end, back-end, full-stack, and more on the way
 - **Linux and the terminal** - because most of the industry runs on it whether you notice or not
 - **Practical tooling guides** - the stuff you actually need installed, not everything that exists
 - Straight answers to the questions people are too embarrassed to ask, like "is this career path even still worth it?"

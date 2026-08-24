@@ -228,9 +228,9 @@ Both front-end and back-end developers use:
 
 | Level     | Nigeria (NGN/year) | Global Remote (USD/year) |
 | --------- | ------------------ | ------------------------ |
-| Junior    | ₦1.5M - ₦3M        | $35,000 - $60,000        |
-| Mid-level | ₦3M - ₦7M          | $60,000 - $100,000       |
-| Senior    | ₦7M - ₦15M+        | $100,000 - $160,000+     |
+| Junior    | ₦1.5M – ₦3M        | $35,000 – $60,000        |
+| Mid-level | ₦3M – ₦7M          | $60,000 – $100,000       |
+| Senior    | ₦7M – ₦15M+        | $100,000 – $160,000+     |
 
 >**DISCLAIMER:**
 >Remote roles with international clients or companies tend to pay significantly more than local market rates. These figures are directional, while actual pay varies by company size, industry, and your specific skills.
@@ -253,9 +253,9 @@ Both front-end and back-end developers use:
 
 | Level     | Nigeria (NGN/year) | Global Remote (USD/year) |
 | --------- | ------------------ | ------------------------ |
-| Junior    | ₦2M - ₦4M          | $40,000 - $70,000        |
-| Mid-level | ₦4M - ₦9M          | $70,000 - $120,000       |
-| Senior    | ₦9M - ₦20M+        | $120,000 - $200,000+     |
+| Junior    | ₦2M – ₦4M          | $40,000 – $70,000        |
+| Mid-level | ₦4M – ₦9M          | $70,000 – $120,000       |
+| Senior    | ₦9M – ₦20M+        | $120,000 – $200,000+     |
 
 >Same caveat applies - treat these as a directional reference, not a guarantee.
 
@@ -373,9 +373,9 @@ At the end, hit the button to see your result.
     var message = '';
 
     if (feCount === 10 && beCount === 10) {
-      message = '🤯 <strong>10/10 on both sides.</strong> You\'re not just having your cake and eating it - you\'re opening a bakery. We weren\'t expecting this level of ambition, but we respect it. There\'s a post coming up that was written specifically for people like you. Stay tuned.';
+      message = '🤯 <strong>10/10 on both sides.</strong> You\'re not just having your cake and eating it - you\'re opening a bakery. We weren\'t expecting this level of ambition, but we respect it. There\'s a post specifically written for people like you. Check out the full-stack post after this.';
     } else if (feCount === beCount) {
-      message = '🍰 <strong>Oh wow, someone wants to have their cake and eat it.</strong> Honestly? We can make that happen - there\'s a whole post coming up on exactly that option. Keep an eye out.';
+      message = '🍰 <strong>Oh wow, someone wants to have their cake and eat it.</strong> Honestly? We can make that happen - there\'s a whole post on exactly that option. Check it out.';
     } else if (feCount > beCount) {
       if (feCount >= 7) {
         message = '🖥️ <strong>Front-end, no contest.</strong> You care about what people see, how they feel when they use something, and whether the details are right. That\'s a real skill. Start with HTML, CSS, and JavaScript - React can come later once you\'ve got the basics down.';
@@ -384,7 +384,7 @@ At the end, hit the button to see your result.
       }
     } else {
       if (beCount >= 7) {
-        message = '⚙️ <strong>Back-end, clear as day.</strong> You want to understand how things actually work - not just how they look. The logic, the data, the systems - that\'s where your instincts sit. Pick a language (Python is a solid starting point) and get building.';
+        message = '⚙️ <strong>Back-end, clear as day.</strong> You want to understand how things actually work - not just how they look. The logic, the data, the systems - that\'s where your instincts sit. Pick a language and get building.';
       } else {
         message = '⚙️ <strong>Leaning back-end.</strong> Something about the behind-the-scenes work is calling you, even if you\'re not fully sure yet. It\'s worth exploring - set up a simple server, poke at some data, see if it sticks.';
       }
@@ -404,6 +404,6 @@ If you've made it this far, you now know what front-end and back-end development
 
 Whatever side you're on, the next step is the same: start building things. Read about the tools, follow tutorials, and get something running. The answer to "which should I choose?" gets a little less vague and a lot clearer once you've actually written some code. Turns out the best way to know if you like something is to actually try it. Revolutionary, I know.
 
-If you've landed on front-end, the [front-end development guide](https://dynamicbytes.blog/what-is-frontend-development-2026/) is your next stop — HTML, CSS, JavaScript, and a full roadmap to React. If you've landed on back-end, the [back-end development guide](https://dynamicbytes.blog/how-to-get-into-backend-development-2026/) covers everything from Java fundamentals to building real APIs. If you're not fully set up on Linux yet, the [Windows to Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) covers the full setup. And if you haven't touched the terminal yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) is a solid next stop - both front-end and back-end developers live in the terminal more than you'd think.
+If you've landed on front-end, the [front-end development guide](https://dynamicbytes.blog/what-is-frontend-development-2026/) is your next stop — HTML, CSS, JavaScript, and a full roadmap to React. If you've landed on back-end, the [back-end development guide](https://dynamicbytes.blog/how-to-get-into-backend-development-2026/) covers everything from Java fundamentals to building real APIs. If you've gone for both option, the [full-stack development guide](https://dynamicbytes.blog/how-to-become-a-fullstack-developer-2026/) is definitely where you need to go next. If you're not fully set up on Linux yet, the [Windows to Linux post](https://dynamicbytes.blog/how-to-switch-os-from-windows-to-linux-in-2026/) covers the full setup. And if you haven't touched the terminal yet, the [Bash scripting post](https://dynamicbytes.blog/bash-scripting-for-beginners-in-2026-automate-your-linux-workflow/) is a solid next stop - both front-end and back-end developers live in the terminal more than you'd think.
 
 _As always, if you've got questions or want to talk through the decision, the community is open — links in the footer._

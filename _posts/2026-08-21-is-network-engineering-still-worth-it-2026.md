@@ -133,9 +133,9 @@ The shift in the job market isn't demand disappearing - it's in what "network en
 
 | Level     | Nigeria (NGN/year) | Global Remote (USD/year) |
 | --------- | ------------------- | ------------------------ |
-| Junior    | ₦1.8M - ₦4M          | $40,000 - $65,000        |
-| Mid-level | ₦4M - ₦8.5M          | $65,000 - $110,000       |
-| Senior    | ₦8.5M - ₦20M+        | $110,000 - $190,000+     |
+| Junior    | ₦1.8M – ₦4M          | $40,000 – $65,000        |
+| Mid-level | ₦4M – ₦8.5M          | $65,000 – $110,000       |
+| Senior    | ₦8.5M – ₦20M+        | $110,000 – $190,000+     |
 
 > **Disclaimer:**
 > These are directional figures - actual pay varies significantly by employer type, geography, certifications held, and how far into cloud/security specialisation you've moved. Engineers who stop at traditional routing and switching tend to sit toward the lower end of these ranges; engineers who've pushed into cloud networking or network security tend to sit toward the higher end, often significantly above it at senior levels.
