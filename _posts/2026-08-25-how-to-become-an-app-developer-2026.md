@@ -209,7 +209,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
 
 /* last child: no incoming line from the right */
 .dtree li:last-child::after {
-  border: none;
+  border-top: none;
 }
 
 /* first child gets its left corner squared off with the drop line */
