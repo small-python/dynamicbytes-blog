@@ -77,163 +77,163 @@ Before the roadmap, the actual decision: which branch of app development is for 
 
 The tree below maps it out. Mobile splits further into native (iOS or Android specifically) versus cross-platform (one codebase, both platforms) - that's genuinely the biggest fork in the entire field, which is why it gets its own full breakdown in the posts that follow. Desktop and web/hybrid are their own, separate branches entirely.
 
-<div class="dev-tree-wrapper">
-
-  <div class="tree-root-row">
-    <span class="tree-node root-node">App Development</span>
-  </div>
-
-  <div class="tree-trunk"></div>
-
-  <div class="tree-branches-row">
-
-    <div class="tree-branch">
-      <div class="branch-connector"></div>
-      <a href="/coming-soon/" class="tree-node branch-node">
-        Mobile Development
-        <span class="tree-badge">Coming Soon</span>
-      </a>
-
-      <div class="tree-sub-row">
-        <div class="tree-subbranch">
-          <div class="sub-connector"></div>
-          <a href="/coming-soon/" class="tree-node leaf-node">
-            iOS Development
-            <span class="tree-badge">Coming Soon</span>
+<div class="dtree-wrapper">
+  <ul class="dtree">
+    <li>
+      <span class="dtree-node dtree-node-plain">App Development</span>
+      <ul>
+        <li>
+          <a href="/coming-soon/" class="dtree-node">
+            Mobile Development
+            <span class="dtree-badge">Coming Soon</span>
           </a>
-        </div>
-        <div class="tree-subbranch">
-          <div class="sub-connector"></div>
-          <a href="/coming-soon/" class="tree-node leaf-node">
-            Android Development
-            <span class="tree-badge">Coming Soon</span>
-          </a>
-        </div>
-        <div class="tree-subbranch">
-          <div class="sub-connector"></div>
-          <a href="/coming-soon/" class="tree-node leaf-node">
-            Cross-Platform Development
-            <span class="tree-badge">Coming Soon</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="tree-branch">
-      <div class="branch-connector"></div>
-      <a href="/coming-soon/" class="tree-node branch-node">
-        Desktop App Development
-        <span class="tree-badge">Coming Soon</span>
-      </a>
-    </div>
-
-    <div class="tree-branch">
-      <div class="branch-connector"></div>
-      <a href="https://dynamicbytes.blog/frontend-vs-backend/" class="tree-node branch-node">
-        Web / Hybrid Development
-        <span class="tree-badge tree-badge-live">Read Now</span>
-      </a>
-    </div>
-
-  </div>
-
-  <p class="tree-caption">Click any branch to jump to that guide - the ones marked "Coming Soon" are next up in the pipeline.</p>
-
+          <ul>
+            <li>
+              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                Native Development
+                <span class="dtree-badge">Coming Soon</span>
+              </a>
+              <ul>
+                <li>
+                  <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                    iOS
+                    <span class="dtree-badge">Coming Soon</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                    Android
+                    <span class="dtree-badge">Coming Soon</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                Cross-Platform Dev
+                <span class="dtree-badge">Coming Soon</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="dtree-node dtree-node-plain">Desktop &amp; Web</span>
+          <ul>
+            <li>
+              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                Desktop App Dev
+                <span class="dtree-badge">Coming Soon</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://dynamicbytes.blog/frontend-vs-backend/" class="dtree-node dtree-node-leaf">
+                Web / Hybrid Dev
+                <span class="dtree-badge dtree-badge-live">Read Now</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </div>
 
+<p class="dtree-caption">Click any branch to jump to that guide - the ones marked "Coming Soon" are next up in the pipeline.</p>
+
 <style>
-.dev-tree-wrapper {
-  margin: 2rem 0;
-  padding: 1.5rem 1rem 1rem;
+.dtree-wrapper {
+  margin: 2rem 0 0.5rem;
+  padding: 1.5rem 1rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
   overflow-x: auto;
 }
 
-.tree-root-row {
-  display: flex;
-  justify-content: center;
-}
-
-.tree-trunk {
-  width: 2px;
-  height: 1.75rem;
-  background: var(--border);
-  margin: 0 auto;
-}
-
-.tree-branches-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.5rem;
+.dtree, .dtree ul {
   position: relative;
   padding-top: 1.75rem;
-  flex-wrap: wrap;
-}
-
-.tree-branches-row::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 12%;
-  right: 12%;
-  height: 2px;
-  background: var(--border);
-}
-
-.tree-branch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1 1 160px;
-  min-width: 160px;
-  position: relative;
-}
-
-.branch-connector {
-  width: 2px;
-  height: 1.75rem;
-  background: var(--border);
-  margin-bottom: 0.5rem;
-}
-
-.tree-sub-row {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;
-  position: relative;
-  padding-top: 1.25rem;
-  margin-top: 0.75rem;
-  flex-wrap: wrap;
+  margin: 0;
 }
 
-.tree-sub-row::before {
+.dtree {
+  padding-top: 0;
+}
+
+.dtree li {
+  list-style-type: none;
+  position: relative;
+  padding: 1.75rem 0.75rem 0;
+  text-align: center;
+}
+
+.dtree > li {
+  padding-top: 0;
+}
+
+/* horizontal + left connector */
+.dtree li::before,
+.dtree li::after {
   content: '';
   position: absolute;
   top: 0;
-  left: 8%;
-  right: 8%;
-  height: 2px;
-  background: var(--border);
+  right: 50%;
+  width: 50%;
+  height: 1.75rem;
+  border-top: 2px solid var(--border);
 }
 
-.tree-subbranch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* right connector */
+.dtree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid var(--border);
 }
 
-.sub-connector {
-  width: 2px;
-  height: 1rem;
-  background: var(--border);
-  margin-bottom: 0.4rem;
+/* only child needs no horizontal spread, just a straight drop */
+.dtree li:only-child::before,
+.dtree li:only-child::after {
+  display: none;
 }
 
-.tree-node {
-  display: flex;
+.dtree li:only-child {
+  padding-top: 0;
+}
+
+/* first child: no incoming line from the left */
+.dtree li:first-child::before {
+  border: none;
+}
+
+/* last child: no incoming line from the right */
+.dtree li:last-child::after {
+  border: none;
+}
+
+/* first child gets its left corner squared off with the drop line */
+.dtree li:first-child::after {
+  border-radius: 0;
+}
+
+.dtree li:last-child::before {
+  border-radius: 0;
+}
+
+/* vertical line dropping from a parent down to its children row */
+.dtree ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid var(--border);
+  width: 0;
+  height: 1.75rem;
+}
+
+.dtree-node {
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.35rem;
@@ -242,42 +242,37 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
   border-radius: 6px;
   padding: 0.6rem 0.9rem;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  font-weight: 600;
   color: var(--text);
   text-decoration: none;
-  text-align: center;
   white-space: nowrap;
   transition: border-color 0.2s ease, transform 0.15s ease;
 }
 
-.tree-node:hover {
+a.dtree-node:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
 }
 
-.root-node {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--accent);
+.dtree-node-plain {
+  color: var(--text-muted);
   cursor: default;
 }
 
-.root-node:hover {
-  transform: none;
+.dtree > li > .dtree-node-plain {
+  color: var(--accent);
+  font-size: 1.05rem;
 }
 
-.branch-node {
-  font-weight: 600;
-}
-
-.leaf-node {
+.dtree-node-leaf {
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--text-muted);
 }
 
-.tree-badge {
-  font-size: 0.65rem;
+.dtree-badge {
+  font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -287,35 +282,16 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
   padding: 0.1rem 0.4rem;
 }
 
-.tree-badge-live {
+.dtree-badge-live {
   color: var(--accent);
   border-color: var(--accent);
 }
 
-.tree-caption {
+.dtree-caption {
   text-align: center;
   font-size: 0.85rem;
   color: var(--text-muted);
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-
-@media (max-width: 640px) {
-  .tree-branches-row,
-  .tree-sub-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .tree-branches-row::before,
-  .tree-sub-row::before {
-    display: none;
-  }
-
-  .tree-node {
-    white-space: normal;
-    min-width: 200px;
-  }
+  margin-top: 0.5rem;
 }
 </style>
 
