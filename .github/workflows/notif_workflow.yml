@@ -1,4 +1,4 @@
-name: Notify Discord on New Post
+name: Notify Discord, Telegram & Newsletter on New Post
 
 on:
   schedule:
@@ -25,7 +25,8 @@ jobs:
            DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
            TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
            TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-        run: python scripts/notify_discord.py
+           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python scripts/notif_script.py
 
       - name: Commit cache update
         run: |
