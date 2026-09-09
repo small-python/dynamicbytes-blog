@@ -85,11 +85,10 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
         <li>
           <a href="https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/" class="dtree-node">
             Mobile Development
-            <span class="dtree-badge">Read Now</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
           <ul>
             <li>
-              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
                 Native Development
                 <span class="dtree-badge">Coming Soon</span>
               </a>
