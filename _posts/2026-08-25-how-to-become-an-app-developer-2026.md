@@ -94,9 +94,9 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
               </a>
               <ul>
                 <li>
-                  <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                  <a href="https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/" class="dtree-node dtree-node-leaf">
                     iOS
-                    <span class="dtree-badge">Coming Soon</span>
+                    <span class="dtree-badge dtree-badge-live">Read Now</span>
                   </a>
                 </li>
                 <li>
@@ -725,8 +725,8 @@ A rough guide to picking a starting branch if you're not sure where to focus you
   var results = {
     ios: {
       title: '🍎 iOS Development',
-      body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is coming to this blog.',
-      url: '/coming-soon/'
+      body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is currently live now.',
+      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/'
     },
     android: {
       title: '🤖 Android Development',
