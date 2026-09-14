@@ -172,7 +172,59 @@ A brief, honest note on certifications here: unlike cybersecurity or networking,
 
 ## Common Mistakes
 
-<div class="mistake-wrapper"> <div class="mistake-item"> <button class="mistake-question" aria-expanded="false"> 1. Learning only SwiftUI and skipping UIKit entirely: <span class="mistake-icon">+</span> </button> <div class="mistake-answer"> <p>Given that most iOS job postings still expect UIKit knowledge, skipping it isn't a shortcut - it's a gap that shows up the moment an interviewer asks about it, or the moment a SwiftUI limitation forces you to drop into UIKit anyway.</p> </div> </div> <div class="mistake-item"> <button class="mistake-question" aria-expanded="false"> 2. Ignoring Liquid Glass because it feels controversial: <span class="mistake-icon">+</span> </button> <div class="mistake-answer"> <p>Whatever your opinion of the redesign, it becomes mandatory once Xcode 27 ships. Treating it as optional or a passing trend is a genuinely risky bet with your own career timeline.</p> </div> </div> <div class="mistake-item"> <button class="mistake-question" aria-expanded="false"> 3. Buying expensive hardware before confirming you enjoy the work: <span class="mistake-icon">+</span> </button> <div class="mistake-answer"> <p>Renting a cloud Mac for a few weeks first is a far lower-risk way to find out iOS development isn't for you than committing to a Mac purchase upfront.</p> </div> </div> <div class="mistake-item"> <button class="mistake-question" aria-expanded="false"> 4. Chasing Apple's certification before building anything real: <span class="mistake-icon">+</span> </button> <div class="mistake-answer"> <p>As covered in the roadmap, this field is portfolio-driven. A certificate with no shipped app behind it doesn't hold up in an interview the way a genuine, explainable project does.</p> </div> </div> <div class="mistake-item"> <button class="mistake-question" aria-expanded="false"> 5. Treating architecture as optional: <span class="mistake-icon">+</span> </button> <div class="mistake-answer"> <p>Skipping MVVM because "it works without it" produces code that becomes unmaintainable the moment an app grows past a handful of screens - and job postings assume you already know this pattern.</p> </div> </div> </div> <style> 
+<div class="mistake-wrapper"> 
+  <div class="mistake-item"> 
+    <button class="mistake-question" aria-expanded="false"> 
+      1. Learning only SwiftUI and skipping UIKit entirely
+      <span class="mistake-icon">+</span> 
+    </button> 
+    <div class="mistake-answer"> 
+      <p>Given that most iOS job postings still expect UIKit knowledge, skipping it isn't a shortcut - it's a gap that shows up the moment an interviewer asks about it, or the moment a SwiftUI limitation forces you to drop into UIKit anyway.</p>
+    </div> 
+  </div> 
+  
+  <div class="mistake-item"> 
+    <button class="mistake-question" aria-expanded="false"> 
+      2. Ignoring Liquid Glass because it feels controversial 
+      <span class="mistake-icon">+</span> 
+    </button> 
+    <div class="mistake-answer"> 
+    <p>Whatever your opinion of the redesign, it becomes mandatory once Xcode 27 ships. Treating it as optional or a passing trend is a genuinely risky bet with your own career timeline.</p> 
+    </div> 
+  </div> 
+  
+  <div class="mistake-item"> 
+    <button class="mistake-question" aria-expanded="false"> 
+      3. Buying expensive hardware before confirming you enjoy the work 
+      <span class="mistake-icon">+</span> 
+    </button> 
+    <div class="mistake-answer"> 
+    <p>Renting a cloud Mac for a few weeks first is a far lower-risk way to find out iOS development isn't for you than committing to a Mac purchase upfront.</p> 
+    </div> 
+  </div> 
+  
+  <div class="mistake-item"> 
+    <button class="mistake-question" aria-expanded="false"> 
+      4. Chasing Apple's certification before building anything real 
+      <span class="mistake-icon">+</span> 
+    </button> 
+    <div class="mistake-answer"> 
+    <p>As covered in the roadmap, this field is portfolio-driven. A certificate with no shipped app behind it doesn't hold up in an interview the way a genuine, explainable project does.</p> 
+    </div> 
+  </div> 
+  
+  <div class="mistake-item"> 
+    <button class="mistake-question" aria-expanded="false"> 
+      5. Treating architecture as optional 
+      <span class="mistake-icon">+</span> 
+    </button> 
+    <div class="mistake-answer"> 
+    <p>Skipping MVVM because "it works without it" produces code that becomes unmaintainable the moment an app grows past a handful of screens - and job postings assume you already know this pattern.</p> 
+    </div> 
+  </div> 
+</div> 
+
+<style> 
 	.mistake-wrapper { 
 		margin: 2rem 0; 
 		border: 1px solid var(--border); 
