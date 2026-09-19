@@ -100,7 +100,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
                 <li>
                   <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
                     Android
-                    <span class="dtree-badge">Coming Soon</span>
+                    <span class="dtree-badge dtree-badge-live">Read Now</span>
                   </a>
                 </li>
               </ul>
@@ -729,7 +729,7 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     android: {
       title: '🤖 Android Development',
       body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is coming soon.',
-      url: '/coming-soon/'
+      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/'
     },
     crossplatform: {
       title: '🔁 Cross-Platform Development',
