@@ -106,9 +106,9 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
               </ul>
             </li>
             <li>
-              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+              <a href="https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026" class="dtree-node dtree-node-leaf">
                 Cross-Platform Dev
-                <span class="dtree-badge">Coming Soon</span>
+                <span class="dtree-badge dtree-badge-live">Read Now</span>
               </a>
             </li>
           </ul>

@@ -974,6 +974,6 @@ General-purpose tools every mobile developer touches, regardless of which of the
 
 You've got what this post exists to give you: the three real paths in mobile development laid out honestly, a side-by-side comparison, the shared foundations every mobile developer needs, and - hopefully - a clearer answer to which path is actually yours, rather than a guess.
 
-Coming next on this blog: dedicated, full-depth posts on **iOS Development**, **Android Development**, and **Cross-Platform Development**. Whichever the quiz pointed you toward - or whichever you already know in your gut - that's your next stop.
+The dedicated, full-depth posts are live now: [iOS Development](https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/), [Android Development](https://dynamicbytes.blog/how-to-become-an-android-developer-2026/), and [Cross-Platform Development](https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/). Whichever the quiz pointed you toward - or whichever you already know in your gut - that's your next stop.
 
 *For questions, or to tell us the quiz got you completely wrong - the community links are in the footer.*

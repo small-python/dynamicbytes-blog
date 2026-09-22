@@ -450,6 +450,5 @@ A brief, honest note on certifications here: unlike cybersecurity or networking,
 
 You've got the full picture: what iOS development actually involves, the honest SwiftUI-vs-UIKit reality, what iOS 26's Liquid Glass and Apple Intelligence actually mean for you, a clear verdict, the real cost of getting Mac access, salaries and demand, and a complete roadmap from Swift fundamentals through shipping your first app.
 
-If Android or cross-platform is calling instead - or you want to see the other side of the fragmentation trade-off mentioned above - those posts are coming next on this blog.
-
+If Android or cross-platform is calling instead - or you want to see the other side of the fragmentation trade-off mentioned above - the [Android](https://dynamicbytes.blog/how-to-become-an-android-developer-2026/) and [Cross-Platform](https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/) posts are live now.
 *For questions, portfolio feedback, or to argue about Liquid Glass - the community links are in the footer.*
