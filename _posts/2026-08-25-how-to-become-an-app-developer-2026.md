@@ -734,7 +734,7 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     crossplatform: {
       title: '🔁 Cross-Platform Development',
       body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live on the blog.',
-      url: 'https://dynamicbytes.blog/how-to-become-a-cross-developer-2026'
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026'
     },
     desktop: {
       title: '🖥️ Desktop App Development',
