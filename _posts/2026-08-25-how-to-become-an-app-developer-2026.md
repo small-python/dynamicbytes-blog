@@ -98,7 +98,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
                   </a>
                 </li>
                 <li>
-                  <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+                  <a href="https://dynamicbytes.blog/how-to-become-an-android-developer-2026/" class="dtree-node dtree-node-leaf">
                     Android
                     <span class="dtree-badge dtree-badge-live">Read Now</span>
                   </a>
@@ -728,13 +728,13 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     },
     android: {
       title: '🤖 Android Development',
-      body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is coming soon.',
+      body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is live right now.',
       url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/'
     },
     crossplatform: {
       title: '🔁 Cross-Platform Development',
-      body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is coming soon.',
-      url: '/coming-soon/'
+      body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live on the blog.',
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-developer-2026'
     },
     desktop: {
       title: '🖥️ Desktop App Development',

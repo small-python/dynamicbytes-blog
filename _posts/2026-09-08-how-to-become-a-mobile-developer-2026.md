@@ -81,21 +81,21 @@ The tree below shows where each path leads. All three are covered in full, dedic
       <span class="dtree-node dtree-node-plain">Mobile App Development</span>
       <ul>
         <li>
-          <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/" class="dtree-node dtree-node-leaf">
             iOS
-            <span class="dtree-badge">Coming Soon</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
         </li>
         <li>
-          <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-an-android-developer-2026/" class="dtree-node dtree-node-leaf">
             Android
-            <span class="dtree-badge">Coming Soon</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
         </li>
         <li>
-          <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-a-cross-developer-2026" class="dtree-node dtree-node-leaf">
             Cross-Platform Dev
-            <span class="dtree-badge">Coming Soon</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
         </li>
       </ul>
@@ -639,18 +639,18 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
   var results = {
     ios: {
       title: '🍎 iOS Development',
-      body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is coming to this blog.',
-      url: '/coming-soon/'
+      body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is live on the blog now.',
+      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/'
     },
     android: {
       title: '🤖 Android Development',
-      body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is coming soon.',
-      url: '/coming-soon/'
+      body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is available for you now.',
+      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/'
     },
     crossplatform: {
       title: '🔁 Cross-Platform Development',
-      body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is coming soon.',
-      url: '/coming-soon/'
+      body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live now.',
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-developer-2026'
     }
   };
 
