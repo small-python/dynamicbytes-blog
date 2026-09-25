@@ -93,7 +93,7 @@ The tree below shows where each path leads. All three are covered in full, dedic
           </a>
         </li>
         <li>
-          <a href="https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/" class="dtree-node dtree-node-leaf">
             Cross-Platform Dev
             <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
@@ -655,7 +655,7 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
     crossplatform: {
       title: '🔁 Cross-Platform Development',
       body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live now.',
-      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026'
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/'
     }
   };
 

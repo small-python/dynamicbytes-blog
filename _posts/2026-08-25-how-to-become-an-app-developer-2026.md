@@ -106,7 +106,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
               </ul>
             </li>
             <li>
-              <a href="https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026" class="dtree-node dtree-node-leaf">
+              <a href="https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/" class="dtree-node dtree-node-leaf">
                 Cross-Platform Dev
                 <span class="dtree-badge dtree-badge-live">Read Now</span>
               </a>
@@ -734,7 +734,7 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     crossplatform: {
       title: '🔁 Cross-Platform Development',
       body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live on the blog.',
-      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026'
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/'
     },
     desktop: {
       title: '🖥️ Desktop App Development',
@@ -1082,7 +1082,7 @@ General-purpose tools every app developer touches, regardless of platform. Platf
 
 You've got the full picture: what app development actually covers as a field, an honest breakdown of what's changed and what hasn't, a clear verdict on whether it's worth pursuing, a decision framework for picking your starting branch, salaries and demand, and the shared foundations every app developer needs before specialising.
 
-This post is the first in a series. Coming next on this blog: **How to Get into Mobile Development**, followed by dedicated deep dives on **iOS Development**, **Android Development**, and **Cross-Platform Development**, and then **How to Become a Desktop App Developer**. Each one goes considerably deeper than this post could on its specific path.
+This post is the first in a series. The deep dives are live now: [How to Get into Mobile Development](https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/), [iOS Development](https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/), [Android Development](https://dynamicbytes.blog/how-to-become-an-android-developer-2026/), and [Cross-Platform](https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/) Development. Coming next: How to Become a Desktop App Developer. Each one goes considerably deeper than this post could on its specific path.
 
 In the meantime, the next step is the same one it always is: pick a branch using the tree above, and start building something small but real.
 
