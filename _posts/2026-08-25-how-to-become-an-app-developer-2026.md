@@ -702,6 +702,17 @@ A rough guide to picking a starting branch if you're not sure where to focus you
   color: var(--accent);
   font-weight: 600;
 }
+
+.quiz-share-link {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.quiz-share-link:hover {
+  color: var(--accent);
+}
 </style>
 
 <script>
@@ -820,10 +831,11 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     });
 
     var result = results[winner];
-    var linkText = result.linkText || 'Read the full breakdown when it lands →';
     var resultBox = document.getElementById('quiz-result');
+    var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes Mobile Development quiz 👀');
+    var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/');
 
-    resultBox.innerHTML = '<strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">' + linkText + '</a>';
+    resultBox.innerHTML = '<strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   });
