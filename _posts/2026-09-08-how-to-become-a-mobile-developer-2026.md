@@ -766,8 +766,11 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
     var resultBox = document.getElementById('quiz-result');
     var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes Mobile Development quiz 👀');
     var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/');
+    var linkText = result.linkText || (result.url.indexOf('https://dynamicbytes.blog/') === 0
+      ? 'Read the full breakdown now →'
+      : 'Read the full breakdown when it lands →');
 
-    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
+    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">' + linkText + '</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   });

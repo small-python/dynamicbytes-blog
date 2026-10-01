@@ -119,7 +119,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
             <li>
               <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
                 Desktop App Dev
-                <span class="dtree-badge">Coming Soon</span>
+                <span class="dtree-badge dtree-badge-live">Read Now</span>
               </a>
             </li>
             <li>
@@ -640,7 +640,7 @@ A rough guide to picking a starting branch if you're not sure where to focus you
 
 .quiz-options {
   display: flex;
-  flex-direction: column;apple
+  flex-direction: column;
   gap: 0.5rem;
 }
 
@@ -759,8 +759,9 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     },
     desktop: {
       title: 'Desktop App Development',
-      body: 'Phones don\'t excite you nearly as much as software people actually sit down and work in for hours. The full Desktop App Developer breakdown is coming soon.',
-      url: '/coming-soon/',<script>
+      body: 'Phones don\'t excite you nearly as much as software people actually sit down and work in for hours. The full Desktop App Developer breakdown is live on the blog now.',
+      url: 'https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/',
+      icon: '/assets/images/posts/app-dev/desktop.png'
     },
     webhybrid: {
       title: 'Web / Hybrid Development',
@@ -857,8 +858,11 @@ A rough guide to picking a starting branch if you're not sure where to focus you
     var resultBox = document.getElementById('quiz-result');
     var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes App Development quiz 👀');
     var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-an-app-developer-2026/');
+    var linkText = result.linkText || (result.url.indexOf('https://dynamicbytes.blog/') === 0
+      ? 'Read the full breakdown now →'
+      : 'Read the full breakdown when it lands →');
 
-    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
+    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">' + linkText + '</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   });
