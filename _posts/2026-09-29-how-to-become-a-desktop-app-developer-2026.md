@@ -693,25 +693,25 @@ Still not sure? Work through the quiz below - same format as the earlier posts: 
       title: 'Windows Development',
       body: 'The largest desktop install base in the world, and enterprise software that isn\'t going anywhere. The full Windows Development breakdown is coming soon.',
       url: '/coming-soon/',
-      icon: 'https://cdn.simpleicons.org/windows/ffffff'
+      icon: '/assets/images/posts/desktop-dev/icon-windows.png'
     },
     macos: {
       title: 'macOS Development',
       body: 'Deep platform mastery, design-forward polish, and shared ground with iOS if that\'s a path you\'ve already looked at. The full macOS Development breakdown is coming soon.',
       url: '/coming-soon/',
-      icon: 'https://cdn.simpleicons.org/apple/ffffff'
+      icon: '/assets/images/posts/desktop-dev/icon-macos.png'
     },
     linux: {
       title: 'Linux Development',
       body: 'An open, transparent platform and an audience that genuinely cares how their software works. The full Linux Development breakdown is coming soon.',
       url: '/coming-soon/',
-      icon: 'https://cdn.simpleicons.org/linux/ffffff'
+      icon: '/assets/images/posts/desktop-dev/icon-linux.png'
     },
     crossplatform: {
       title: 'Cross-Platform Desktop Development',
       body: 'One codebase, every desktop - efficiency over platform purity. The full Cross-Platform Desktop Development breakdown is coming soon.',
       url: '/coming-soon/',
-      icon: 'https://cdn.simpleicons.org/electron/ffffff'
+      icon: '/assets/images/posts/desktop-dev/icon-electron.png'
     }
   };
 
@@ -770,6 +770,18 @@ Still not sure? Work through the quiz below - same format as the earlier posts: 
   });
 
   document.getElementById('quiz-submit-btn').addEventListener('click', function () {
+    var totalQuestions = accItems.length;
+    var answeredCount = Object.keys(selections).length;
+
+    if (answeredCount < totalQuestions) {
+      var remaining = totalQuestions - answeredCount;
+      var resultBox = document.getElementById('quiz-result');
+      resultBox.innerHTML = '<p style="color: var(--accent); font-weight: 600;">You\'ve still got ' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' left - scroll back up and finish the quiz before you get a result.</p>';
+      resultBox.style.display = 'block';
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      return;
+    }
+
     var scores = { windows: 0, macos: 0, linux: 0, crossplatform: 0 };
 
     Object.keys(selections).forEach(function (qIndex) {
