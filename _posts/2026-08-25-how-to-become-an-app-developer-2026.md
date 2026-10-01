@@ -640,7 +640,7 @@ A rough guide to picking a starting branch if you're not sure where to focus you
 
 .quiz-options {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;apple
   gap: 0.5rem;
 }
 
@@ -713,6 +713,13 @@ A rough guide to picking a starting branch if you're not sure where to focus you
 .quiz-share-link:hover {
   color: var(--accent);
 }
+
+.quiz-result-icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 0.75rem;
+}
 </style>
 
 <script>
@@ -733,30 +740,34 @@ A rough guide to picking a starting branch if you're not sure where to focus you
 
   var results = {
     ios: {
-      title: '🍎 iOS Development',
+      title: 'iOS Development',
       body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is currently live now.',
-      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/',
+      icon: '/assets/images/posts/app-dev/apple.png'
     },
     android: {
-      title: '🤖 Android Development',
+      title: 'Android Development',
       body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is live right now.',
-      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/',
+      icon: '/assets/images/posts/app-dev/android.png'
     },
     crossplatform: {
-      title: '🔁 Cross-Platform Development',
+      title: 'Cross-Platform Development',
       body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live on the blog.',
-      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/',
+      icon: '/assets/images/posts/app-dev/cross-platform.png'
     },
     desktop: {
-      title: '🖥️ Desktop App Development',
+      title: 'Desktop App Development',
       body: 'Phones don\'t excite you nearly as much as software people actually sit down and work in for hours. The full Desktop App Developer breakdown is coming soon.',
-      url: '/coming-soon/'
+      url: '/coming-soon/',<script>
     },
     webhybrid: {
-      title: '🌐 Web / Hybrid Development',
+      title: 'Web / Hybrid Development',
       body: 'You\'ve already got web skills, and you\'d rather extend them into installable apps than start from zero on a brand new platform.',
       url: 'https://dynamicbytes.blog/frontend-vs-backend/',
-      linkText: 'Start with the front-end vs. back-end post →'
+      linkText: 'Start with the front-end vs. back-end post →',
+      icon: '/assets/images/posts/app-dev/web.png'
     }
   };
 
@@ -815,6 +826,18 @@ A rough guide to picking a starting branch if you're not sure where to focus you
   });
 
   document.getElementById('quiz-submit-btn').addEventListener('click', function () {
+    var totalQuestions = accItems.length;
+    var answeredCount = Object.keys(selections).length;
+
+    if (answeredCount < totalQuestions) {
+      var remaining = totalQuestions - answeredCount;
+      var resultBox = document.getElementById('quiz-result');
+      resultBox.innerHTML = '<p style="color: var(--accent); font-weight: 600;">You\'ve still got ' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' left - scroll back up and finish the quiz before you get a result.</p>';
+      resultBox.style.display = 'block';
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      return;
+    }
+
     var scores = { ios: 0, android: 0, crossplatform: 0, desktop: 0, webhybrid: 0 };
 
     Object.keys(selections).forEach(function (qIndex) {
@@ -832,10 +855,10 @@ A rough guide to picking a starting branch if you're not sure where to focus you
 
     var result = results[winner];
     var resultBox = document.getElementById('quiz-result');
-    var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes Mobile Development quiz 👀');
-    var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/');
+    var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes App Development quiz 👀');
+    var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-an-app-developer-2026/');
 
-    resultBox.innerHTML = '<strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
+    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   });

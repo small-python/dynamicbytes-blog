@@ -640,6 +640,13 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
 .quiz-share-link:hover {
   color: var(--accent);
 }
+
+.quiz-result-icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 0.75rem;
+}
 </style>
 
 <script>
@@ -654,19 +661,22 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
 
   var results = {
     ios: {
-      title: '🍎 iOS Development',
+      title: 'iOS Development',
       body: 'You want deep platform mastery over broad reach, and you\'re not scared of Xcode\'s occasional tantrums. The full iOS Development breakdown is live on the blog now.',
-      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/',
+      icon: '/assets/images/posts/mobile-dev/apple.png'
     },
     android: {
-      title: '🤖 Android Development',
+      title: 'Android Development',
       body: 'Open ecosystems, wild device diversity, and genuine reach across the widest possible audience - that\'s your lane. The full Android Development breakdown is available for you now.',
-      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-an-android-developer-2026/',
+      icon: '/assets/images/posts/mobile-dev/android.png'
     },
     crossplatform: {
-      title: '🔁 Cross-Platform Development',
+      title: 'Cross-Platform Development',
       body: 'You want both iOS and Android without maintaining two codebases - efficiency over platform purity. The full Cross-Platform Development breakdown is live now.',
-      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/'
+      url: 'https://dynamicbytes.blog/how-to-become-a-cross-platform-developer-2026/',
+      icon: '/assets/images/posts/mobile-dev/cross-platform.png'
     }
   };
 
@@ -725,6 +735,18 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
   });
 
   document.getElementById('quiz-submit-btn').addEventListener('click', function () {
+    var totalQuestions = accItems.length;
+    var answeredCount = Object.keys(selections).length;
+
+    if (answeredCount < totalQuestions) {
+      var remaining = totalQuestions - answeredCount;
+      var resultBox = document.getElementById('quiz-result');
+      resultBox.innerHTML = '<p style="color: var(--accent); font-weight: 600;">You\'ve still got ' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' left - scroll back up and finish the quiz before you get a result.</p>';
+      resultBox.style.display = 'block';
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      return;
+    }
+
     var scores = { ios: 0, android: 0, crossplatform: 0 };
 
     Object.keys(selections).forEach(function (qIndex) {
@@ -745,7 +767,7 @@ Still not sure? Work through the quiz below - fifteen questions, same format as 
     var shareText = encodeURIComponent('I got ' + result.title + ' on the DynamicBytes Mobile Development quiz 👀');
     var shareUrl = 'https://twitter.com/intent/tweet?text=' + shareText + '&url=' + encodeURIComponent('https://dynamicbytes.blog/how-to-become-a-mobile-developer-2026/');
 
-    resultBox.innerHTML = '<strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
+    resultBox.innerHTML = '<img src="' + result.icon + '" alt="' + result.title + ' icon" class="quiz-result-icon"><strong>' + result.title + '</strong><p style="margin-top:0.75rem;">' + result.body + '</p><a href="' + result.url + '">Read the full breakdown when it lands →</a><a href="' + shareUrl + '" target="_blank" rel="noopener noreferrer" class="quiz-share-link">Share your result →</a>';
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   });
