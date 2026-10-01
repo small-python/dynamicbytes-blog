@@ -117,7 +117,7 @@ The tree below maps it out. Mobile splits further into native (iOS or Android sp
           <span class="dtree-node dtree-node-plain">Desktop &amp; Web</span>
           <ul>
             <li>
-              <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+              <a href="https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/" class="dtree-node dtree-node-leaf">
                 Desktop App Dev
                 <span class="dtree-badge dtree-badge-live">Read Now</span>
               </a>
