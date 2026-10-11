@@ -88,7 +88,7 @@ The tree below shows where each path leads. All four are covered in full, dedica
       <span class="dtree-node dtree-node-plain">Desktop App Development</span>
       <ul>
         <li>
-          <a href="https://dynamicbytes.blog/how-to-become-windows-app-developer-2026" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-windows-app-developer-2026/" class="dtree-node dtree-node-leaf">
             Windows
             <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
