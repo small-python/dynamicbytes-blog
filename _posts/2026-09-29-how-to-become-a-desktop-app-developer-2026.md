@@ -88,7 +88,7 @@ The tree below shows where each path leads. All four are covered in full, dedica
       <span class="dtree-node dtree-node-plain">Desktop App Development</span>
       <ul>
         <li>
-          <a href="https://dynamicbytes.blog/how-to-become-windows-developer-2026/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-a-windows-developer-2026/" class="dtree-node dtree-node-leaf">
             Windows
             <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
@@ -692,7 +692,7 @@ Still not sure? Work through the quiz below - same format as the earlier posts: 
     windows: {
       title: 'Windows Development',
       body: 'The largest desktop install base in the world, and enterprise software that isn\'t going anywhere. The full Windows Development breakdown is live right now on the blog.',
-      url: 'https://dynamicbytes.blog/how-to-become-windows-developer-2026/',
+      url: 'https://dynamicbytes.blog/how-to-become-a-windows-developer-2026/',
       icon: '/assets/images/posts/desktop-dev/icon-windows.png'
     },
     macos: {
