@@ -94,9 +94,9 @@ The tree below shows where each path leads. All four are covered in full, dedica
           </a>
         </li>
         <li>
-          <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-a-macos-developer-2026/" class="dtree-node dtree-node-leaf">
             macOS
-            <span class="dtree-badge">Coming Soon</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
         </li>
         <li>
@@ -697,8 +697,8 @@ Still not sure? Work through the quiz below - same format as the earlier posts: 
     },
     macos: {
       title: 'macOS Development',
-      body: 'Deep platform mastery, design-forward polish, and shared ground with iOS if that\'s a path you\'ve already looked at. The full macOS Development breakdown is coming soon.',
-      url: '/coming-soon/',
+      body: 'Deep platform mastery, design-forward polish, and shared ground with iOS if that\'s a path you\'ve already looked at. The full macOS Development breakdown is live right now.',
+      url: 'https://dynamicbytes.blog/how-to-become-a-macos-developer-2026/',
       icon: '/assets/images/posts/desktop-dev/icon-macos.png'
     },
     linux: {
