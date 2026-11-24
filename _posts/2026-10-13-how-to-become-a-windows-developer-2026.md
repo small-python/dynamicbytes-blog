@@ -361,7 +361,7 @@ Your project template will generate values like these for you - the point is und
 
 - **Test different screen scaling and resolutions:** Windows machines range from small laptops at 125% scaling to large monitors, and layouts that look perfect on yours can clip on someone else's.
 
-- **Know your .NET version:** .NET 10 is the current long-term support release, supported through November 2028. .NET 8 and .NET 9 both reach end of support on 10 November 2026,and .NET 11 was released the same day as a Standard Term Support release. New projects should start on .NET 10; you'll still meet older versions - and the even older .NET Framework 4.8, which only receives security fixes - in production code you inherit.
+- **Know your .NET version:** .NET 10 is the current long-term support release, supported through November 2028. .NET 8 and .NET 9 both reached end of support on 10 November 2026, and .NET 11 was released the same day as a Standard Term Support release. New projects should start on .NET 10; you'll still meet older versions - and the even older .NET Framework 4.8, which only receives security fixes - in production code you inherit.
 
 ---
 
