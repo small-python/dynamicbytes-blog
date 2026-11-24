@@ -361,11 +361,7 @@ Your project template will generate values like these for you - the point is und
 
 - **Test different screen scaling and resolutions:** Windows machines range from small laptops at 125% scaling to large monitors, and layouts that look perfect on yours can clip on someone else's.
 
-<<<<<<< HEAD
 - **Know your .NET version:** .NET 10 is the current long-term support release, supported through November 2028. .NET 8 and .NET 9 both reach end of support on 10 November 2026,and .NET 11 was released the same day as a Standard Term Support release. New projects should start on .NET 10; you'll still meet older versions - and the even older .NET Framework 4.8, which only receives security fixes - in production code you inherit.
-=======
-- **Know your .NET version:** .NET 10 is the current long-term support release, supported through November 2028. .NET 8 and .NET 9 both reached end of support on 10 November 2026, and .NET 11 is expected around the same month. New projects should start on .NET 10; you'll still meet older versions - and the even older .NET Framework 4.8, which only receives security fixes - in production code you inherit.
->>>>>>> 1c0c21612b1569f1cef27c3e254db83a4f58d1f7
 
 ---
 
@@ -1009,6 +1005,6 @@ Unlike cybersecurity, where certifications like Security+ or OSCP carry real wei
 
 **You've got the full picture:** what Windows development actually involves, the honest WinUI 3, WPF, and WinForms breakdown, the Windows 10 reality you'll be targeting, the platform features that make a native app worth building, the MSIX versus classic installer trade-off, what Microsoft's AI tooling really does for you, salaries and demand, and a complete roadmap from C# fundamentals through shipping your first app.
 
-If cross-platform desktop development - Electron, Tauri - is calling instead, or you want to see how the other desktop platforms compare, the [Desktop App Developer post](https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/) is the hub, the [macOS](https://dynamicbytes.blog/how-to-become-a-macos-developer-2026/) post is live, and the [Linux](https://dynamicbytes.blog/how-to-become-a-linux-desktop-developer-2027/) post is ready for your eyes. And if the shared "UI as a function of state" idea caught your eye, the [Android post](https://dynamicbytes.blog/how-to-become-an-android-developer-2026/) shows the same shift in a different ecosystem.
+If cross-platform desktop development - Electron, Tauri - is calling instead, or you want to see how the other desktop platforms compare, the [Desktop App Developer post](https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/) is the hub, the [macOS](https://dynamicbytes.blog/how-to-become-a-macos-developer-2026/) post is live, and the [Linux](https://dynamicbytes.blog/coming-soon/) post is on the way. And if the shared "UI as a function of state" idea caught your eye, the [Android post](https://dynamicbytes.blog/how-to-become-an-android-developer-2026/) shows the same shift in a different ecosystem.
 
 *For questions, portfolio feedback, or to argue about WinUI 3 vs WPF - the community links are in the footer.*
