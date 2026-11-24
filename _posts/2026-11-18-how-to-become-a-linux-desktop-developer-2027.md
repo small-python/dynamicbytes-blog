@@ -399,17 +399,17 @@ Think of it as an electric screwdriver against a precision lathe. The screwdrive
 	
 	<div class="route-item">
 		<button class="route-question" aria-expanded="false">
-			1. A beginner to programming?
+			2. A beginner to programming?
 			<span class="route-icon">+</span>
 		</button>
 		<div class="route-answer">
-			<p>Python or JavaScript will get you to a working result fastest. Python is a high-level language, valued for being easy to read and understand, and it's a fine first language to build a desktop app in.8</p>
+			<p>Python or JavaScript will get you to a working result fastest. Python is a high-level language, valued for being easy to read and understand, and it's a fine first language to build a desktop app in.</p>
 		</div>
 	</div>
 	
 	<div class="route-item">
 		<button class="route-question" aria-expanded="false">
-			2. Know what you want to build?
+			3. Know what you want to build?
 			<span class="route-icon">+</span>
 		</button>
 		<div class="route-answer">
@@ -419,7 +419,7 @@ Think of it as an electric screwdriver against a precision lathe. The screwdrive
 	
 	<div class="route-item">
 		<button class="route-question" aria-expanded="false">
-			3. Curious about Rust?
+			4. Curious about Rust?
 			<span class="route-icon">+</span>
 		</button>
 		<div class="route-answer">
@@ -429,7 +429,7 @@ Think of it as an electric screwdriver against a precision lathe. The screwdrive
 	
 	<div class="route-item">
 		<button class="route-question" aria-expanded="false">
-			4. Not sure?
+			5. Not sure?
 			<span class="route-icon">+</span>
 		</button>
 		<div class="route-answer">
@@ -795,7 +795,7 @@ gnome-extensions enable hello-panel@example.com
 
 On Wayland, GNOME needs to be restarted before it notices a brand-new extension, so log out and back in. After that, "Hello, Linux" should appear in the top panel. If it doesn't, read the Shell's log in a terminal with `journalctl -f -o cat /usr/bin/gnome-shell` - that's where errors appear.
 
-![A GNOME top panel with a Hello, Linux label added by a custom extension](/assets/images/posts/linux-dev/extension-panel.png)
+![A GNOME top panel with a Hello, Linux label added by a custom extension](/assets/images/posts/linux-dev/hello-extn-panel.png)
 
 **What you just learnt:**
 
@@ -816,7 +816,7 @@ Like the Windows and macOS posts, here are the amenities - the things a native L
 
 **`.desktop` files are your nameplate:** A small text file describes your app to the desktop: its name, its icon, how to launch it, and which file types it can open. It's what puts your app in the launcher and makes double-clicking a file open it in your app.
 
-**Notifications:** Go through the desktop's own notification system, so they match the user's settings look and feel native.
+**Notifications:** Go through the desktop's own notification system, so they match the user's settings and look native.
 
 **Tray icons are the stumbling block:** Many utilities on other platforms live in the system tray, but GNOME doesn't show legacy tray icons by default, so users often rely on an extension to see them. KDE Plasma supports them. If your app is a background utility, decide how it behaves on desktops without a tray, and don't make a tray icon the only way to reach it.
 

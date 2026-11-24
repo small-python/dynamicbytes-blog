@@ -951,6 +951,10 @@ Unlike cybersecurity, where certifications like Security+ or OSCP carry real wei
 
 **You've got the full picture:** what macOS development actually involves, the honest SwiftUI, AppKit, and Mac Catalyst breakdown, which Mac you need now that Xcode 27 is Apple-silicon-only, the platform features that make a Mac app feel native, the Mac App Store versus notarized downloads, what Xcode's AI agents really do for you, salaries and demand, and a complete roadmap from Swift fundamentals through shipping your first app.
 
+<<<<<<< HEAD
 If cross-platform desktop development - Electron, Tauri - is calling instead, or you want to see how the other desktop platforms compare, the [Desktop App Developer post](https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/) is the hub, the [Windows post](https://dynamicbytes.blog/how-to-become-a-windows-developer-2026/) is live, and the [Linux post](https://dynamicbytes.blog/coming-soon/) and [Cross-Platform Desktop post](https://dynamicbytes.blog/coming-soon/) posts are on the way. And if the Apple ecosystem as a whole is where you're headed, the [iOS post](https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/) is the natural next step.
+=======
+If cross-platform desktop development - Electron, Tauri - is calling instead, or you want to see how the other desktop platforms compare, the [Desktop App Developer post](https://dynamicbytes.blog/how-to-become-a-desktop-app-developer-2026/) is the hub, the [Windows post](https://dynamicbytes.blog/how-to-become-a-windows-developer-2026/) is live, the [Linux](https://dynamicbytes.blog/how-to-become-a-linux-desktop-developer-2027/) is live as well and [Cross-Platform Desktop](https://dynamicbytes.blog/coming-soon/) posts are on the way. And if the Apple ecosystem as a whole is where you're headed, the [iOS post](https://dynamicbytes.blog/how-to-become-an-ios-developer-2026/) is the natural next step.
+>>>>>>> 1c0c21612b1569f1cef27c3e254db83a4f58d1f7
 
 *For questions, portfolio feedback, or to argue about SwiftUI vs AppKit - the community links are in the footer.*

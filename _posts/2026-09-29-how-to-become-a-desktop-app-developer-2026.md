@@ -100,9 +100,9 @@ The tree below shows where each path leads. All four are covered in full, dedica
           </a>
         </li>
         <li>
-          <a href="/coming-soon/" class="dtree-node dtree-node-leaf">
+          <a href="https://dynamicbytes.blog/how-to-become-a-linux-desktop-developer-2027/" class="dtree-node dtree-node-leaf">
             Linux
-            <span class="dtree-badge">Coming Soon</span>
+            <span class="dtree-badge dtree-badge-live">Read Now</span>
           </a>
         </li>
         <li>
@@ -703,8 +703,8 @@ Still not sure? Work through the quiz below - same format as the earlier posts: 
     },
     linux: {
       title: 'Linux Development',
-      body: 'An open, transparent platform and an audience that genuinely cares how their software works. The full Linux Development breakdown is coming soon.',
-      url: '/coming-soon/',
+      body: 'An open, transparent platform and an audience that genuinely cares how their software works. The full Linux Development breakdown is live and ready to explore now.',
+      url: 'https://dynamicbytes.blog/how-to-become-a-linux-desktop-developer-2027/',
       icon: '/assets/images/posts/desktop-dev/icon-linux.png'
     },
     crossplatform: {
